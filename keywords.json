@@ -1,0 +1,130 @@
+{
+  "jk": {
+    "locations": [
+      "anantnag", "bandipora", "bandipore", "baramulla", "budgam", "ganderbal",
+      "kulgam", "kupwara", "pulwama", "shopian", "srinagar", "sopore",
+      "jammu", "doda", "kathua", "kishtwar", "poonch", "rajouri", "ramban",
+      "reasi", "samba", "udhampur"
+    ],
+    "actors": [
+      "lashkar-e-taiba", "let", "the resistance front", "trf", "jaish-e-mohammed",
+      "jem", "people's anti-fascist front", "paff", "kashmir tigers", "kt",
+      "hizbul mujahideen", "hm", "al-badr", "ansar ghazwat-ul-hind", "aguh", "aghin",
+      "harkat-ul-jihad al-islami", "huji", "harkat-ul-mujahideen", "hum",
+      "al umar mujahideen", "aum", "dukhtaran-e-millat", "dem",
+      "jamait-ul-mujahideen", "jum", "jkif", "jkif-y", "jklf", "jammu kashmir liberation front",
+      "al qaeda", "isis", "daish", "lashkar-e-omar", "leo", "al barq",
+      "tehrik-ul-mujahideen", "tum", "ap hc", "hurriyat", "all parties hurriyat conference",
+      "united jihad council", "ujc", "lashkar-e-jabbar", "lej", "al qaeda in the indian subcontinent",
+      "aqis", "jamaat-e-islami", "jei", "jammu kashmir ghaznavi force", "jkgf", "united liberation front of jammu & kashmir",
+      "ulf-j&k", "kashmir fight", "islamic state khorasan provice", "muslim janbaaz force", "mjf", "kashmir freedom fighters", "kff", "tehreek-e-labaik muslimeen",
+      "tlm"
+    ],
+    "state_actors": [
+      "j&k police", "jkp", "rashtriya rifles", "rr", "special operations group",
+      "sog", "state investigation agency", "sia", "counter intelligence kashmir", "cik",
+      "chinar corps", "white knight corps", "northern command", "central reserve police force", "crpf",
+      "border security force", "bsf", "sashastra seema bal", "ssb", "central industrial security force", "cisf",
+      "national investigation agency", "nia", "indian army"
+    ],
+    "high_risk": [
+      "encounter", "gunfight", "caso", "ied", "infiltration", "crossfire",
+      "ceasefire violation", "target killing", "neutralized", "gunned down",
+      "narco terror", "narco-terror", "narcoterror", "security forces",
+      "cross-border firing", "grenade attack", "bomb blast", "drone attack",
+      "mortar shelling", "landmine", "ambush", "point-blank", "hit-and-run",
+      "infiltration bid", "exfiltration", "loc firing", "ib firing", "retaliatory fire",
+      "vbied", "sticky bomb", "magnetic bomb", "crude bomb", "area domination",
+      "sado", "hit list", "assassination", "overrun", "snipe"
+    ],
+    "medium_risk": [
+      "stone pelting", "hartal", "curfew", "section 144", "internet suspension",
+      "arrested", "ogw", "protest", "bandh", "shutdown", "tear gas",
+      "lathi charge", "pellet guns", "mob violence", "arson", "vandalism",
+      "extortion", "kidnapping", "abduction", "demand note", "psa",
+      "uapa", "nia raid", "terror funding", "ficn", "economic blockade",
+      "chaka jam", "highway blockade", "effigy burning", "threat letter",
+      "informer", "non-local laborer"
+    ]
+  },
+  "ne": {
+    "locations": [
+      "anjaw", "changlang", "dibang valley", "east kameng", "east siang", "itanagar",
+      "kra daadi", "kurung kumey", "leparada", "lohit", "longding", "lower dibang valley",
+      "lower siang", "lower subansiri", "namsai", "pakke kessang", "papum pare",
+      "shi yomi", "siang", "tawang", "tirap", "upper siang", "upper subansiri",
+      "west kameng", "west siang", "kamle",
+      "baksa", "barpeta", "bongaigaon", "cachar", "charaideo", "chirang", "darrang",
+      "dhemaji", "dhubri", "dibrugarh", "dima hasao", "goalpara", "golaghat",
+      "hailakandi", "hojai", "jorhat", "kamrup", "kamrup metropolitan", "karbi anglong",
+      "karimganj", "kokrajhar", "lakhimpur", "majuli", "morigaon", "nagaon", "nalbari",
+      "sivasagar", "sonitpur", "south salmara-mankachar", "tinsukia", "udalguri",
+      "west karbi anglong", "bajali", "biswanath",
+      "bishnupur", "chandel", "churachandpur", "imphal east", "imphal west", "jiribam",
+      "kakching", "kamjong", "kangpokpi", "noney", "pherzawl", "senapati", "tamenglong",
+      "tengnoupal", "thoubal", "ukhrul",
+      "east garo hills", "east jaintia hills", "east khasi hills", "eastern west khasi hills",
+      "north garo hills", "ri bhoi", "south garo hills", "south west garo hills",
+      "south west khasi hills", "west garo hills", "west jaintia hills", "west khasi hills",
+      "aizawl", "champhai", "hnahthial", "khawzawl", "kolasib", "lawngtlai", "lunglei",
+      "mamit", "saiha", "siaha", "saitual", "serchhip",
+      "chümoukedima", "dimapur", "kiphire", "kohima", "longleng", "meluri", "mokokchung",
+      "mon", "niuland", "noklak", "peren", "phek", "shamator", "tseminyü", "tuensang",
+      "wokha", "zünheboto",
+      "gangtok", "geyzing", "gyalshing", "mangan", "namchi", "pakyong", "soreng",
+      "dhalai", "gomati", "khowai", "north tripura", "sepahijala", "south tripura",
+      "unakoti", "west tripura"
+    ],
+    "actors": [
+      "ulfa-i", "ulfa", "united liberation front of asom", "nscn-im", "nscn-k",
+      "nscn", "national socialist council of nagaland", "nnc", "naga national council",
+      "unlf", "united national liberation front", "pla", "people's liberation army",
+      "kykl", "kanglei yawol kanna lup", "kcp", "kangleipak communist party",
+      "prepak", "people's revolutionary party of kangleipak", "knf", "kuki national front",
+      "kna", "kuki national army", "zra", "zomi revolutionary army",
+      "hnlc", "hynniewtrep national liberation council", "gnla", "garo national liberation army",
+      "attf", "all tripura tiger force", "nlft", "national liberation front of tripura",
+      "ndfb", "national democratic front of bodoland", "klo", "kamtapur liberation organization",
+      "kl nlf", "karbi longri nc hills liberation front", "cor-com", "corcom",
+      "asuk", "alliance for socialist unity kangleipak", "mplf", "rpf", "mpa",
+      "arambai tenggol", "meitei", "kuki-zo", "meitei leepun", "kuki independent army", "kia", "kuki revolutionary army", "kra",
+      "kuki liberation army", "kla", "kuki national organisation", "kno", "united people's front", "upf",
+      "indigenous tribal leaders forum", "itlf", "committee on tribal unity", "cotu", "joint tribe council", "jtcm",
+      "naga students federation", "nsf", "dimasa national liberation army", "dnla", "zeliangrong united front", "zuf", "manipur revolutionary army", "mra",
+      "hmar people's convention democracy", "hpc-d","red army", "all naga students' association manipur", "ansam", "all assam students' union", "aasu"
+    ],
+    "state_actors": [
+      "assam rifles", "assam police", "manipur police", "nagaland police", "mizoram police", "tripura police",
+      "meghalaya police", "arunachal pradesh police", "spear corps", "eastern command", "central reserve police force", "crpf",
+      "border security force", "bsf", "sashastra seema bal", "ssb", "central industrial security force", "cisf",
+      "national investigation agency", "nia", "indian army", "Central Armed Police Forces", "CAPF", "Manipur Commandos"
+    ],
+    "high_risk": [
+      "ambush", "ethnic clash", "ied", "bomb blast", "camp busted", "crossfire",
+      "extortion", "kidnapping", "cross-border firing", "ceasefire violation"
+    ],
+    "medium_risk": [
+      "afspa", "section 144", "economic blockade", "arson", "mob violence",
+      "extortion", "kidnapping", "tear gas", "peace accord", "suspension of operations",
+      "so o", "chaka jam", "highway blockade"
+    ]
+  },
+  "base_high_risk": [
+    "terrorist", "militant", "explosive",
+    "encounter", "gunfight", "cross-border firing",
+    "ceasefire violation", "ambush", "infiltration bid", "caso", "area domination",
+    "hit-and-run", "ied", "vbied", "grenade attack", "bomb blast", "drone attack",
+    "mortar shelling", "landmine", "target killing", "point-blank", "sado",
+    "hit list", "assassination", "overrun", "snipe", "retaliatory fire", "arms recovery", "drone drop",
+    "narcotics smuggling", "police station attack", "checkpost"
+  ],
+  "base_medium_risk": [
+    "protest", "clash", "arrested", "surrender",
+    "stone pelting", "hartal", "bandh", "shutdown", "curfew", "section 144",
+    "internet suspension", "tear gas", "lathi charge", "pellet guns", "mob violence",
+    "ethnic clash", "arson", "vandalism", "extortion", "kidnapping", "abduction",
+    "demand note", "uapa", "psa", "afspa", "nia raid", "ogw", "peace accord",
+    "economic blockade", "chaka jam", "highway blockade", "effigy burning",
+    "threat letter", "informer", "non-local laborer"
+  ]
+}

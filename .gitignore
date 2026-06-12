@@ -1,0 +1,32 @@
+#Virtual Environment
+.env
+venv/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Project Data & Assets
+data/raw/*.json
+data/raw/*.csv
+data/historical/**/*.csv
+data/screenshots/*.png
+data/screenshots/*.jpg
+logs/
+
+# Reports
+reports/*.pdf
+reports/temp_assets/*.png
+reports/temp_assets/*.jpg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
