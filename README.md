@@ -13,7 +13,7 @@ As a senior intelligence analyst transitioning into technical OSINT and AI-augme
 
 The goal was to build a system that handles the high-volume, repetitive parts of OSINT collection and initial triage, allowing analysts to focus on higher-order judgment, context, and deeper strategic thinking. I also wanted to make a practical, open tool available to the broader OSINT, security research, journalism, and academic community working on conflict dynamics in South Asia.
 
-The India Conflict Corridor Intelligence Pipeline represents my first portfolio project that leverages automation and AI to scale and streamline the Intelligence analyst workflow. I hope that you find this project useful to your own research and work and contributes towards a better understanding of the dynamics of (in)security and civil unrest in Jammu and Kashmir and Northeast India. 
+The India Conflict Corridor Intelligence Pipeline represents my first portfolio project that leverages automation and AI to scale and streamline the Intelligence analyst workflow. I hope that you find this project useful to your own research and it contributes towards a better understanding of the dynamics of (in)security and civil unrest in Jammu and Kashmir and Northeast India. 
 
 ## 📌 Architectural Overview
 
