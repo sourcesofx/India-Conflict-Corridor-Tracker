@@ -1,0 +1,815 @@
+[
+  {
+    "timestamp": "2026-06-04T13:27:16.747063",
+    "source": "NorthEast Now",
+    "title": "Manipur: Security forces bust insurgent camp, arrest eight cadres, seize arms cache",
+    "url": "https://nenow.in/north-east-news/manipur-security-forces-bust-insurgent-camp-arrest-eight-cadres-seize-arms-cache.html",
+    "matched_keywords": [
+      "security forces"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-04",
+    "content": "Reported by Bit Irom\nImphal: Security forces carried out a series of coordinated operations across Manipur over the past 36 hours, resulting in the dismantling of an insurgent camp, the arrest of eight Valley Based Insurgent Group (VBIG) cadres, and the recovery of a significant cache of arms and ammunition, officials said on Thursday.\nAccording to Manipur Police, four active cadres linked to proscribed outfits including the Kangleipak Communist Party, Kanglei Yaol Kanna Lup and People’s Revolutionary Party of Kangleipak were apprehended near Border Pillar 67 in the Khangtung village area under Molcham Police Station in Chandel district.\nThe arrested individuals have been identified as Mayanglambam Gandhi Singh (24) of Ningthoukhong Shantipur Ward No. 2 in Bishnupur, Langpoklakpam Sushil Singh (25) of Khongjom Tekcham in Thoubal, Laitonjam Kanheiya Singh (26) of Khongjom Bazar in Thoubal and Kangjam Naresh Meitei (20) of Awang Lekai in Bishnupur.\nIn a separate operation, security personnel arrested PREPAK operative Thangjam Nganba Meetei (23) near the Primary Health Centre at Sawombung Khunjao under Lamlai Police Station in Imphal East. A vehicle and other incriminating materials were also seized from his possession.\nIn another incident, PREPAK (Progressive) cadre Yanglem Anaoba Singh (23) was apprehended from the Hiyangthang Bridge area under Wangoi Police Station limits in Imphal West. Meanwhile, a KCP (People’s War Group) member Komol Muktar Abas (25) was arrested from his residence in Yairipok Tulihal Toupokpi under Andro Police Station in Imphal East.\nDuring follow-up search operations, security forces also busted a temporary insurgent camp in the Irilbung area of Imphal East, recovering a substantial arms cache including AK rifles, an SLR, a 9 mm carbine, hand grenades, magazines and live ammunition of multiple calibres.\nIn a further recovery operation in the foothills of Pechi Chinglak under Yaripok Police Station in Thoubal district, additional arms and explosives were seized, including grenades, detonators, magazines, cartridges, and communication equipment.\nAll arrested individuals and seized materials have been handed over to the concerned police stations for further investigation and legal proceedings.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Thoubal",
+      "Chandel",
+      "Bishnupur"
+    ],
+    "ner_actors": [
+      "Kcp",
+      "Prepak",
+      "Meitei"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:36.802454",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-10T15:58:49.919307",
+    "source": "NorthEast Now",
+    "title": "Manipur: Three women arrested for attempted sale of 60 defused grenades; two insurgents held",
+    "url": "https://nenow.in/north-east-news/manipur-three-women-arrested-for-attempted-sale-of-60-defused-grenades-two-insurgents-held.html",
+    "matched_keywords": [
+      "arrested"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-10",
+    "content": "Reported by Bit Irom\nImphal: Security forces and Manipur Police have arrested two insurgents linked to banned outfits and three women who were allegedly attempting to sell a large quantity of defused hand grenades to a scrap dealer, officials said.\nAccording to police, the three women identified as Hajara Bibi (60), Ibem (38) and Imem (50) were apprehended from Chingamakha Phuramakhong in Imphal West district. The arrests followed specific intelligence inputs indicating that a consignment of decommissioned explosive materials was being offered for sale.\nA joint team from Singjamei Police Station, assisted by forensic experts, intercepted the suspects and recovered a sack weighing around 20 kilograms containing nearly 60 halved hand grenades. Preliminary examination revealed that the explosives had been rendered inactive, with detonators and explosive substances already removed.\nIn a separate operation along the Indo-Myanmar border, security personnel arrested an active member of the proscribed Kanglei Yawol Kanna Lup (KYKL). The individual, identified as Khoirakpam James Singh (28) of Awang Sekmai Khunou, was detained near Border Pillar No. 76 under the jurisdiction of Moreh Police Station during intensified surveillance activities in the border region.\nMeanwhile, another counter-insurgency operation carried out in Imphal East district led to the arrest of an alleged operative of the banned Kangleipak Communist Party (Taibangnganba). The accused, Haobijam Haridas Singh alias Khongnang (43), a resident of Wangoo Sagang Bazar, was apprehended near the JNIMS Main Gate at Porompat.\nPolice said all arrested individuals, along with the seized materials, have been handed over to the respective police stations for further investigation and legal proceedings. Authorities are continuing efforts to dismantle insurgent networks and monitor illegal activities across the state.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Imphal West"
+    ],
+    "ner_actors": [
+      "Kykl"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T15:58:50.052955"
+  },
+  {
+    "timestamp": "2026-06-04T16:32:55.977919",
+    "source": "NorthEast Now",
+    "title": "Manipur: ANSAM launches protest march demanding action to trace six missing Naga men",
+    "url": "https://nenow.in/north-east-news/manipur/manipur-ansam-launches-protest-march-demanding-action-to-trace-six-missing-naga-men.html",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-04",
+    "content": "By NE NOW NEWS\nGuwahati: The All Naga Students’ Association, Manipur (ANSAM) on Wednesday began a protest march from Ukhrul district to Makhan Naga Village in Kangpokpi district via Imphal, demanding intensified efforts to trace six Naga men who disappeared after being allegedly abducted.\nThe association said the march aims to meet the affected families and draw attention to the lack of information regarding the whereabouts of the six men.\nThe association said the march was organised to demand concrete progress in the search for the six missing men.\nThe student body maintained that neither the families nor the public have received any definite information about the condition or location of the missing individuals, despite repeated representations to the authorities and the lapse of an earlier deadline set by the organisation.\nANSAM also stated that responsibility for any untoward situation arising during the march would rest with both the Manipur government and the Centre.\nThe decision to organise the march emerged from an emergency gathering held at Ukhrul district headquarters on June 3.\nHosted by the Tangkhul Katamnao Saklong (TKS), the meeting assessed developments in the case and expressed dissatisfaction over the absence of visible results in the search for the missing men.\nAccording to participants, the prolonged lack of information has deepened anxiety among the affected families and generated concern across the Naga community.\nThe association resolved to travel along NH-202 to Makhan village as part of an intensified campaign and interact directly with the relatives of the six men.\nIt also indicated that additional protest programmes could be announced if authorities fail to provide credible updates on the case.\nThe disappearance of six Naga men from Leilon Vaiphei village has remained unresolved since May 13.\nAs the search continues without any confirmed developments, Naga organisations have renewed their appeal for urgent government intervention.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Ukhrul",
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Ansam"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:36.972342",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T12:51:41.041077",
+    "source": "NorthEast Now",
+    "title": "Kuki Inpi Manipur blames NSCN-IM, ZUF(K) for Kangpokpi attack that killed three",
+    "url": "https://nenow.in/north-east-news/manipur/kuki-inpi-manipur-blames-nscn-im-zufk-for-kangpokpi-attack-that-killed-three.html",
+    "matched_keywords": [
+      "kangpokpi",
+      "nscn"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-05",
+    "content": "By NE NOW NEWS\nImphal: Kuki Inpi Manipur (KIM) has alleged that cadres of the NSCN-IM and its proxy group ZUF(K) were behind the armed attack on Loibol Khullen village in Manipur’s Kangpokpi district that left three civilians dead and several houses torched.\nIn a statement issued on Friday, the organisation condemned the attack, which it said began at around 4 am and targeted residents of the village.\nAccording to KIM, the deceased were identified as Letkhongam Haokip, his wife Tinmary Haokip, and Jangminlal Haokip. The organisation further claimed that seven houses were burnt during the attack and that several civilian properties were damaged.\nDescribing the incident as a grave attack on civilians, KIM said the killing of unarmed residents and destruction of homes amounted to a serious violation of human rights and human dignity.\nThe organisation expressed condolences to the bereaved families and solidarity with residents affected by the violence.\nKIM urged the Government of India and security agencies to launch a thorough investigation, identify those responsible and ensure that those involved are brought to justice.\nIt also called for enhanced security measures in vulnerable areas to prevent further attacks and protect civilian lives and property.\nThe attack on Loibol Khullen has heightened tensions in the area and comes amid continuing security concerns in parts of Manipur, where incidents of violence continue to be reported.\nAuthorities had not issued an official statement on the allegations at the time of filing this report.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Nscn"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Arson/Vandalism",
+    "casualties_killed": {
+      "killed": [
+        "three dead"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:37.033208",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-06T00:29:18.103209",
+    "source": "NorthEast Now",
+    "title": "Development or displacement? Shadow of a satellite city over Assam’s indigenous lands",
+    "url": "https://nenow.in/north-east-news/assam/development-or-displacement-shadow-of-a-satellite-city-over-assams-indigenous-lands.html",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-05",
+    "content": "Written by: Kishor Kumar Kalita and Mahesh Deka\nJagiroad: Nestled amid lush paddy fields, rolling green hillocks, and forests dotted with sonaru (golden shower) and krishnachura (flame trees), the villages near Jagiroad in Assam’s Morigaon district present a picture of rural tranquillity. For generations, indigenous communities—primarily the Tiwas, along with Nepali and Kaivarta (SC) families—have cultivated these lands, nurtured forests, and built their lives around agriculture.\nToday, however, beneath this idyllic landscape lies a growing sense of uncertainty and fear. In villages such as Sindhisar, Naldhara, Bihita, Palashbari, and Rowmari, residents worry that the fields they cultivate and the forests they helped create may soon disappear under one of Assam’s most ambitious urban development projects.\nThe people here are no longer simply looking at the forests they nurtured; they are looking over their shoulders at a looming Rs 27,000-crore mega-project that they fear could erase their way of life.\nThe Assam government’s recent proposal to establish a sprawling “satellite city” to support the upcoming Tata Semiconductor Project at the site of the now-defunct Nagaon Paper Mill in Jagiroad has sparked fierce protests. For the Tiwa and other indigenous communities, this is not merely a story of urbanisation—it is a haunting echo of a history they have already lived through.\nEchoes of the Past: The Noonmati Precedent\nTo understand the anxiety gripping Jagiroad today, one must look back to the 1950s, when Assam fought a historic battle over the location of an oil refinery following the discovery of crude oil in Naharkatia in 1953.\nThe Government of India initially planned to establish two public-sector refineries and selected Barauni in Bihar as one of the sites, overlooking Assam’s demand that its own crude oil be refined within the state. The decision triggered widespread protests. Led by the All Assam Students’ Union (AASU) and the All Assam Oil Refinery Action Committee, a mass movement swept across Assam, demanding that the refinery be established in the state.\nAfter years of agitation and political pressure, the Centre relented. In 1957, Union Minister Sardar Swaran Singh announced that one of the two refineries would be set up in Assam. The Planning Commission subsequently approved Noonmati in Guwahati as the site. Construction began in 1960, and Prime Minister Jawaharlal Nehru inaugurated the Guwahati Refinery on January 1, 1962.\nWhile the refinery marked a major milestone in Assam’s industrialisation and Guwahati’s urban growth, it also triggered a process of displacement whose consequences continue to resonate decades later.\nAlongside workers from outside the state, many Assamese people—predominantly from middle-class backgrounds—also found employment at the refinery.\nBut amid the celebration of progress, a crucial question remained unanswered: What happened to the tribal communities who had lived on that land for generations?\n“When the ",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Morigaon",
+      "Nagaon"
+    ],
+    "ner_actors": [
+      "Aasu"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:37.157460",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T17:16:59.130452",
+    "source": "NorthEast Now",
+    "title": "Manipur: KNF denies involvement in Kangpokpi violence, calls allegations baseless",
+    "url": "https://nenow.in/north-east-news/manipur-knf-denies-involvement-in-kangpokpi-violence-calls-allegations-baseless.html",
+    "matched_keywords": [
+      "kangpokpi"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-07",
+    "content": "By NE NOW NEWS\nGuwahati: The Kuki National Front (KNF) has strongly denied allegations linking the organization to the recent attack at Loibol Kholen village in Kangpokpi district, where three Kuki-Zo civilians were reportedly killed and several houses set on fire on June 5.\nIn a press communiqué issued from its “Camp Ebenezer” headquarters in Natheljang, Sadar Hills, the organisation described the accusations as “baseless” and part of a deliberate attempt to spread misinformation and tarnish its image.\nThe KNF expressed condolences to the bereaved families and stated that it has “absolutely no involvement” in attacks on villages or civilians. The organisation further said that attempts to portray KNF as being involved in confrontations against civilians or armed groups are “false and malicious.”\nThe statement criticised what it termed as the “propagation of unverified allegations,” saying such claims were misleading the public and undermining efforts toward truth and accountability. KNF also condemned the exploitation of tragic incidents for “political gain, propaganda, or narrow interests.”\nReaffirming that it is a signatory to the Suspension of Operations (SoO) Agreement, the organisation claimed that its cadres remain within designated camps and strictly follow the agreed ground rules.\nThe KNF appealed to civil society organisations, political leaders, and media platforms to refrain from spreading speculative or unverified information. It urged all stakeholders to ensure that public discussions on security and human rights are guided by “facts, evidence and integrity.”\nThe organisation reiterated its commitment to peace, justice, and communal harmony, while condemning violence against innocent civilians. It also called for an immediate end to attacks on Kuki-Zo villages and acts of arson in the region.\nThe communiqué was issued by the Department of Information and Publicity, KNF.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Knf"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Civilian"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Arson/Vandalism",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:37.230896",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-08T16:37:56.675841",
+    "source": "NorthEast Now",
+    "title": "Manipur: KLO/KLA denies role in Kangpokpi attack, rejects clash claims",
+    "url": "https://nenow.in/north-east-news/manipur-klo-kla-denies-role-in-kangpokpi-attack-rejects-clash-claims.html",
+    "matched_keywords": [
+      "kangpokpi",
+      "clash"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-08",
+    "content": "Reported by Bit Irom\nImphal: The Kuki Liberation Organisation and its armed wing, the Kuki Liberation Army (KLO/KLA), have categorically denied any involvement in recent incidents of violence in Manipur’s Kangchup and New Keithelmanbi areas, distancing themselves from allegations linking the group to deadly attacks on civilians.\nIn a public statement, the organization rejected reports claiming that the attack on Loibol Kholen village in Kangpokpi district which left three villagers dead and resulted in the destruction of several houses and two vehicles was triggered by a clash between the KLA and the Kuki National Front (KNF). The group described such allegations as “completely false, misleading and baseless.”\nAccording to the KLO/KLA, neither Kangchup nor New Keithelmanbi falls within its area of operation. The organisation stated that its operational jurisdiction is limited to the Saikul region and accused certain quarters of deliberately attempting to associate it with incidents in Kharam Vaiphei and Loibol Kholen.\nThe group further dismissed reports of an alleged confrontation between the KLA and KNF(P), calling them fabricated narratives aimed at exploiting the prevailing unrest in the state. It alleged that such claims were intended to sow distrust within the Kuki-Zo community and aggravate the already fragile security situation in Manipur‘s hill districts.\nThe KLO/KLA also asserted that the allegations were part of a broader effort to damage its reputation, weaken ongoing peace initiatives, and divert attention from the actual perpetrators of the attacks.\nThe organisation noted that its leadership remains engaged in discussions with the Ministry of Home Affairs (MHA) on issues including the consolidation of designated camps and measures to reduce tensions with local communities in the aftermath of the ethnic conflict.\nOn the political front, the group stated that, along with other Kuki-Zomi organisations, it has revised its long-standing demand from seeking an autonomous council to advocating for a separate Union Territory with a legislature for the region.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Klo",
+      "Kla",
+      "Knf"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:37.614439",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-09T15:55:34.686721",
+    "source": "NorthEast Now",
+    "title": "Manipur: CM appeals for peace after Rongmei Naga villager killed in Kangpokpi",
+    "url": "https://nenow.in/north-east-news/manipur/manipur-cm-appeals-for-peace-after-rongmei-naga-villager-killed-in-kangpokpi.html",
+    "matched_keywords": [
+      "kangpokpi"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-09",
+    "content": "Reported by Bit Irom\nImphal: Manipur Chief Minister Yumnam Khemchand Singh has appealed for peace and communal harmony following the killing of a Rongmei Naga villager in an alleged militant attack in Kangpokpi district on June 8.\nThe incident took place in a forested area between Pongringlong and Pondaijang villages under the jurisdiction of New Keithelmanbi Police Station. According to officials, armed Kuki militants allegedly ambushed three villagers in the jungle, resulting in the death of one person and injuries to two others.\nIn a statement, the Chief Minister expressed deep sorrow over the incident and strongly condemned the violence. The deceased was identified as Chunjanglung Panmei (58), a resident of Pongringlong Part-I village.\nDescribing the attack as a “heinous and cowardly act,” Khemchand said joint operations involving Manipur Police and central paramilitary forces are underway to apprehend those responsible and ensure they are brought to justice. He also assured the victim’s family of all possible assistance and support from the state government.\nThe killing triggered widespread outrage in the region, with hundreds of residents, including women and members of the Zeliangrong community from the Longmai area, staging a protest at Charoi Pandongba Bazar along National Highway-37.\nProtesters blocked traffic on the highway and raised slogans demanding justice for the victim. Demonstrators condemned the attack and called for stronger security measures to safeguard civilians living in vulnerable areas.\nMeanwhile, a police team from New Keithelmanbi Police Station, led by Additional Superintendent of Police Samir and assisted by local volunteers, recovered the victim’s body from the site of the attack. The body has been sent to the Regional Institute of Medical Sciences (RIMS) in Imphal for postmortem examination.\nAuthorities have stepped up security arrangements across the district to prevent any further escalation of tensions and maintain law and order.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "Militant"
+    ],
+    "victim_target": [
+      "Villager"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T15:55:34.841879"
+  },
+  {
+    "timestamp": "2026-06-12T21:12:16.999466",
+    "source": "NorthEast Now",
+    "title": "Tripura: Former militants call off road, rail blockade after government assurances",
+    "url": "https://nenow.in/north-east-news/tripura/tripura-former-militants-call-off-road-rail-blockade-after-government-assurances.html",
+    "matched_keywords": [
+      "militant"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-12",
+    "content": "Reported by Mrinal Banik\nAgartala: A 72-hour road and rail blockade launched by former members of Tripura’s disbanded insurgent groups was withdrawn within hours on Friday following fresh discussions with the state government and assurances from Chief Minister Manik Saha.\nThe agitation, which began at 6 am, disrupted transport services across parts of the state, affecting road and railway connectivity, particularly along the Assam-Agartala National Highway. However, the protest ended after renewed negotiations resulted in a breakthrough.\nEarlier efforts to resolve the issue during a meeting chaired by Tribal Welfare Minister Bikash Debbarma failed to convince the protest leaders to withdraw their programme. Although both sides reportedly agreed on several issues, differences remained over certain key demands, prompting the organisers to proceed with the blockade.\nSources said the situation changed after Chief Minister Saha, currently in New Delhi for a meeting of northeastern chief ministers, personally intervened and assured the agitating groups that their genuine concerns would be addressed through appropriate measures. Following this assurance, the protestors agreed to call off the blockade.\nSubsequently, Tribal Welfare Minister Bikash Debbarma and senior police officials visited the protest sites and reiterated the government’s commitment to resolving the pending issues. The road and railway blockades were then lifted, restoring normal movement of vehicles and trains.\nThe blockade had significantly impacted transport services in northern parts of the state, with long-distance buses and other public transport operations remaining suspended in North Tripura, Unakoti and Khowai districts. In contrast, normal traffic movement was reported from Sepahijala, Gomati and South Tripura districts, where the agitation had little effect.\nPolice officials said protestors had assembled at three locations, including Hatai Kotor in the Baramura hill area and near the railway tracks at Sadhupara. No untoward incident was reported during the agitation.\nWest Tripura Superintendent of Police Namit Pathak said law enforcement agencies maintained a close watch on the situation and confirmed that the protests remained peaceful.\nExplaining the reasons behind the agitation, former insurgent leader Prasenjit Debbarma said the protest stemmed from concerns regarding the implementation of the tripartite peace accord signed in New Delhi on September 4, 2024. According to him, some provisions of the settlement relating to the rehabilitation and socio-economic development of surrendered cadres had not been adequately reflected in projects prepared by implementing agencies.\nHe also expressed dissatisfaction over the slow progress in the screening process of former members of different outlawed organisations, including NLFT and ATTF, and called for its early completion.\nDebbarma said the protestors had received positive assurances from the government and decided to withdraw t",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Gomati",
+      "Unakoti",
+      "South Tripura",
+      "North Tripura",
+      "West Tripura",
+      "Khowai",
+      "Sepahijala"
+    ],
+    "ner_actors": [
+      "Attf",
+      "Nlft"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-12T21:12:17.163754"
+  },
+  {
+    "timestamp": "2026-06-04T13:27:48.288037",
+    "source": "NorthEast Now",
+    "title": "Mizoram: Over Rs 3 crore worth heroin seized in twin operations, five arrested",
+    "url": "https://nenow.in/north-east-news/mizoram-over-rs-3-crore-worth-heroin-seized-in-twin-operations-five-arrested.html",
+    "matched_keywords": [
+      "arrested"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-04",
+    "content": "By NE NOW NEWS\nAizwal: In two significant anti-drug operations in Mizoram, authorities seized more than 1.5 kg of heroin valued at over Rs 3 crore and arrested five individuals, officials said on Wednesday. The seizures are being viewed as a major setback to cross-border narcotics trafficking networks operating in the region.\nIn the first operation, conducted on Tuesday, officials of the Excise and Narcotics Department, assisted by the Central Anti Drugs Squad (CADS) of the Central Young Mizo Association (YMA), intercepted a large heroin consignment at Sihphir Neihbawi near Aizawl.\nThe joint team recovered 971 grams of heroin packed in 67 soap cases and arrested four persons allegedly involved in transporting the contraband. The accused were identified as Daniel Malsawmdawngliana (47) of Zokhawthar in Champhai district, Suwar Uddin Laskar (47) and Basir Uddin Laskar (26) from Assam’s Cachar district, and Hifjul Bahar (27) of Karimganj district. Two vehicles suspected to have been used for transporting the drugs were also seized.\nAccording to preliminary investigations, the heroin originated from Zokhawthar near the Myanmar border and was being smuggled into Assam for further distribution.\nIn a separate case, Saitual police recovered 587 grams of heroin during a routine vehicle-checking operation at Keifan in Saitual district on Monday.\nPolice stopped a black Bolero Neo travelling from Churachandpur in Manipur towards Aizawl at around 3 a.m. During the inspection, officers became suspicious of one of the occupants, identified as Nengshi Haokip (51), a resident of Churachandpur district.\nFollowing a search carried out under Section 50 of the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985, police recovered 50 soap cases containing heroin concealed inside her clothing.\nThe combined value of the narcotics seized in the two operations has been estimated at more than Rs 3.3 crore. All five accused have been booked under relevant provisions of the NDPS Act, officials added.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Champhai",
+      "Cachar",
+      "Churachandpur",
+      "Aizawl",
+      "Saitual",
+      "Karimganj"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:37.312590",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T17:16:53.718308",
+    "source": "NorthEast Now",
+    "title": "Manipur: Security forces dismantle bunkers in Ukhrul during joint operation",
+    "url": "https://nenow.in/north-east-news/manipur-security-forces-dismantle-bunkers-in-ukhrul-during-joint-operation.html",
+    "matched_keywords": [
+      "security forces",
+      "ukhrul"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-07",
+    "content": "Reported by Bit Irom\nImphal: Security forces carried out a surprise joint combing operation in and around Litan, Mahadev and Sinakeithel along NH-202 and NH-102A to prevent the spread of violence from Kotlen village and nearby areas. During the coordinated search operation on Saturday, several bunkers were located and subsequently dismantled.\nAccording to a Manipur Police statement issued on Sunday, the action was taken amid heightened tensions in Ukhrul district, where tribal groups from the Kuki-Zo and Tangkhul Naga communities have reportedly expressed opposition to the presence of security forces, contributing to an already volatile situation in the region.\nPolice further stated that village authorities and civil society organisations were engaged and assured of continued security force presence to deter any escalation. They were also urged to counsel local youth against engaging in retaliatory or disruptive activities. Authorities added that such operations will continue to ensure safety and maintain uninterrupted movement along key highways.\nIn a separate development, organisations including Katho Katamnao Long, Katho Long and the Katho Women Coordination Committee, representing sections of the Tangkhul Naga community, have opposed the setting up of a temporary security post at New Heaven under Shokvao village in Ukhrul district.\nIn a joint statement, the groups alleged that the deployment was carried out without consultation or consent from the village authority, claiming it violates provisions of the Manipur (Village Authorities in Hill Areas) Act, 1956. They described the move as an infringement on local jurisdiction and a challenge to traditional village authority.\nThe village body has reportedly raised repeated objections and demanded the withdrawal of security personnel from the site. However, they claim these appeals have not been acted upon.\nThe organisations have now urged immediate withdrawal of the personnel, warning that any adverse incident arising in the area would be the responsibility of the security forces if their presence continues.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Ukhrul"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:37.385683",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T21:06:14.466973",
+    "source": "NorthEast Now",
+    "title": "CRPF chief G.P. Singh visits Manipur, reviews security situation amid fresh violence",
+    "url": "https://nenow.in/north-east-news/manipur/crpf-chief-g-p-singh-visits-manipur-reviews-security-situation-amid-fresh-violence.html",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-07",
+    "content": "By NE NOW NEWS\nImphal: Central Reserve Police Force (CRPF) Director General Gyanendra Pratap Singh met Manipur Governor Ajay Kumar Bhalla during his three-day visit to the state and discussed the force’s roadmap to tackle insurgency and strengthen security measures amid continuing violence.\nSingh reviewed the prevailing security situation and ongoing efforts to maintain peace and stability in the state. According to a CRPF post on social media, discussions focused on enhancing operational preparedness, strategic planning and the force’s plans to address insurgency in Manipur.\nA statement issued by Raj Bhavan said senior CRPF officers briefed the Governor on the current law and order situation and measures being taken to address emerging security challenges across the state. The meeting also reviewed security arrangements aimed at protecting lives and property and improving response mechanisms in vulnerable areas.\nThe review came hours after three persons, including a woman, were killed and at least seven houses were set on fire in an attack in Kangpokpi district. Security forces have since intensified search operations to trace those involved in the incident at Loibol Khullen village under the Saitu-Gamphazol subdivision.\nThe Centre has also strengthened the security presence in Manipur by approving the deployment of two battalions of the CRPF’s Commando Battalion for Resolute Action (CoBRA), a specialised unit trained in guerrilla and jungle warfare.\nThe CoBRA battalions are expected to support ongoing counter-insurgency operations and area domination exercises in vulnerable and difficult terrain. According to a senior security officer, the units will undertake specific operations against armed groups involved in violence in the state.\nThe high-level security review comes as Manipur continues to witness incidents of violence despite ongoing efforts by security agencies to restore normalcy.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "CRPF"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:37.454564",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-09T23:34:52.583198",
+    "source": "NorthEast Now",
+    "title": "Manipur: Security forces bust militant camp in Chandel, recover arms and ammunition",
+    "url": "https://nenow.in/north-east-news/manipur/manipur-security-forces-bust-militant-camp-in-chandel-recover-arms-and-ammunition.html",
+    "matched_keywords": [
+      "security forces",
+      "militant",
+      "chandel"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-09",
+    "content": "Reported by Bit Irom\nImphal: Security forces on Tuesday busted a militant camp in Manipur’s Chandel district near the Myanmar border and recovered a cache of arms, ammunition and communication equipment during a joint operation.\nActing on intelligence inputs, central and state security forces launched an operation in the Aigejang area of Chandel district. Police said suspected militants fled the camp after sensing the movement of security personnel.\nThe operation led to the recovery of a .22 rifle, a 9mm pistol, country-made carbines, lathod guns, explosives and Baofeng communication radios. All seized items have been handed over to Manipur Police for further investigation.\nIn a separate incident, a nine-year-old girl sustained a bullet injury after unidentified miscreants allegedly opened fire from a four-wheeler in Imphal East district on Monday night.\nThe victim, identified as Pakpi, daughter of Imtiyas of Kshetri Bengoon Mamang Ching, was rushed to the Jawaharlal Nehru Institute of Medical Sciences (JNIMS) Hospital. Police said her condition was stable.\nA case has been registered and an investigation is underway to identify those responsible for the firing.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Chandel"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T23:34:52.661073"
+  },
+  {
+    "timestamp": "2026-06-09T23:34:55.290651",
+    "source": "NorthEast Now",
+    "title": "ED uncovers Rs 142-crore money laundering network linked to cross-border drug trafficking",
+    "url": "https://nenow.in/north-east-news/ed-uncovers-rs-142-crore-money-laundering-network-linked-to-cross-border-drug-trafficking.html",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-09",
+    "content": "Reported by Roopak Goswami\nGuwahati: The Enforcement Directorate (ED) has unearthed a suspected Rs 142-crore money laundering network linked to cross-border drug trafficking from Myanmar, carrying out raids across Tripura, Mizoram and West Bengal as part of an ongoing investigation.\nThe searches, conducted on June 8 by the ED’s Aizawl Sub-Zonal Office under the Prevention of Money Laundering Act (PMLA), are tied to a major narcotics case in which the Narcotics Control Bureau (NCB) seized 49.1 kg of methamphetamine tablets and heroin in Mizoram and arrested eight persons.\nAccording to the ED, investigations have revealed a well-organised interstate and transnational syndicate that allegedly smuggled methamphetamine from Myanmar into India through the Champhai-Zokhawthar corridor in Mizoram before distributing it to receivers in Tripura.\nThe agency said the drug proceeds were laundered through a web of bank accounts, shell entities, cash transactions and hawala channels, with suspicious credits exceeding Rs 142 crore detected so far.\nThe crackdown targeted four key suspects and entities linked to the syndicate in Tripura, Mizoram and West Bengal. Among them were alleged receivers of the drug consignment, a Mizoram-based woman whose bank account reportedly received more than Rs 33 crore, and a business entity suspected of facilitating the movement of illicit funds.\nIn a significant find, investigators discovered more than 25 CCTV cameras installed on trees around the residences of two suspects located near the India-Bangladesh border, apparently to monitor movement along forested border routes.\nED officials, assisted by CRPF and BSF personnel, also seized digital devices, financial records and other incriminating material during the searches.\nThe agency said the investigation has already led to the identification of key players in the network, including a Myanmar-based supplier and a transportation facilitator, both of whom were earlier arrested by the NCB.\nThe case highlights the growing nexus between cross-border narcotics trafficking and sophisticated financial networks operating along India’s eastern frontier.\nFurther investigations are underway.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Aizawl",
+      "Champhai"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "CRPF",
+      "BSF"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T23:34:55.401399"
+  },
+  {
+    "timestamp": "2026-06-03T17:13:23.955837",
+    "source": "NorthEast Now",
+    "title": "Assam, Meghalaya agree on cultivation arrangement in disputed Lapangap",
+    "url": "https://nenow.in/north-east-news/assam/assam-meghalaya-agree-on-cultivation-arrangement-in-disputed-lapangap.html",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-03",
+    "content": "By NE NOW NEWS\nGuwahati: Assam and Meghalaya on Tuesday agreed to allow residents from both sides of the disputed Lapangap region to continue cultivation in designated areas, while leaving the issue of permanent boundary demarcation to a state-level committee.\nThe decision was taken during a high-level meeting held at the Assam Police Camp in Lapangap, attended by ministers, senior civil and police officials, and representatives of local bodies from both states.\nUnder the agreement, residents of Lapangap will continue paddy cultivation in the foothill areas, while villagers from Tahpat will be permitted to grow seasonal crops such as banana, pineapple and ginger on the hilltops and slopes of the disputed region.\nThe meeting followed recent discussions between Assam Chief Minister Himanta Biswa Sarma and Meghalaya Chief Minister Conrad Sangma aimed at reducing tensions and resolving issues in the border area through dialogue.\nAccording to a joint statement issued after the meeting, both governments agreed that the matter relating to permanent boundary demarcation in the area of difference would be referred to the appropriate state-level committee for a final decision.\nBoth sides also reaffirmed their commitment to maintaining peace and harmony in the region and avoiding activities that could disrupt law and order.\nLapangap has remained a sensitive border area, particularly after a Karbi villager was killed during a clash between residents from the two sides in October last year.\nThe Meghalaya delegation included Deputy Chief Minister Sniawbhalang Dhar, Principal Secretary Frederick R Kharkongor, Commissioner and Secretary Cyril V Diengdoh, Jaintia Hills Autonomous District Council Chief Executive Member Thombor Shiwat, West Jaintia Hills Deputy Commissioner Abhinav Singh and Superintendent of Police Jagpal Singh Dhanoa.\nThe Assam side was represented by Karbi Anglong Autonomous Council Chief Executive Member and MLA Tuliram Ronghang, MP Amarsing Tisso, Additional Chief Secretary Ajay Kumar Tiwari and legislators Surjya Rongphar, Lunsing Teron, Habbey Teron and Niso Terangpi, among others.\nOfficials said an earlier meeting of village representatives convened by the West Jaintia Hills district administration on May 18 had failed to produce a consensus because of disagreements over the types of plantation activities to be permitted in the area.\nThe latest agreement is expected to ease tensions in the border region by protecting the livelihood interests of local residents while broader boundary issues remain under discussion.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "West Jaintia Hills"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Villager"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:37.540244",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-16T04:14:00.303992",
+    "source": "NorthEast Now",
+    "title": "Assam: Woman stripped, couple assaulted in mob attack in Lakhimpur",
+    "url": "https://nenow.in/north-east-news/assam/assam-woman-stripped-couple-assaulted-in-mob-attack-in-lakhimpur.html",
+    "matched_keywords": [
+      "lakhimpur"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "Reported by Farhana Ahmed\nNorth Lakhimpur: A couple running a roadside food stall along NH-15 in Assam’s Lakhimpur district were allegedly assaulted by a mob on Monday, with the woman accusing the attackers of stripping her during the incident.\nThe incident took place at Kona Nadi under the Bogeenadi Police Station area when a group of people allegedly attacked the couple’s roadside stall.\nAccording to allegations made by the victims, the mob ransacked the food stall and physically assaulted both the husband and wife. The woman further alleged that she was stripped by members of the mob during the attack.\nFollowing the incident, the woman lodged a complaint at the Chawuldhowa Police Outpost and sought legal action against those responsible.\nIn her complaint, she named Harakanta Chayengiyah, Tulsi Payeng, Paplu Payeng, Tutu Kaman and Zerifa Kaman as the alleged attackers.\nPolice are investigating the incident. Further details are awaited.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Lakhimpur"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "mob",
+      "group"
+    ],
+    "victim_target": [
+      "Assam",
+      "couple ’s roadside stall",
+      "couple",
+      "wife",
+      "both the husband"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.2106,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:04.530473"
+  },
+  {
+    "timestamp": "2026-06-16T04:14:34.788955",
+    "source": "NorthEast Now",
+    "title": "Manipur: Kuki Inpi demands action after bombing injures three youths in Kangpokpi",
+    "url": "https://nenow.in/north-east-news/manipur/manipur-kuki-inpi-demands-action-after-bombing-injures-three-youths-in-kangpokpi.html",
+    "matched_keywords": [
+      "kangpokpi"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "Reported by Bit Irom\nImphal: The Kuki Inpi Manipur (KIM), the apex Kuki body in the state, has demanded immediate and decisive action from the government and security forces to identify, arrest, and prosecute all individuals involved in an attack that injured three civilians from the Kuki community.\nThe demand follows an incident in which three Kuki youths, Genlenmang Vaiphei (18), Lunliandaw Vaiphei (20), and Paogou Lal (18), were injured in fresh ethnic violence that erupted on Monday morning in the inter-village areas of Leilon Vaiphei and Konsakhul in Manipur’s Kangpokpi district.\nIn a statement, the KIM Media Cell strongly condemned the incident, which it described as the June 15 bombing of Leilon Vaiphei by NSCN-IM and the proxy outfit ZUF-K.\nThe organisation stated that the attack once again endangered innocent lives, damaged property, and shattered the peace and security of the people.\nThe apex body also questioned how much longer government forces would continue to give leeway to those responsible for creating terror, insecurity, and destruction.\n“Silence, delay, or inaction will only embolden the perpetrators and deepen public anger and mistrust,” the statement said.\nKIM further emphasised that such attacks against civilians are unacceptable, inhumane, and a direct threat to the rule of law.\nThe people of Leilon Vaiphei and the surrounding areas cannot be expected to live in fear while armed groups continue to operate with apparent freedom and impunity, the statement added.\nFollowing the attack, the injured were first rushed to the military hospital in Leimakhong.\nThey were later shifted to the Regional Institute of Medical Sciences (RIMS) in Imphal for further treatment under security escort.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Imphal",
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Zuf",
+      "Nscn-Im"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "bombing",
+      "that"
+    ],
+    "victim_target": [
+      "three civilians",
+      "three youths"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 1,
+        "raw": "an attack that",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 1,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.9785,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:38.507190"
+  },
+  {
+    "timestamp": "2026-06-16T04:16:03.740467",
+    "source": "NorthEast Now",
+    "title": "Assam: Mutilated Royal Bengal Tiger carcass found in Sonitpur",
+    "url": "https://nenow.in/environment/assam-mutilated-royal-bengal-tiger-carcass-found-in-sonitpur.html",
+    "matched_keywords": [
+      "sonitpur"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "By NE NOW NEWS\nGuwahati: A mutilated carcass of a Royal Bengal Tiger was recovered from a sandbar along the Gabharu River in Assam’s Sonitpur district on Wednesday, prompting a probe into suspected poaching.\nThe carcass, with its tail and all four limbs severed, was found near Kochgaon under Thelamara Police Station limits, forest officials said.\nDivisional Forest Officer (DFO) Biswa Jyoti Das said the condition of the carcass suggested that valuable body parts may have been removed before the remains were disposed of in the river.\n“The carcass appears to have drifted downstream several days after the animal’s death. However, the manner in which the body was mutilated strongly suggests foul play,” Das said.\nFollowing the recovery, teams from the West Sonitpur Forest Division, Tezpur Forest Range and local police reached the site. Veterinary experts and wildlife officials conducted a post-mortem examination and collected samples for forensic analysis.\nOfficials said the tiger measured approximately five feet in length.\nAfter the examination, the carcass was cremated on the banks of the Gabharu River in accordance with prescribed wildlife disposal protocols.\nThe forest department has launched an investigation and is awaiting the forensic report to determine the exact cause of death and the circumstances surrounding the incident. Officials suspect the animal may have been killed by poachers, who then removed valuable body parts before disposing of the carcass in the river.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Sonitpur"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "poachers"
+    ],
+    "victim_target": [
+      "animal"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.1264,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:16:07.667509"
+  },
+  {
+    "timestamp": "2026-06-16T04:16:23.799225",
+    "source": "NorthEast Now",
+    "title": "Mizoram: Centre announces Rs 10 crore rice aid for refugees and displaced persons",
+    "url": "https://nenow.in/north-east-news/mizoram-centre-announces-rs-10-crore-rice-aid-for-refugees-and-displaced-persons.html",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "By NE NOW NEWS\nAizawl: The Centre has agreed to provide rice worth Rs 10 crore to support nearly 40,000 refugees from Myanmar and Bangladesh, as well as internally displaced persons from Manipur currently taking shelter in Mizoram, according to an official statement issued on Saturday.\nThe assurance was given after Mizoram Chief Minister Lalduhoma raised the issue during a meeting with Union Home Minister Amit Shah in New Delhi on Friday.\nDuring the meeting, Lalduhoma highlighted the humanitarian burden borne by the state in accommodating thousands of refugees and displaced persons. He informed the Union Home Minister that Mizoram is presently sheltering around 40,000 people, including refugees from Myanmar and Bangladesh and those displaced by ethnic violence in Manipur.\nThe Chief Minister said the state government has been making sustained efforts to provide humanitarian assistance despite limited resources and urged the Centre to extend additional support.\nResponding to the request, Shah assured that the Centre would provide rice worth Rs 10 crore to strengthen relief measures and help meet the food requirements of those taking shelter across the state.\nAccording to officials, more than 28,000 refugees from Myanmar, largely belonging to the Chin community, have taken refuge in Mizoram since the military coup in the neighbouring country in February 2021.\nIn addition, around 2,300 members of the Bawm community from Bangladesh’s Chittagong Hill Tracts crossed into Mizoram following military operations against an ethnic insurgent group in 2022.\nThe state is also hosting nearly 7,000 Kuki-Zo people who were displaced from Manipur following the outbreak of ethnic violence in May 2023.\nThe Chin, Bawm and Kuki-Zo communities share close ethnic and cultural ties with the Mizo people, which has contributed to the state’s humanitarian response.\nThe meeting also covered several development and security-related issues concerning Mizoram. Lalduhoma urged the Centre to extend financial assistance under the Security Related Expenditure (SRE) scheme to help the state strengthen efforts against drug trafficking and cybercrime.\nHe noted that Mizoram has so far not benefited from the scheme, unlike several other northeastern states, largely due to its relatively peaceful security situation.\nIn response, Shah advised the state government to submit additional proposals under the PM-DeVINE (Prime Minister’s Development Initiative for North Eastern Region) scheme and assured support in pursuing the projects, the statement added.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Aizawl"
+    ],
+    "ner_actors": [
+      "Kuki-Zo"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0575,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:16:26.920510"
+  },
+  {
+    "timestamp": "2026-06-16T04:16:28.697885",
+    "source": "NorthEast Now",
+    "title": "Manipur: Protests escalate at RIMS, tear gas used amid Kangpokpi firing tension",
+    "url": "https://nenow.in/north-east-news/manipur/manipur-protests-escalate-at-rims-tear-gas-used-amid-kangpokpi-firing-tension.html",
+    "matched_keywords": [
+      "kangpokpi",
+      "tear gas",
+      "protest"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "Reported by Bit Irom\nImphal: State and central police fired tear gas shells on Monday inside the campus of the Regional Institute of Medical Sciences (RIMS) to disperse hundreds of protesters who had gathered to oppose the medical treatment of three injured Kuki individuals.\nThe demonstration escalated around noon after protesters, reportedly belonging to the Naga and Meitei communities, stormed the RIMS campus.\nThey were protesting the admission of the three individuals, who had sustained injuries in an exchange of gunfire earlier that morning near Leilon Vaiphei and Konsakhul villages in Kangpokpi district.\nProtesters opposed the treatment of the men, alleging that they were militants. They claimed that while the hospital might have space for Kuki civilians, individuals brought in by army personnel should not be admitted.\nFollowing a standoff and confrontations that lasted for several hours, security forces resorted to firing tear gas shells to clear the hospital premises and restore order.\nTP Daning, Assembly Affairs Secretary of the All Naga Students’ Association Manipur (ANSAM), expressed strong opposition to the admission of the three individuals.\nSpeaking to the media inside the hospital campus, he noted that a delegation had visited the casualty ward where the patients were admitted.\nDaning questioned why Indian security forces were guarding and escorting these individuals into the hospital. He alleged that this action indicated open support for militants, particularly in light of the recent killing of six abducted Naga people.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Imphal",
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Meitei",
+      "Ansam"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "State and central police",
+      "tear gas"
+    ],
+    "victim_target": [
+      "RIMS campus",
+      "tear gas shells"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 3,
+        "raw": "three",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 3,
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.9715,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T04:16:32.414661"
+  },
+  {
+    "timestamp": "2026-06-16T04:14:18.685849",
+    "source": "NorthEast Now",
+    "title": "Assam: Dibrugarh administration evicts 60 families from Brahmaputra riverbank",
+    "url": "https://nenow.in/north-east-news/assam/assam-dibrugarh-administration-evicts-60-families-from-brahmaputra-riverbank.html",
+    "matched_keywords": [
+      "dibrugarh"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "Reported by Avik Chakraborty\nDibrugarh: The Dibrugarh district administration conducted a large-scale eviction drive along the Brahmaputra River in the Maijan area on Monday, removing around 60 families who had illegally occupied the riverbank for more than a decade.\nThe families were found to be living on nine bighas of government land on the riverbank, with some having even constructed permanent RCC houses. Many residents revealed they had paid large sums to land brokers, ranging between Rs 1 lakh and Rs 3 lakh, believing the plots were legal.\n“Seven years ago we paid Rs 1.5 lakh to a broker who assured us the land was legal. Now we have lost both our money and our home,” said an evicted woman.\nThe eviction followed an order from the District and Sessions Court, Dibrugarh, after due notices were served.\nA large police force was deployed as a precaution, but the operation proceeded peacefully as residents removed their belongings before excavators demolished the structures.\nCircle Officer of Dibrugarh East Revenue Circle, Samujjwal Borah, said, “We had made adequate security arrangements keeping in mind the scale of the eviction, but the residents cooperated fully with the administration. There was no untoward incident during the entire operation.”\nMeanwhile, local residents who lost their homes demanded action against the illegal brokers, alleging that they had been misled into purchasing government land.\n“It is clearly evident that we all fell victim to fraudulent land brokers who illegally sold us government land for their personal profit. There was an organised racket operating behind these settlements, and we hope the authorities will take action against those brokers,” said a local resident who was evicted.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Dibrugarh"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0605,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:22.367749",
+    "manual_purge": true
+  },
+  {
+    "timestamp": "2026-06-16T04:14:29.578609",
+    "source": "NorthEast Now",
+    "title": "Mizoram: Nine arrested, 740 grams heroin seized near Manipur border",
+    "url": "https://nenow.in/north-east-news/mizoram/mizoram-nine-arrested-740-grams-heroin-seized-near-manipur-border.html",
+    "matched_keywords": [
+      "arrested"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-16",
+    "content": "By NE NOW NEWS\nAizawl: In a major crackdown on drug trafficking, a joint team comprising the Excise and Narcotics Department, Assam Rifles, and the Central Anti-Drugs Squad (CADS) of the Central Young Mizo Association (CYMA) conducted an early morning operation on Friday, the Excise Department said in a statement.\nThe team seized a substantial quantity of heroin and arrested nine suspected traffickers.\nThe operation, conducted at New Vervek village in Aizawl district near the Manipur border at around 2:30 am, led to the recovery of 740 grams of heroin packed in 61 soap cases, the statement said.\nAuthorities also seized a newly purchased Mahindra Bolero camper, which was allegedly being used to transport the contraband, it said.\nThe nine accused, who hailed from different villages in Manipur’s Pherzawl district, were booked under Section 21(c) of the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985, it said.\nThey were produced before the Special Court (NDPS Act) in Aizawl on the same day, the statement added.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Pherzawl",
+      "Aizawl"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "ASSAM RIFLES"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.083,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:33.053950"
+  }
+]

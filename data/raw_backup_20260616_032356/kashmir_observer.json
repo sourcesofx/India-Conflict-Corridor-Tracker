@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2026-06-10T03:29:58.077910",
+    "source": "Kashmir Observer",
+    "title": "Gadkari Announces Rs 1,500 Cr Four-Laning of Srinagar-Sonamarg Road",
+    "url": "https://kashmirobserver.net/2026/06/09/gadkari-announces-rs-1500-cr-four-laning-of-srinagar-sonamarg-road/",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "Drass- Union Minister for Road Transport and Highways Nitin Gadkari on Tuesday described the breakthrough achieved in the Zojila Tunnel project as a “golden day” in India’s infrastructure history, saying the strategic project would emerge as a lifeline for the people of Jammu and Kashmir and Ladakh.\nThe milestone was achieved after engineers blasted through the final stretch of rock inside the tunnel, connecting excavation works from both ends of the 13-km tunnel being built beneath the Zojila Pass.\n“Today is a golden day in India’s infrastructure history. I am happy that this state-of-the-art tunnel will become a lifeline for the people of Jammu and Kashmir and Ladakh,” Gadkari said after performing the breakthrough blast.\nThe Union minister said the project, being constructed in extremely challenging weather and terrain conditions, would ensure all-weather connectivity between Kashmir and Ladakh, ending the seasonal isolation caused by heavy snowfall at the Zojila Pass.\nCalling it a gift to the people of Jammu and Kashmir and Ladakh, Gadkari said the approach works for the tunnel are expected to be completed by February 2028.\nCongratulating engineers, workers and officials associated with the project, he said the achievement was the result of years of work carried out in harsh weather conditions.\n“The workers and engineers have worked in extreme cold and difficult conditions. This tunnel has all the modern safety features and has also generated employment opportunities for local people,” he said.\nGadkari said the government had also managed to substantially reduce the cost of the project.\n“The estimated cost had reached around Rs 12,000 crore. However, we are completing it at nearly Rs 7,000 crore, resulting in savings of about Rs 5,000 crore,” he said.\nThe minister expressed gratitude to labourers, consultants, engineers, officials of Megha Engineering and Infrastructure Limited (MEIL), which is executing the project, and the National Highways and Infrastructure Development Corporation Limited (NHIDCL).\nAnnouncing a series of infrastructure initiatives for Jammu and Kashmir and Ladakh, Gadkari said significant progress was also being made on the Jammu-Srinagar National Highway.\n“Twenty tunnels on the highway have already been completed, while work is underway on five more. Once these are completed, travel time between Jammu and Srinagar will be reduced to around three hours. It is my dream and I assure you that it will be realised soon,” he said.\nJammu and Kashmir Lieutenant Governor Manoj Sinha described the breakthrough as a historic moment and congratulated the project team for achieving the milestone despite difficult working conditions.\n“The pace of development in Jammu and Kashmir and Ladakh will boost tourism, strengthen connectivity and improve national security,” Sinha said.\nExpressing confidence that the remaining work would be completed on schedule, he said the Zojila Tunnel, together with the recently completed Sonamarg Tunnel, wou",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T03:29:58.224430"
+  }
+]

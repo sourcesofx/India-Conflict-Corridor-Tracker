@@ -1,0 +1,1478 @@
+[
+  {
+    "timestamp": "2026-06-04T13:21:24.427423",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Search operation enters 12th day in Rajouri's Dori Maal",
+    "url": "https://www.greaterkashmir.com/pir-panjal/search-operation-enters-12th-day-in-rajouris-dori-maal-11999281",
+    "matched_keywords": [
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "The Cordon and Search Operation (CASO), as part of the ongoing anti-terror operation in the Dori Maal area of Gambhir Mughalan, continued for the twelfth consecutive day on Wednesday.\nThe massive anti-terror operation was launched around twelve days ago following an intelligence-based operation by security forces, during which contact was established between the search teams and terrorists believed to be hiding in the dense forest area.\nSince then, security forces and terrorists have exchanged fire multiple times. Intermittent small arms firing and heavy explosions have been reported from the encounter site on a daily basis, indicating continued engagement between the forces and the hiding terrorists.\nSecurity forces are maintaining an extensive search operation in the dense forest terrain to track down the terrorists.\nA massive cordon has been established, with troops carrying out sustained operations on a war footing to neutralise the threat and ensure the safety and security of the region, official sources stated.\nThe challenging forested terrain and difficult geographical conditions have made the operation complex, however, security agencies continue their efforts with determination to eliminate the terrorist threat and restore complete security in the area, official sources said.\nOn Tuesday, General Officer Commanding (GOC) White Knight Corps, Lieutenant General PK Mishra, also visited the operation area and took stock of the ongoing operational progress. He reviewed the security situation and the efforts being undertaken by the troops on the ground.\nThe operation continues with forces remaining deployed in strength, keeping the entire area under strict surveillance.\nMeanwhile, authorities are yet to issue any official statement regarding the progress of the operation. Further details are awaited as the security operation remains underway.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.779458",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T12:42:58.337132",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Nasha Mukht J&K Abhiyan: Anantnag Police conduct anti-narcotic raids in Pahalgam hotels",
+    "url": "https://www.greaterkashmir.com/kashmir/nasha-mukht-jk-abhiyan-anantnag-police-conduct-anti-narcotic-raids-in-pahalgam-hotels-12003624",
+    "matched_keywords": [
+      "anantnag"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-05",
+    "content": "Anantnag, June 05: In a major crackdown against drug trafficking and substance abuse, Anantnag Police on Friday carried out extensive anti-narcotic raids in several hotels across the Pahalgam Sub-Division.\nThe operation was conducted in the Mavoora, Rafting Point and Yanner areas by six dedicated police teams under the supervision of the SDPO Pahalgam. Acting on credible inputs, the teams searched multiple hotel premises to prevent the misuse of tourist accommodations for narcotics-related activities and to strengthen surveillance against drug networks operating in the region.\nPolice said the raids were part of an ongoing campaign aimed at curbing the drug menace and ensuring a safe and secure environment for residents as well as tourists.\nReiterating its commitment to a drug-free society, Anantnag Police stated that such proactive enforcement measures will continue across the district to dismantle drug trafficking networks and prevent the spread of substance abuse.(KNC)",
+    "source_type": "rss",
+    "ner_locations": [
+      "Anantnag"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.820894",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T12:43:15.385825",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Searches continue in Rajouri for 13th day",
+    "url": "https://www.greaterkashmir.com/pir-panjal/searches-continue-in-rajouri-for-13th-day-12002976",
+    "matched_keywords": [
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "Rajouri, Jun 4: Rajouri district of PirPanjal region witnessed search operation for the 13th consecutive day on Thursday.\nThe operation is underway in the Dori Maal area of GambhirMughalan under the jurisdiction of Manjakote Police Station, where security forces have maintained a tight cordon and continued extensive search operation in the dense forest terrain.\nThe ongoing operation has emerged as the longest search operation witnessed in Rajouri district in the past decade and a half.\nIt has drawn parallels with the Nar-BhataDhurian operation in Mendhar area of Poonch in 2021, which continued for more than three weeks.\nThe prolonged operation has once again brought security concerns over Rajouri district, leaving locals worried amid continued security presence and restrictions in the area.\nOn the 13th day today, the operation continued with security forces intensifying searches in the forest area.\nBrief firing was also heard from the operation site, indicating continued engagement during the ongoing operation.\nAuthorities, however, are yet to issue a detailed official statement regarding the progress and outcome of the operation.\nThis operation was started following an encounter that broke out between terrorists and security forces during an intelligence based search operation launched in the area with the contact getting established, leading to exchange of gunfire.\nThe operation is underway and huge explosions have rattled the area almost every day.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Poonch",
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.880332",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-06T17:13:00.477998",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Lieutenant Governor leads anti-drug padyatra in Kishtwar, vows to dismantle narco-terror networks",
+    "url": "https://www.greaterkashmir.com/chenab-valley/lieutenant-governor-leads-anti-drug-padyatra-in-kishtwar-vows-to-dismantle-narco-terror-networks-12008321",
+    "matched_keywords": [
+      "narco terror",
+      "kishtwar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-06",
+    "content": "Jammu, June 06: “We are breaking the chain of the drug trade at every single link. Whether it’s cross-border smugglers, peddlers or the terror financiers- there is no safe haven. Our agencies are hunting down every narco-terrorist and permanently dismantling their networks,” the Lieutenant Governor Manoj Sinha said on Saturday. He observed that over the last nearly two months, citizens from all walks of life, have walked streets across the Union Territory, shared the pain of affected families, and energized our youth.\n“Our goal is to foster a grassroots resistance against drug abuse and end narco-terrorism,” he said.\nThe Lieutenant Governor was addressing the public rally at Kishtwar. The campaign has so far covered 19 districts of Jammu Kashmir, reinforcing a collective commitment to eradicate drugs from villages and towns.\n“For 56 days I have pursued a single mission of eliminating every drug smuggler and narco-terrorist from this land. Narco-terrorists and drug smugglers, whether in Pulwama or Ramban, Kulgam or Kishtwar, must understand this truth that there will be no mercy for those who ruin the future of our young generation,” the Lieutenant Governor said.\nHe said under the leadership of Prime Minister Narendra Modi, there is no mercy for narco-terrorists.\n“We are ensuring that drug addicts who seek a path to recovery are provided all possible assistance and brought back to the mainstream with compassion and dignity. But compassion cannot be wasted on narco-terrorists who profit from others’ ruin, who thrive on destruction, who aim to drain the life from Kishtwar’s villages and towns. My objective is very clear that ruthless action will be taken against narco-terrorists while unwavering protection will be ensured for the innocent,” the Lieutenant Governor said.\nThe Lieutenant Governor said that although J&K Drug-Free Campaign is scheduled for 100 days, it marks the start of a much larger fight. He said eliminating this threat requires a marathon effort.\n“It is a war of years, not a battle of weeks. Victory demands a unified, round-the-clock commitment. By mobilizing a whole-of-society approach, we will ensure that J&K's soil is completely cleared of drug smugglers and drug peddlers. During the Padyatra across Jammu Kashmir, I have witnessed the incredible courage of young men and women breaking the shackles of addiction to reclaim their lives. That is why we cannot fail. This campaign is a matter of the soul of Jammu Kashmir,\" the Lieutenant Governor said.\nThe Lieutenant Governor said in order to safeguard youth, the administration is embedding the spirit of this mission into the very fabric of our neighborhoods, equipping communities to recognize the warning signs, intervene early, and shield each other.\n“Our teachers, Panchayat Mahila Samitis, religious leaders, and civil society groups are the torchbearers of this movement, standing united to ensure the shadow of addiction never finds a foothold in Kishtwar and across Jammu Kashmir. This is a defining moment for the future of our children. The people have spoken with one voice that narco terrorists must be driven from this land,” the Lieutenant Governor said.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Ramban",
+      "Kishtwar",
+      "Pulwama",
+      "Jammu",
+      "Kulgam"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:36.001408",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T01:33:11.165772",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Army officer dies after falling into gorge during anti-terror operation in Rajouri",
+    "url": "https://www.greaterkashmir.com/security/army-officer-dies-after-falling-into-gorge-during-anti-terror-operation-in-rajouri-12009633",
+    "matched_keywords": [
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-06",
+    "content": "Jammu, Jun 6: An army officer died after slipping in a mountainous area and falling into a deep gorge during an anti-terror operation in Jammu and Kashmir's Rajouri district on Saturday evening, officials said.\nThe officer, a lieutenant, was part of the security forces engaged in Operation Sheruwali, which entered its 15th day.\nOperation Sheruwali is underway in the Dorimaal and Gambhir Mughalan belt to track down two to three Pakistani terrorists believed to be hiding in the forests of Rajouri district.\nDuring the search operation, the lieutenant reportedly slipped and fell into a 30-metre-deep gorge in the Dorimaal area, the officials said, adding that he succumbed to his injuries.\nThe body has been recovered, and further details are awaited.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:36.036386",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-08T23:37:27.347851",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "President Murmu confers 7 Kirti Chakras; IAF pilot, Gaganyatri Prasanth Nair among recipients",
+    "url": "https://www.greaterkashmir.com/national/president-murmu-confers-7-kirti-chakras-iaf-pilot-gaganyatri-prasanth-nair-among-recipients-12015661",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-08",
+    "content": "New Delhi, Jun 8: President Droupadi Murmu on Monday conferred seven Kirti Chakras, including two posthumously, to personnel of the armed forces displaying raw courage, unparalleled bravery and total disregard for personal safety in the line of duty.\nAir Commodore Prasanth Balakrishnan Nair, an IAF pilot and a Gaganyatri, is also among the recipients of the Kirti Chakra, India's second-highest peacetime gallantry award.\nMurmu conferred seven Kirti Chakras, including two posthumously; 15 Vir Chakras, including three posthumously; and 29 Shaurya Chakras, including one posthumously, to the personnel of the defence forces, Central Armed Police Forces and state or Union Territory police forces during phase-I of the Defence Investiture Ceremony hosted at the Rashtrapati Bhavan, the defence ministry said.\nLt Commander Dilna K and Lt Commander Roopa A of the Navy are among the Shaurya Chakras recipients.\nThe President presented the gallantry award to them for their exemplary endurance, bravery and devotion to duty in Navika Sagar Parikrama II.\nLt Commander Roopa A, along with Lt Commander Dilna K, sailed over 25,600 nautical miles through the Indian, Pacific, Atlantic and Southern Oceans.\n\"While navigating through the perilous Drake Passage in stormy conditions that caused the boat to heel severely, regaining control required exceptional skill and extraordinary courage. During the expedition, they also became the first Indians to reach Point Nemo, the oceanic Pole of Inaccessibility, by sailboat,\" reads the citation in a post on X by the Rashtrapati Bhavan.\nLance Naik Meenatchi Sundarama of Rashtriya Rifles, Naib Subedar Doleshwar Subba of Para (Special Forces), Major Arshdeep Singh of Assam Rifles and Captain Lalrinawma Sailo of Para (Special Forces) have also been conferred the Kirti Chakra, according to the list of awardees shared by the government.\nSepoy Janjal Pravin Prabhakar of the Mahar Regiment of Rashtriya Rifles and Lt Shashank Tiwari of the Sikkim Scouts have been conferred the Kirti Chakra posthumously.\nThe Rashtrapati Bhavan, in a series of posts on X, also shared some photos of the ceremony along with citations.\n\"President Droupadi Murmu presents the Shaurya Chakra to Major Anshul Baltoo, The Jammu and Kashmir Light Infantry, 32 Assam Rifles, for displaying bravery in the line of duty. In April 2025, during a combing and search operation in Dima Hasao, South Assam, he confronted an armed cadre at close quarters and single-handedly neutralised him. The operation resulted in the elimination of three armed cadres and the recovery of weapons and war-like stores,\" it said.\nAnother post said the President presents the Shaurya Chakra to Major Leishangthem Deepak Singh, 11 Para (Special Forces), for his exceptional bravery.\n\"Acting on intelligence regarding the kidnapping of two innocent civilians, he neutralised a terrorist at very close range and shielded a kidnapped civilian with his own body. This resulted in the neutralisation of two hardcore cadres and the rescue of an innocent civilian,\" it said.\n\"President Droupadi Murmu presents Shaurya Chakra to Lieutenant Colonel Neetesh Bharti Shukla, 19th Battalion, The Sikh Regiment, for planning and executing a clinical operation without own casualty. On receipt of specific input regarding infiltration by a group of terrorists, Lieutenant Colonel Shukla laid an ambush along the Line of Control in July 2024. The operation eliminated three heavily armed foreign terrorists,\" the Rashtrapati Bhavan posted.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:36.705656",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-09T15:50:34.714930",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Zojila tunnel 'breakthrough' today; Union Minister Gadkari  to witness event",
+    "url": "https://www.greaterkashmir.com/kashmir/zojila-tunnel-breakthrough-today-union-minister-gadkari-to-witness-event-12016600",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "Zojila (J-K), Jun 8: Zojila Tunnel will see light of the day, literally, on Tuesday when a blast will lead to a breakthrough at the end of the world's longest single-tube bi-directional bypass built at record height.\nThe breakthrough will bring the decades-old dream of an all-weather connectivity between the Kashmir Valley and Ladakh closer to reality, officials said.\nUnion Minister for Road Transport and Highways Nitin Gadkari will witness the breakthrough blast, they said.\nThe breakthrough is six months ahead of schedule, according to an official of the National Highways & Infrastructure Development Corporation Limited (NHIDCL).\n\"It was very tough to work on the construction of this tunnel. The conditions were very tough, still the work has almost been completed and that too without any accident.\n\"After the breakthrough, the civil works will take another 7-8 months and then the electrical works will begin. Hopefully, the tunnel will be opened for the public in January-February 2028,\" he said.\nThe tunnel -- 9.5 metre wide, 7.57 metre high, 13.153 km long – is a horseshoe-shaped single-tube, a two-lane road tunnel built at the height of around 11,578 feet above sea level.\nThe geostrategically important tunnel on the Srinagar-Leh National Highway will provide a year-round weather-proof connectivity to Ladakh, and reduce the earlier 1-1.5 hours travel time to just 15 minutes drive, officials said.\nThe tunnel from Baltal in the Ganderbal district of central Kashmir to Minimarg in Drass district of Union Territory of Ladakh, has an 18-km approach road.\nMegha Engineering and Infrastructure Limited (MEIL), the agency which is executing the project, used the New Austrian Tunnelling Method (NATM) to pierce through the Himalayas and navigate the fragile geology.\nThe entire project is 31-km-long, including the approach road and bridges, stretching from Sonamarg to Minimarg.\n\"The approach road from Sonamarg to Baltal is 18 km, and the main tunnel that starts from Baltal and goes to Minimarg is 13 km long,\" an official said.\n\"It is a monumental achievement in India's infrastructure landscape, cutting through some of the most formidable Himalayan rock formations to establish a dependable, all-weather link between Ladakh and the rest of the country,\" the person said.\nThe project integrates advanced safety measures and a semi-transverse ventilation system designed to maintain steady airflow deep within the mountains.\nIt incorporates a Smart Tunnel (SCADA) system constructed using the NATM, and is equipped with CCTVs, radio control, uninterrupted power supply, and ventilation systems.\nOnce operational, the tunnel would enhance both civilian and military mobility across the treacherous Zojila Pass that is usually rendered shut for traffic for three winter months due to heavy snowfall.\n\"It will boost the tourism and economy, and enhance the logistics of the Indian Armed Forces. It will provide rapid, secure, all-year mobility for the forces to transport troops and supplies to the sensitive border region,\" the official said.\nLadakh residents said the tunnel is a dream come true for them as they face immense hardships especially in the winter months.\n\"We have been eagerly waiting for this tunnel and express our gratitude to the government for this project,\" Basharat Ahmad, a Ladakh resident, said.\n\"We will be able to not only travel, but exchange commodities through the tunnel. It will boost our business and trade,\" he added.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar",
+      "Ganderbal"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:50:34.925950"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:06.307899",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Rusted mortar shell found in Jammu; neutralised",
+    "url": "https://www.greaterkashmir.com/jammu/rusted-mortar-shell-found-in-jammu-neutralised-12020977",
+    "matched_keywords": [
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "00:00/ 00:00\nJammu, Jun 10: A rusted mortar shell was found in a border village here on Wednesday and subsequently neutralised in a controlled explosion, officials said.\nThe shell was noticed by labourers who were filling the plinth of a house in Kothey Sanian village of Bishnah on the outskirts of Jammu, with soil, they said.\nFollowing information about the explosive device, a bomb disposal squad rushed to the scene and neutralised the shell in a controlled explosion in an open field, causing no damage to life or property, they said.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T15:49:06.344729"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:06.690435",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Name Zojila Tunnel portals after 1947-48 Indo-Pak war hero and 8th century Kashmir ruler: Raut",
+    "url": "https://www.greaterkashmir.com/national/name-zojila-tunnel-portals-after-1947-48-indo-pak-war-hero-and-8th-century-kashmir-ruler-raut-12020604",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "Mumbai, June 10: Shiv Sena (UBT) MP Sanjay Raut has demanded that the two portals of the Zojila Tunnel, linking the Kashmir Valley with Ladakh, be named after Brigadier Mohammed Usman, a 1947-48 Indo-Pak war hero, and Samrat Lalitaditya Muktapida, the 8th-century ruler of Kashmir.\nThe Rs 6,800-crore Zojila tunnel, Asia's longest tunnel connecting the Kashmir Valley to Ladakh, on Tuesday achieved a significant breakthrough with a blast breaking through the last 2.5 metres of the 13-km high-altitude infrastructure project that cuts through the Himalayas.\nUnion Minister for Road Transport and Highways Nitin Gadkari performed the breakthrough blasting of the main tunnel being constructed at an altitude of 11,578 feet above sea level, 24 km from Sonamarg and 103 km from Srinagar.\nThe tunnel is likely to be thrown open to the public in February 2028, as per officials.\nIn a letter written to Prime Minister Narendra Modi on Tuesday, Raut said Zojila Tunnel stands as one of the most remarkable infrastructure projects undertaken in independent India. Upon completion, it will not only provide seamless all-weather connectivity between Kashmir and Ladakh but will also strengthen national security, enhance economic opportunities, promote tourism, and deepen the integration of some of our country's most strategically significant regions.\n\"I propose that one portal of the Zojila Tunnel be named after Brigadier Mohammed Usman and the other after Samrat Lalitaditya Muktapida, thereby commemorating two distinguished personalities who symbolise different yet complementary dimensions of India's enduring national heritage,\" Raut said.\nThe Sonamarg/Kashmir portal of the Zojila Tunnel may be named after Brigadier Mohammed Usman. The Drass/Ladakh portal may be named after Samrat Lalitaditya Muktapida, the Sena (UBT) leader said in his letter, which he posted on X on Wednesday.\n\"Such a gesture would pay tribute both to the valour of those who defended the nation and to the rich historical legacy that has shaped the identity of Kashmir through the centuries. It would also convey a powerful message of national integration, unity in diversity, and respect for India's multifaceted heritage,\" he added.\nBrigadier Usman, known as the Lion of Naushera, displayed extraordinary valour in the 1947-48 Indo-Pak War. He successfully defended Naushera and Jhangar in Jammu and Kashmir, chose India over Pakistan during Partition, and laid down his life for the motherland on 3 July 1948. He was awarded the Maha Vir Chakra posthumously and remains one of the highest-ranking military officers to have been martyred in combat, Raut noted.\n\"He is a shining symbol of patriotism and secularism,\" the Rajya Sabha member said.\nSamrat Lalitaditya Muktapida was the 8th-century ruler of the Karkota dynasty of Kashmir. He expanded his empire across Central Asia, Afghanistan, and Tibet, built magnificent temples, including the iconic Martand Sun Temple, and established Kashmir as a powerful cultural and military centre in ancient Indian history, Raut pointed out.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T15:49:06.851807"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:06.932282",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Missing 12-year-old girl found dead in Poonch river; SIT formed to probe case",
+    "url": "https://www.greaterkashmir.com/jammu/missing-12-year-old-girl-found-dead-in-poonch-river-sit-formed-to-probe-case-12020505",
+    "matched_keywords": [
+      "poonch"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "Jammu, June 10: A 12-year-old girl who had been missing for five days was found dead in a river in Jammu and Kashmir's Poonch district, prompting police to constitute a Special Investigation Team (SIT) to probe the case.\nIkra Firdous, a resident of Adhai village in the Mandi area of Poonch, had gone missing on May 30. Following a complaint lodged by her family, police registered a case under the relevant kidnapping provisions and launched a search operation.\nDeputy Superintendent of Police (Headquarters), Poonch, Neeraj Sharma said multiple teams were deployed in Mandi and other areas after receiving inputs about the girl's possible whereabouts.\n\"Considering the seriousness of the matter, an FIR was immediately registered and investigation was set into motion. Several police teams were constituted and extensive searches were conducted in different areas,\" Sharma said.\nHe said information was received on June 3 about the body of a young girl lying in a river near Sathra. A police team rushed to the spot and took custody of the body, which was later identified by family members as that of the missing girl.\nThe body was shifted to a hospital where a board of doctors conducted a detailed post-mortem examination before handing it over to the family for last rites, he said.\nAmid growing public concern over the incident, police on June 4 constituted an SIT headed by the DSP Headquarters, Poonch, to investigate the case.\nAccording to Sharma, the SIT has been working round the clock and has examined several digital devices, analysed tower dumps and call detail records (CDRs), besides questioning relatives and other persons suspected to have information relevant to the investigation.\n\"Numerous digital devices have been examined and technical evidence, including tower dumps and call detail records, is being analysed. Relatives and other suspected individuals have also been questioned as part of the investigation,\" he said.\nThe officer said the preliminary medical examination had not indicated any signs of sexual assault.\n\"According to the initial examination report received from the hospital, no signs of sexual abuse have been found. However, multiple samples collected from the body have been sent for forensic examination and the final post-mortem report is awaited,\" he said.\nMeanwhile, girl students and residents staged protests in different parts of Poonch, demanding justice for the deceased and strict action against those responsible for her death.\nPolice appealed to the public not to spread unverified information on social media, saying such claims could hamper the investigation.\nSharma said all leads and information received from the public were being examined and urged anyone with credible information related to the case to share it directly with the SIT.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Poonch"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [
+        "five dead"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T15:49:07.094379"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:09.295577",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Army Bomb Disposal Squad destroys explosive shell in Rajouri’s Nowshera",
+    "url": "https://www.greaterkashmir.com/pir-panjal/army-bomb-disposal-squad-destroys-explosive-shell-in-rajouris-nowshera-12020012",
+    "matched_keywords": [
+      "explosive",
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "00:00/ 00:00\nSecurity forces on Tuesday morning destroyed a High Explosive (HE) shell recovered from Makri village of Nowshera sub-division in Rajouri district.\nThe explosive shell was detected in the area on Monday following which security forces immediately cordoned off the locality and launched necessary safety measures.\nOn Tuesday, the Bomb Disposal Squad of the Indian Army carried out a controlled destruction operation and safely neutralised the shell.\nThe timely detection and disposal of the explosive device helped avert a possible mishap in the area, ensuring the safety of local residents.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T15:49:09.329848"
+  },
+  {
+    "timestamp": "2026-06-12T21:04:24.079619",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Burglars strike in Sopore; three houses targeted, cash and valuables stolen",
+    "url": "https://www.greaterkashmir.com/kashmir/burglars-strike-in-sopore-three-houses-targeted-cash-and-valuables-stolen-12029397",
+    "matched_keywords": [
+      "sopore"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "Sopore, June 12: Burglars targeted three residential houses during the intervening night of Wednesday and Thursday, decamping with cash, gold ornaments and other valuables.\nAccording to reports, unidentified burglars broke into the house of Mohammad Ramzan Bhat in Mumkak Mohalla, Sopore, and allegedly stole gold ornaments worth several lakhs of rupees along with cash. The family discovered the theft in the morning and immediately informed the police.\nIn a similar incident, burglars struck the residence of Ghulam Nabi Kanjwal in Baghat, Sopore, where cash and valuables were reportedly stolen. Another burglary was reported from the house of Feeroz Ahmad Shoosha in Sangrampora, Sopore, where thieves allegedly entered the premises and fled with household valuables.\nThe incidents have triggered concern among local residents, who expressed apprehension over the increasing number of thefts and burglaries during night hours. Residents urged the authorities to strengthen night patrolling and take effective measures to ensure the safety and security of people and their property.\nMeanwhile, police have taken cognisance of the incidents and launched an investigation. Search operations have been initiated to trace the burglars. Officials said efforts are underway to identify and apprehend those involved in the thefts.\nPolice have assured the public that all aspects of the cases are being thoroughly investigated and that the culprits will be brought to justice.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Sopore"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:04:24.166647"
+  },
+  {
+    "timestamp": "2026-06-12T21:06:53.850953",
+    "source": "Greater Kashmir",
+    "title": "Amarnath Yatra: DIG DKR reviews security scenario inRamban",
+    "url": "https://www.greaterkashmir.com/security/amarnath-yatra-dig-dkr-reviews-security-scenario-inramban-12029054",
+    "matched_keywords": [
+      "ramban"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "Ramban, Jun 11: Deputy Inspector General of Police, DKR range, Sargun Shukla on Thursday chaired a high-level security review meeting at the District Police Office Ramban to assess the prevailing security situation, law and order arrangements, and preparedness for the forthcoming Amarnath Yatra (SANJY) 2026.\nSSP Ramban Arun Gupta welcomed the participants, which included officers from the Army, CRPF, Police, CISF, BSF, SSB, IB, CID, Traffic Police, and Civil Administration.\nThe meeting began with a detailed and insightful presentation by Deputy Commissioner Ramban, Mohammad Alyas Khan, who attended as a special invitee and briefed the gathering on arrangements and planning for SANJY 2026.\nThis was followed by a comprehensive review of the security measures being undertaken by the district police to ensure smooth and incident-free Yatra proceedings. Representatives of various agencies appraised the DIG of their respective preparations.\nDIG Sargun Shukla emphasized the importance of coordinated efforts among all security and civil agencies and urged the District Administration to ensure adequate accommodation and logistical support for deployed forces.\nDetailed deliberations were held on intelligence inputs and anti-militancy operations\nHighway security and Yatra convoy movement, disaster preparedness and contingency planning\nTraffic regulation and inter-agency coordination, security arrangements along NH-44and anti-sabotage checks at vulnerable locations\nPreparedness for landslides and road accidents in view of the monsoon season\nThe DIG stressed maintaining a high state of alertness, round-the-clock area domination, and strengthening the counter-infiltration grid in upper reaches. She directed officers to ensure seamless synergy among stakeholders for the peaceful conduct of the Yatra and overall maintenance of law and order.\nShe further instructed CAPF officers to ensure that personnel deployed for Yatra duties are properly familiarized and acclimatized to their areas of responsibility well before the commencement of the pilgrimage. Security personnel were also cautioned against honey-trap tactics and deceptive methods used by adversarial elements to extract sensitive information.\nThe DIG highlighted the need to activate source networks, conduct surprise nakas, ensure proper briefing of personnel, and maintain troop welfare and morale. Appreciating the preparedness and proactive measures undertaken by District Police Ramban, she observed that the district police have remained on point regarding Yatra preparations and stressed that the same momentum must be sustained.\nWhile interacting with field officers, Shukla underscored the importance of humane policing and directed all agencies to ensure compassion while dealing with pilgrims and tourists traveling on the National Highway.\nBrig. Ajay Paul Singh, Commander 11 Sector RR, also a special invitee, shared a brief overview of the Army’s preparedness for the Yatra.\nParticipants\nThe meeting witnesse",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Ramban"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "SSB",
+      "RR",
+      "CAPF",
+      "CISF",
+      "BSF",
+      "CRPF"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:06:54.165231"
+  },
+  {
+    "timestamp": "2026-06-13T00:02:20.782197",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Live artillery shell recovered from field along IB in JK's Samba, defused safely",
+    "url": "https://www.greaterkashmir.com/security/live-artillery-shell-recovered-from-field-along-ib-in-jks-samba-defused-safely-12032530",
+    "matched_keywords": [
+      "samba"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "Jammu, Jun 12:\nLive artillery shell recovered from field along IB in JK's Samba, defused safely\nA live artillery shell found in an agricultural field along the International Border (IB) in Samba district of Jammu and Kashmir was defused safely by a bomb disposal squad on Friday, officials said.\nAccording to the officials, a farmer spotted the shell while working in his field in Chalyari village and immediately alerted police.\nActing swiftly on the information, police and Border Security Force teams rushed to the spot, secured the area and took possession of the shell, they said.\nA bomb disposal squad was subsequently called in to handle the unexploded shell. Following standard operating procedures and safety protocols, the squad shifted the shell to a secure location, where it was successfully defused without any incident, they added.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Samba",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T00:02:20.823477"
+  },
+  {
+    "timestamp": "2026-06-13T14:49:47.769028",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Three missing minor girls traced within hours in Anantnag, all safe: Police",
+    "url": "https://www.greaterkashmir.com/kashmir/three-missing-minor-girls-traced-within-hours-in-anantnag-all-safe-police-12033902",
+    "matched_keywords": [
+      "anantnag"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-13",
+    "content": "Srinagar, June 13: Anantnag Police on Saturday traced three minor girls who had gone missing from the Brakpora area of south Kashmir’s Anantnag district, officials said.\nThe girls, residents of Nunwani village in Brakpora, were reported missing on Friday evening, prompting concern among their families and local residents. Soon after receiving the information, police launched a search operation and formed teams to trace their whereabouts.\nAccording to Anantnag Police, the three minors were successfully traced within hours through swift and coordinated efforts by police teams.\n“All three missing minor girls have been traced and are safe. They will be handed over to their families after completion of the required legal formalities,” a police spokesperson said.\nTaking immediate cognizance of the matter, and under the close supervision of the SSP Anantnag, multiple police teams were constituted and a coordinated search operation was launched. Through sustained efforts, technical assistance, and ground-level verification, the police teams succeeded in tracing all three girls within hours, he said.\nAll three girls were found safe and in good health. After completion of the necessary legal formalities, they were handed over to their respective legal heirs.\nPolice said the prompt response and coordinated action by the teams on the ground ensured the quick recovery of the girls.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Anantnag",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T14:49:47.870229"
+  },
+  {
+    "timestamp": "2026-06-13T14:49:48.240993",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Three minor girls reported missing from Anantnag's Brakpora area",
+    "url": "https://www.greaterkashmir.com/kashmir/three-minor-girls-reported-missing-from-anantnags-brakpora-area-12033600",
+    "matched_keywords": [
+      "anantnag"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-13",
+    "content": "Anantnag, June 13: Three minor girls from Nunwani village in the Brakpora area of south Kashmir's Anantnag district have been reported missing, officials and locals said on Saturday.\nThe girls, all residents of Nunwani village, reportedly went missing between 5:30 pm and 6:30 pm on Friday, triggering a search operation by police and local volunteers. One of the girls is 13 years old, while the other two are aged 8.\nSoon after the families reported the matter, police launched efforts to trace the missing girls, while local residents also joined the search operation.\nThe families have appealed to the public to share any information that could help in locating the girls.\nAnyone with information about their whereabouts may contact the family members on 9797147730 or 6005744659.\nPolice have taken cognisance of the matter, and further investigation is underway.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Anantnag"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T14:49:48.319077"
+  },
+  {
+    "timestamp": "2026-06-04T13:21:25.110728",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Congress holds bicycle rally against price rise, inflation in Srinagar",
+    "url": "https://www.greaterkashmir.com/srinagar/congress-holds-bicycle-rally-against-price-rise-inflation-in-srinagar-11999249",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "Srinagar, Jun 3: On the directions of JKPCC President Tariq Hameed Karra, Youth Congress Srinagar organised a unique bicycle protest against rising inflation and the unprecedented increase in the prices of essential commodities.\nThe protest was led by Youth Congress Srinagar President Yasir Mandoo, who rode a bicycle from Karan Nagar to the JKPCC Headquarters at Lal Chowk via the New Secretariat, Srinagar, to highlight the growing economic burden on common people. The protest was joined by Ashrat Yousuf Mir, Mehraj Din Khan, Musadiq Mehraj, Syed Iqbal, Mohsin Wani, Waseem Ahmad and other Youth Congress activists, who participated in large numbers and raised slogans against inflation and anti-people economic policies.\nAs per a press release, speaking on the occasion, Yasir Mandoo said that soaring prices of essential commodities, fuel, cooking gas and other daily necessities have made life increasingly difficult for ordinary citizens. He said the Youth Congress has taken the fight of the common man to the streets and will continue to raise its voice against policies that have pushed people into economic distress. \"The common man is struggling to make ends meet while the government remains indifferent to the hardships faced by the people. Through this bicycle protest, we seek to draw attention to the issue of inflation and demand immediate measures to provide relief to the masses,\" he said.\nThe Youth Congress leaders reiterated their commitment to continue peaceful and democratic protests until effective steps are taken to control inflation and address the concerns of the people.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:36.323447",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-06T17:56:33.451781",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Tanvir Sadiq on Statehood protest, opposition criticism and Dachigam huddle | GKTV",
+    "url": "https://www.greaterkashmir.com/videos/tanvir-sadiq-on-statehood-protest-opposition-criticism-and-dachigam-huddle-gktv-12008587",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-06",
+    "content": "00:00/ 00:00\nIn an exclusive conversation with GK Digital Lead Wahid Bukhari, National Conference Chief spokesperson and MLA Zadibal, Tanvir Sadiq, responds to key questions surrounding the recent legislature party meeting chaired by Chief Minister Omar Abdullah at Dachigam.\nHe discusses the purpose and outcomes of the meeting, the government's governance agenda, restoration of statehood, relations with the Lieutenant Governor's administration, opposition criticism, and the roadmap ahead for Jammu and Kashmir.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:36.347833",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T13:56:03.626288",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Opposition to be invited to join NC MLAs’ symbolic protest at Jantar Mantar: DyCM",
+    "url": "https://www.greaterkashmir.com/politics/opposition-to-be-invited-to-join-nc-mlas-symbolic-protest-at-jantar-mantar-dycm-12009843",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-07",
+    "content": "Deputy Chief Minister Surinder Choudhary on Saturday asserted that all the opposition parties, including J&K BJP, would be appealed to join the proposed symbolic protest of National Conference (NC) MLAs at Jantar Mantar in the union capital, on the opening day of the Monsoon session of the Parliament, seeking statehood.\nHe was responding to media queries after visiting the historic Mubarak Mandi heritage complex preceded by inspection of Jeevan Nagar-Digiana bridge project at Satwari.\nWith regard to a question about the purported statement of the Chief Minister Omar Abdullah that he was willing to step down if all parties came together on this issue, the Deputy Chief Minister asserted that he (CM) could not take any such decision unilaterally.\n“Though I have not seen this statement yet going by your (media’s) version, I need to assert that any such decision is taken only by the party. Only the party, under the leadership of the NC president Dr Farooq Abdullah, can take any such call and not Omar as he (Omar) is the Chief Minister. The Party president will decide if the Chief Minister Omar Abdullah has to stay in government or not,” Choudhary said.\nIn response to a question about the deliberations made during Dachigam meeting, he said, “The National Conference leadership has decided that an appeal will be made to all the opposition parties, including the Bharatiya Janata Party (BJP) of J&K to join our MLAs’ symbolic protest at Jantar Mantar to express our resentment against the Government of India for not keeping its promise to restore statehood to J&K.”\nTaking a dig at the opposition parties, mainly BJP, Choudhary stated if they (opposition MLAs) did not join NC in protest at Jantar Mantar, it would become explicitly clear that they were against the interests of Jammu or for that matter entire J&K.\n“It will expose them to the fact that they don’t want employment for their children. They don’t want to redress their grievances. The absence of statehood obstructs governance. Our hands remain tied and we cannot take decisions in the interests of the state. As NC spokesperson, after the Dachigam meeting, had specified that the major decision pertained to symbolic protest in the union capital. We will go there and tell everyone that the Centre has not kept its promise made to J&K people regarding statehood,” he said.\nThe Deputy Chief Minister said that a roadmap in this connection was chalked out by the party president. “The very first step of that roadmap is the symbolic protest of NC MLAs at Jantar Mantar,” he said.\nHe tried to downplay the allegations that the Ministers from Jammu faced music during the Dachigam meeting. “As Deputy Chief Minister, I will always remain indebted to my party leadership for choosing me for this job. I will always try to live up to the expectations of the party leadership and will do my duties with dedication and honesty,” Choudhary said.\nIn the same breath, he said that the people of Jammu, all sections of its society, would have to identify their emergent, critical issues and take a stand. “They – people from Jammu province- will have to fight without depending upon a political party if they really want to address all their issues, including the employment for their children. Jammu has always struggled for its rights not under a political party but under the ambit of an amalgamation of Chamber, lawyers, transporters, members of civil society and other sections,” the Deputy Chief Minister said, while aiming an oblique barb at the BJP.\nWhen asked about the party MLAs expressing their anger during the Dachigam meeting, he said that the resentment among the MLAs was not an unusual phenomenon.\n“It is a common phenomenon. It happens with every party, including BJP and every government. One should not read much into it as the party is also like a family,” Choudhary said.\nAt Mubarak Mandi, he assessed its ongoing restoration and development works and also reviewed the restoration of damaged wall and lawns o",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:36.511051",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-08T16:31:19.332450",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Leaders across party lines join Pulwama farmers in paddy sowing protest",
+    "url": "https://www.greaterkashmir.com/videos/leaders-across-party-lines-join-pulwama-farmers-in-paddy-sowing-protest-12013943",
+    "matched_keywords": [
+      "pulwama",
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-08",
+    "content": "VideosLeaders across party lines join Pulwama farmers in paddy sowing protestbyGK Video DeskbyGK Video Desk 08 Jun 2026 15:27 IST Link copied!Copy failed!byGK Video DeskbyGK Video Desk 08 Jun 2026 15:27 IST Link copied!Copy failed!AdvertismentRelated ArticlesAdvertisment Read the Next Article",
+    "source_type": "rss",
+    "ner_locations": [
+      "Pulwama"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:36.528635",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-09T15:50:38.475713",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Political rivals unite to defend farmers in Pulwama land row",
+    "url": "https://www.greaterkashmir.com/kashmir/political-rivals-unite-to-defend-farmers-in-pulwama-land-row-12016261",
+    "matched_keywords": [
+      "pulwama"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "Pulwama, Jun 8: In a rare display of political unity, leaders from rival political parties on Monday joined farmers in transplanting paddy in the Padgampora-Dangarpora area of south Kashmir’s Pulwama district, expressing solidarity with cultivators who claim they are being prevented from farming land their families have tilled for generations.\nLeaders of the People’s Democratic Party (PDP) and the National Conference (NC) drove tractors and worked alongside farmers amid an ongoing dispute over the ownership of the land. The farmers allege that revenue officials recently informed them that the land belongs to the government and that cultivation would no longer be permitted.\nPDP legislator Waheed Ur Rehman Parra and National Conference leader Mukhtar Ahmad Bandh, accompanied by party workers and supporters, entered the fields and participated in paddy transplantation alongside local residents. The unusual scene saw political workers and farmers operating tractors and sowing paddy saplings in a symbolic show of support for the affected families.\n“These families have been cultivating this land for generations. Suddenly, they are being told that the land belongs to the government,” Parra told reporters at the site.\nHe alleged that fertile agricultural land was increasingly being diverted for construction and other non-agricultural purposes.\n“At a time when Jammu and Kashmir is facing environmental challenges and unemployment among youth remains high, taking away agricultural land will push our youth into drugs and depression,” he said.\nParra stressed that agricultural land in the region must be protected and preserved for farming activities and asserted that authorities would not be allowed to deprive people of their farmland.\n“We have decided not to allow the government to touch our agricultural land,” he added.\nNational Conference leader Mukhtar Ahmad Bandh also extended support to the farmers and maintained that the issue transcended political affiliations.\n“We came here to support the farmers and there is no politics in it,” said Bandh, who was also seen transplanting paddy in the fields.\nHe urged the authorities to utilise barren land for construction purposes instead of fertile agricultural land.\n“Sheikh Mohammad Abdullah carried out radical land reforms by putting an end to the feudal system. Now the time has come to end the rule of the ‘government feudal lords’ as well,” he said.\nPDP leader Iltija Mufti also visited the village and interacted with farmers. She accused the Jammu and Kashmir administration of attempting to take over around 2,000 kanals of fertile agricultural land in Dangerpora village and alleged that authorities were using police pressure to suppress local opposition.\nIn a post on X, Mufti claimed that the Revenue Department was trying to “snatch” land from families who have cultivated paddy fields in the area for generations. She further alleged that police were threatening protesters with detention under the Public Safety Act (PSA).\n“Revenue Department is trying to snatch 2000 kanals of fertile agricultural land in Dangerpora Pulwama from poor families who’ve cultivated paddy here since centuries,” Mufti wrote on X.\nDrawing a comparison with the Sidhra land dispute, she alleged that law enforcement agencies were being misused against residents resisting the move.\nMufti also criticised the Omar Abdullah-led government, alleging that it had failed to protect people’s land rights.\n“Kashmir’s land belongs to its people,” she said, adding that the policies being pursued could render many residents “landless and homeless.”\nBJP leader Arshad Bhat and Justice and Development Front (JDF) leader Dr Talat, representing the breakaway faction of Jamaat-e-Islami, also joined the farmers in the fields and expressed support for their cause.\nOfficials were not immediately available for comment on the allegations made by the farmers and political leaders.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Pulwama"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T15:50:38.698949"
+  },
+  {
+    "timestamp": "2026-06-09T15:50:38.791730",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "CM Omar asks INDIA bloc to join NC’s J&K statehood restoration protest in Delhi",
+    "url": "https://www.greaterkashmir.com/politics/cm-omar-asks-india-bloc-to-join-ncs-jk-statehood-restoration-protest-in-delhi-12016256",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "New Delhi, Jun 8: Jammu and Kashmir Chief Minister Omar Abdullah on Monday sought the support of opposition parties for the National Conference’s proposed protest in Delhi demanding restoration of statehood to the Union Territory.\nThe National Conference (NC) said that Abdullah invited INDIA bloc constituents to join the agitation during a meeting of the opposition alliance here.\nAbdullah raised the issue at the INDIA bloc meeting and informed leaders about the party’s planned protest in the national capital, the NC said.\n“In the INDIA bloc meeting held today, CM Omar Abdullah asked all the participants to join JKNC when we come to Delhi to protest for the restoration of statehood. He also informed them that we would be writing to each of them individually as well,” the party said in a post on X.\nThe NC had last week announced that its legislature party would stage a protest in New Delhi on the first day of the forthcoming Monsoon session of Parliament, pressing for the immediate restoration of statehood and constitutional guarantees for Jammu and Kashmir.\nThe issue pertains to Jammu and Kashmir’s reorganisation in August 2019, when the erstwhile state was bifurcated and downgraded into two Union Territories – Jammu and Kashmir, and Ladakh.\nAbdullah raised the matter at the meeting of INDIA bloc leaders held at the Constitution Club here, where opposition parties discussed a range of political and public issues and stressed the need for greater unity against the BJP.\nThe NC’s announcement of a Delhi protest comes amid growing pressure on the party over the demand for restoration of statehood and special status, and follows the Centre’s engagement with groups in Ladakh seeking constitutional safeguards and statehood for the Union Territory.\nIn the Monday’s meeting, Abdullah urged opposition parties to look ahead to the 2029 Lok Sabha elections and emphasised that the Congress was the “glue” holding the INDIA bloc together.\nThe opposition alliance also decided to write to the Chief Justice of India on the issue of Special Intensive Revision (SIR) exercise and alleged “vote loot”, while unanimously demanding the resignation of Union Education Minister Dharmendra Pradhan over the NEET-CBSE row.\nThe alliance further decided to hold meetings every two months, with the next gathering scheduled in Hyderabad in August, while continuing coordination during the upcoming Monsoon session of Parliament.\nThe meeting was attended by leaders of 22 opposition parties, including Sonia Gandhi, Rahul Gandhi and Mallikarjun Kharge of the Congress, Mamata Banerjee and Abhishek Banerjee of the Trinamool Congress, Akhilesh Yadav of the Samajwadi Party, Tejashwi Yadav of the RJD, Abdullah, Mehbooba Mufti of the PDP, and leaders of Left parties.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T15:50:38.920667"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:07.432367",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Women protest against acute water shortage in Sopore",
+    "url": "https://www.greaterkashmir.com/kashmir/women-protest-against-acute-water-shortage-in-sopore-12020072",
+    "matched_keywords": [
+      "protest",
+      "sopore"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "Residents, particularly women, from several localities of Sopore town including Sangrampora, Mumkak, Khwaja Gilgit, and Khushal Matoo on Tuesday staged a protest against the Jal Shakti Department, alleging that they have been deprived of adequate drinking water supply for the past one month.\nThe protesting women while blocking the road at busy Shah Dargah chowk here in Sopore, affecting halt of trafficular movement for an hour, they expressed strong resentment over the prolonged water crisis, stating that the department has failed to ensure regular water supply despite repeated requests and complaints from the affected residents.\nRaising slogans against the authorities, they demanded immediate restoration of drinking water facilities in their areas.\nThe protesters said that due to the persistent shortage, they are being forced to fetch water from nearby rivers and other unsafe sources, which are unfit for human consumption. They warned that the use of contaminated water poses serious health risks and could lead to the outbreak of water-borne diseases, especially among children and elderly people.\n“We have no option but to collect water from the river. The water is not safe for drinking and is causing serious concerns about the health of our families. Our children are particularly vulnerable to water-borne diseases,” the protesting women said. They further alleged that despite approaching the concerned officials of the Jal Shakti Department on several occasions, no concrete steps have been taken to resolve the issue. “We have repeatedly brought the matter to the notice of the department, but our grievances have fallen on deaf ears,” they added. The residents appealed to the District Administration Baramulla and senior officials of the Jal Shakti Department to intervene and address their genuine demand without further delay. They said that the people of these localities have been suffering immensely due to the water crisis and can no longer endure the hardships caused by the lack of a basic necessity. The protesters warned that if the issue remains unresolved, they may be compelled to intensify their agitation in the coming days.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Sopore",
+      "Baramulla"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-10T15:49:07.547199"
+  },
+  {
+    "timestamp": "2026-06-10T15:49:07.773971",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Reported killings in PoJK | Peaceful protest held outside UNO office Srinagar",
+    "url": "https://www.greaterkashmir.com/kashmir/reported-killings-in-pojk-peaceful-protest-held-outside-uno-office-srinagar-12020056",
+    "matched_keywords": [
+      "srinagar",
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "00:00/ 00:00\nA peaceful protest was held outside the UNO Office in Srinagar, condemning the reported killing of innocent civilians in Pakistan-occupied Kashmir (PoJK).\nThe protesters urged the international community and the United Nations to take notice of the situation, ensure accountability, and uphold the rights and safety of civilians, said a press release.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-10T15:49:07.800096"
+  },
+  {
+    "timestamp": "2026-06-12T21:04:31.440742",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Residents protest discontinuation of smart bus service in Pulwama villages",
+    "url": "https://www.greaterkashmir.com/kashmir/residents-protest-discontinuation-of-smart-bus-service-in-pulwama-villages-12029067",
+    "matched_keywords": [
+      "protest",
+      "pulwama"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "Pulwama, Jun 11: Residents of several villages in south Kashmir's Pulwama district have expressed resentment over the discontinuation of the smart bus service, saying its absence has caused considerable inconvenience to commuters, particularly students, patients and daily wage earners.\nResidents protest discontinuation of smart bus service in Pulwama villages\n00:00/ 00:00\nAdvertisment\nAdvertisment",
+    "source_type": "rss",
+    "ner_locations": [
+      "Pulwama"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-12T21:04:31.464844"
+  },
+  {
+    "timestamp": "2026-06-13T05:38:33.817774",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "J&K Government orders enquiry into death of patient at GMC Rajouri",
+    "url": "https://www.greaterkashmir.com/pir-panjal/jk-government-orders-enquiry-into-death-of-patient-at-gmc-rajouri-12032726",
+    "matched_keywords": [
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "Rajouri, Jun 12: The Jammu and Kashmir Government has ordered a detailed inquiry into the recent death of a patient at Government Medical College (GMC) and Associated Hospital Rajouri.\nThe Health and Medical Education Department, through a government order, has constituted a three-member inquiry committee to examine the circumstances leading to the incident and ensure a fair, objective and transparent investigation.\nThe committee will be headed by Prof (Dr) Pramod Kalsotra, Principal, Government Medical College Udhampur, while Prof (Dr) Abdul Gani from the Department of Orthopaedics, GMC Jammu and Dr Narinder Bhutial, Medical Superintendent, Government Gandhi Nagar Hospital Jammu, have been appointed as members.\nAs per the order, the committee will examine all facts related to the incident, look into allegations raised by the family of the deceased, scrutinise the treatment provided by the medical staff and verify whether prescribed clinical guidelines were followed.\nThe panel has also been tasked with determining if any negligence, omission or deviation from standard medical practices occurred during the treatment and to fix responsibility, if any, for lapses in medical services.\nThe enquiry committee will submit its detailed report along with documentary evidence to the Administrative Department within two weeks from the issuance of the order.\nThe authorities of GMC Rajouri have been directed to extend full cooperation and provide all required records and documents to the committee for the investigation.\nThe case pertains to death of a patient namely Nusrat Jahan from Mohra village of Kotranka who delivered a baby after surgical procedure in GMC Associated Hospital Rajouri but her health deteriorated allegedly after she was administered an injection of anti-biotics with family alleging medico negligence.\nEarlier, on Friday, local youth of Rajouri held a protest demonstration in Rajouri demanding steps for improvement of healthcare services in the hospital of Rajouri.\nThe youth stated that GMC Associated Hospital Rajouri is a vital health institute but services are not satisfactory and should immediately be improved.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Udhampur",
+      "Rajouri",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-13T05:38:34.302868"
+  },
+  {
+    "timestamp": "2026-06-16T04:02:41.249440",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Will go ahead with plan to protest for statehood in Delhi: CM Omar",
+    "url": "https://www.greaterkashmir.com/jammu-kashmir/will-go-ahead-with-plan-to-protest-for-statehood-in-delhi-cm-omar-12041812",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "Srinagar, Jun 15: Chief Minister Omar Abdullah on Monday said his National Conference will go ahead with its decision to hold a sit-in protest at Delhi's Jantar Mantar on the first day of the monsoon session of Parliament to remind the Centre of its promise of restoring statehood to Jammu and Kashmir.\nTalking to reporters on the sidelines of an event here, Abdullah said the decision to hold the protest has not changed following his recent meeting with Prime Minister Narendra Modi.\nAbdullah met the prime minister in Delhi on June 11, strongly pressing for the \"early return\" of full statehood to Jammu and Kashmir and seeking central support to accelerate the region's economic and infrastructural growth.\n\"There is no change in that plan. We are still fully committed to the one-day protest at Jantar Mantar at the beginning of the monsoon session to remind the Centre of the promise of statehood it has made to the people of Jammu and Kashmir in the Supreme Court, Parliament and in many public statements,\" he said.\nOn his meeting with the prime minister, Abdullah said they discussed statehood, the financial position of Jammu and Kashmir and on how to expedite the development process in the Union Territory.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.7379,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T04:02:42.582108"
+  },
+  {
+    "timestamp": "2026-06-16T04:02:44.763192",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "KPDCL announces power shutdown",
+    "url": "https://www.greaterkashmir.com/kashmir/kpdcl-announces-power-shutdown-12041613",
+    "matched_keywords": [
+      "shutdown"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "Srinagar, June 15: The Kashmir Power Distribution Corporation Limited (KPDCL) today announced power shutdown in several areas of the divsion in upcoming days.\nIn a communication, Chief Engineer, Distribution, KPDCL said the shutdown of 33 KV Panzan Tapline will be observed due to which power supply to Gudsathoo, Panzan, Lalgam, Rangar, Kharibagh, Kathairgund and adjoining areas will be affected from 08 AM to 02 PM on 16 June 2026.\nSimilarly, shutdown of 33 KV Cheshmashahi TRC line will be observed due to which power supply to Durganag, Gupkar and adjoining areas will be affected from 11:30 PM to 02 PM on 20 June 2026.\nLikewise, shutdown of 33 KV Wanpoh-Ashajipora/ Malaknag Double Circuit line will be observed due to which power supply to Ashajipora, Dialgam, Rohu, Mirbazar, Schichen, Brinty, Malaknag, Reshi Bazar, Janglatmandi, Shirpora, BB Nowgam, Thajiwara, Brakpora and adjoining areas will be affected from 07 AM to 02 PM on 18 & 20 June 2026.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.0981,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T04:02:46.852512"
+  },
+  {
+    "timestamp": "2026-06-16T14:36:55.967118",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Mehbooba urges authorities to allow Muharram processions in Kashmir",
+    "url": "https://www.greaterkashmir.com/kashmir/mehbooba-urges-authorities-to-allow-muharram-processions-in-kashmir-12043580",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Srinagar, June 16: PDP chief Mehbooba Mufti on Tuesday appealed to the authorities in Jammu and Kashmir to allow Muharram processions in the valley and release youths booked under the Public Safety Act (PSA) during protests over developments in Iran.\nIn a statement, the former chief minister said religious processions are an integral part of the region's cultural and spiritual heritage and must be facilitated in a manner that respects the sentiments and constitutional rights of the people.\nMuharram, the first month of the Islamic New Year, will begin in Jammu and Kashmir on Wednesday and 'Ashura' processions will be held on the 10th day, June 26.\n\"Muharram is a time of reflection, sacrifice and remembrance. The values embodied by Imam Hussain continue to inspire people to stand for justice, compassion and human dignity. It is incumbent upon the government to ensure that mourners are able to observe these sacred days freely and peacefully,\" Mehbooba said.\nShe said Muharram is not merely a religious observance, but an inseparable part of the region's spiritual, cultural and historical fabric.\n\"Muharram carries profound religious and emotional significance for the people of Jammu & Kashmir and the administration must ensure all necessary arrangements for mourners and devotees,\" she said.\nThe PDP chief urged the authorities to put in place adequate measures for traffic management, healthcare facilities, sanitation, drinking water, electricity and other essential services to facilitate the smooth conduct of religious gatherings and processions.\nExpressing concern over \"reports that several young men who participated in demonstrations relating to recent developments involving Iran\" have allegedly been booked under the PSA and lodged in jails outside J&K, Mehbooba said such actions are \"deeply troubling and risk further alienating the youth\".\nShe said that the use of \"harsh laws\" against young people, particularly during the sacred month of Muharram, is both \"insensitive and counterproductive\".\n\"Muharram is a time when people mourn and remember the sacrifices made in Karbala. It is a period of reflection, compassion and solidarity with those who suffer. At such a sensitive moment, the government should be engaging with its people, listening to their concerns and healing wounds rather than adding to their pain through punitive measures,\" she said.\nMehbooba urged the administration to immediately review all such cases, release those detained and refrain from further coercive measures.\nShe stressed that dialogue and engagement remain the most effective means of addressing public sentiment and grievances.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.6324,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T14:36:57.272894"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:12.496973",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Police seize 9 vehicles involved in illegal mining in Anantnag & Shopian",
+    "url": "https://www.greaterkashmir.com/kashmir/police-seize-9-vehicles-involved-in-illegal-mining-in-anantnag-shopian-12045403",
+    "matched_keywords": [
+      "anantnag",
+      "shopian"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Srinagar, June 16: In a decisive action against illegal mining activities, police have seized 09 vehicles, involved in illegal extraction and transportation of minerals in Anantnag and Shopian.\nAccording to the statement a police party from Police Post Dialgam, seized one JCB machine and four tractors allegedly involved in the unauthorized extraction and transportation of minerals from the Sandran Nallah near the Railway Bridge at Sadura. Acting promptly on the information received, the police party reached the spot and seized the machinery being used for the illegal activity. In this connection, FIR No. 185/2026 under the relevant provisions of law has been registered, and investigation has been set into motion.\nSimilarly in Shopian, Police seized four tractors involved in the unauthorized extraction and transportation of minerals from Rambiara Nallah area of the district. During routine patrolling, a police team from Police Station Shopian intercepted and seized four tractors involved in the illegal extraction and transportation of minerals without valid royalty documents. In this regard, FIR No. 120/2026 under relevant sections of law have been registered at Police Station Shopian and investigation has been set into motion.\nPolice remain committed to taking strict action against illegal mining and other activities that cause environmental degradation and violate the law. Members of the public are encouraged to report such unlawful practices to the nearest police establishment, statement added.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Anantnag",
+      "Shopian",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0343,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:25.530298",
+    "manual_purge": true
+  },
+  {
+    "timestamp": "2026-06-16T20:39:28.639779",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Four soldiers injured in accidental landmine blast in J-K's Rajouri",
+    "url": "https://www.greaterkashmir.com/security/four-soldiers-injured-in-accidental-landmine-blast-in-j-ks-rajouri-12044610",
+    "matched_keywords": [
+      "landmine",
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "00:00/ 00:00\nRajouri, Jun 16: Four Army personnel, including a junior commissioned officer, were injured in an explosion near the Line of Control in Rajouri district of Jammu and Kashmir on Tuesday, officials said.\nThe blast was caused by accidental activation of a landmine during area domination patrol by Army personnel in forward Kalal area of Nowshera sector, the officials said.\nA JCO and three soldiers were injured in the blast and were immediately evacuated to hospital for treatment, they said.\nAs part of the anti-infiltration drive, the forward areas are dotted with landmines, which sometimes get washed away by rains, resulting in such accidents, they added.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "three soldiers",
+      "Four soldiers",
+      "JCO",
+      "Four Army personnel"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 4,
+        "raw": "Four soldiers",
+        "affiliation": "security"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 4,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.1511,
+    "secondary_tactic": "Border Infiltration",
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:30.187654"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:30.270251",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Over 700 peddlers arrested, assets worth Rs 45 cr targeted in Jammu’s anti-drug crackdown",
+    "url": "https://www.greaterkashmir.com/jammu-kashmir/over-700-peddlers-arrested-assets-worth-rs-45-cr-targeted-in-jammus-anti-drug-crackdown-12043601",
+    "matched_keywords": [
+      "arrested",
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Jammu, June 16: The ongoing anti-drug crackdown across Jammu division has yielded significant results, with more than 700 drug peddlers arrested and assets worth over Rs 45 crore attached or demolished, an official said on Tuesday.\nAuthorities have also recovered large quantities of narcotics, dismantled drug trafficking networks and intensified rehabilitation efforts under the ‘Nasha Mukt J-K Abhiyan’ to curb the menace of substance abuse and promote a drug-free society, the official said.\nHe said the information was given at a meeting jointly chaired by Divisional Commissioner, Jammu, Ramesh Kumar and Inspector General of Police, Jammu Zone, Bhim Sen Tuti to review the two-month progress of the 100-day anti-drug campaign in the region.\nThe meeting was informed that a total of 598 FIRs were lodged against drug peddlers, in which 701 peddlers have been arrested to date, while 155 hotspots of drug activity were identified across Jammu, the spokesman said.\nHe said 24 PIT-NDPS detention orders were also issued against drug smugglers, with recovery of large quantities of narcotics, including over 14 kg of heroin, 49 kg of ganja, 3.712 kg of charas and 204.5 kg of poppy straw.\nIllicit crops, including poppy plants over 52 marlas (one marla =272.251 sq feet), poppy straw weighing 25.43 kg, wild cannabis over 44 kanals (one kanal = 0.125 acres) and 476 litres of illegal liquor were also destroyed, the spokesman said.\nAs a measure of deterrence, he said 62 immovable properties of drug peddlers worth Rs 19.30 crore have been demolished, while 21 immovable properties worth Rs 24.868 crore have been seized or attached and movable properties worth Rs 1.69 crore were also seized or attached.\nHe said a total of 180 passports have been recommended for suspension, 101 driving licences were suspended and 81 cancelled to date.\nAdditionally, 243 registration certificates of vehicles were suspended and 94 have been cancelled by the Transport Department across different districts of Jammu division, the spokesman said.\nWith a focus on rehabilitation of drug abuse victims, 884 youth were identified for rehabilitation out of 2,293 drug users, he said, adding of these, 547 youth have been rehabilitated and 254 connected with self-employment schemes.\nAddressing the meeting, the Divisional Commissioner emphasised strengthening the rehabilitation ecosystem and expanding the counselling outreach and helpline numbers.\nHe said drug abuse victims should be connected with livelihood opportunities through employment linkages, and children should be provided with sufficient sports kits to keep them from falling into the trap of drug abuse.\nThe Divisional Commissioner also called for strengthening drug de-addiction centres with regular follow-up calls on rehabilitated youth.\nHe instructed district administrations to regularly monitor hotspots and remain alert to shifting or newly emerging hotspots of drug abuse.\nThe IGP Jammu noted that substantial progress has been achieved in the ongoing Nasha Mukt Jammu Kashmir Abhiyan.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0957,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:31.693140"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:31.762083",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Suspected Pakistani drone sighted along LoC in J-K’s Rajouri",
+    "url": "https://www.greaterkashmir.com/jammu/suspected-pakistani-drone-sighted-along-loc-in-j-ks-rajouri-12043304",
+    "matched_keywords": [
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "00:00/ 00:00\nRajouri, June 16: A suspected Pakistani drone was sighted over a forward village along the International Border in Rajouri district of Jammu and Kashmir, officials said on Tuesday.\nThe drone-like object with a blinking light was seen moving from Pakistan-occupied Kashmir side into Indian side in Sunderbani sector late Monday night, the officials said.\nThey said the suspected drone returned after briefly hovering between Mahadev Gap and Kalal village.\nSecurity forces searched the area Tuesday morning to ensure there is no airdropping of any payload like narcotics or weapons.\nHowever, nothing objectionable was recovered during the search operation, the officials said.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.0622,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T20:39:33.223802"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:34.956766",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Nasha Mukht J&K Abhiyan: Anantnag Police book seven under NDPS Act",
+    "url": "https://www.greaterkashmir.com/kashmir/nasha-mukht-jk-abhiyan-anantnag-police-book-seven-under-ndps-act-12042731",
+    "matched_keywords": [
+      "anantnag"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Anantnag, June 16: As part of the ongoing 'Nasha Mukt J&K Abhiyan' campaign to eradicate the menace of narcotics from the Union Territory, Anantnag Police booked seven individuals under the Narcotic Drugs and Psychotropic Substances (NDPS) Act, officials said on Tuesday.\n\"Continuing its sustained efforts to combat drug abuse and eradicate the menace of narcotics from society, Anantnag Police has intensified its drive against substance abuse across the district, resulting in the registration of multiple cases under the NDPS Act,\" the officials said.\nIn an official press statement, a police spokesperson said that in Bijbehara, Anantnag Police, in coordination with a medical team, conducted a drug screening drive using a Rapid Drug Detection Kit. During the exercise, five individuals tested positive for drug consumption and were subsequently booked under Section 8/27 of the Narcotic Drugs and Psychotropic Substances (NDPS) Act.\nThe accused have been identified as Ghulam Nabi Hajam, son of Ghulam Rasool Hajam, resident of SICOP, Bijbehara; Khursheed Ahmad Sheikh, son of Mohammad Abdullah Sheikh, resident of Tak Mohalla, Bijbehara; Waseem Ahmad Dhobi, son of Ghulam Qadir Dhobi, resident of Badroo, Srigufwara; Showkat Ahmad Sheikh, son of Ghulam Hassan Sheikh, resident of Sheikh Mohalla, Bijbehara; and Sartaj Ahmad Chori Saz, son of late Mohammad Abdullah Chori Saz, resident of SICOP, Bijbehara.\nSeparate FIRs numbered 165/2026, 166/2026, 167/2026, 168/2026 and 169/2026 under Section 8/27 of the NDPS Act have been registered against the accused, and further investigation is underway.\nIn a separate action under the ongoing anti-drug campaign, Police Station Kokernag received reliable information regarding two individuals found separately at different locations under suspicious circumstances. Both were apprehended and subjected to medical examination, where their test reports returned positive for drug consumption.\nAccordingly, Tanveer Ahmed Malik, son of Mubarak Ahmed Malik, resident of Zalangam has been booked in FIR No. 75/2026 U/S 8/27 NDPS Act, while Subair Ahmed Tantry, son of Farooq Ahmed Tantry, resident of Zalangam has been booked in FIR No. 76/2026 U/S 8/27 NDPS Act. Further investigation in both cases is in progress.\nAnantnag Police remains committed to its zero-tolerance policy against drug abuse and urges the public to support its efforts by sharing credible information related to drug peddling and substance abuse.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Anantnag"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.1363,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:36.367431"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:36.470949",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "One killed, two injured in motorcycle accident in Poonch's Mandi",
+    "url": "https://www.greaterkashmir.com/jammu/one-killed-two-injured-in-motorcycle-accident-in-poonchs-mandi-12042806",
+    "matched_keywords": [
+      "poonch"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Poonch, June 16: One person lost his life while two others sustained serious injuries after a motorcycle met with an accident in the Jandrola Gali Nag area of Mandi tehsil in Poonch district on Tuesday morning.\nPolice sources said that three persons were travelling on a motorcycle from Jandrola towards Gali Nag when the vehicle reportedly lost control and met with an accident near Gali Nag.\nThe deceased has been identified as Mohammad Azam, son of Noor Mohammad, a resident of Islamabad, who died on the spot. The injured have been identified as Mohammad Arif, son of Akbar Din, and Noor Mohammad, son of Lal Din, both residents of Islamabad. They were shifted to District Hospital Poonch for treatment, where their condition is stated to be serious.\nPolice have registered a case in connection with the incident at Police Station Mandi and initiated an investigation to ascertain the cause of the accident.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Poonch"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [
+      {
+        "count": 1,
+        "raw": "One",
+        "affiliation": "unspecified"
+      }
+    ],
+    "casualties_injured": [
+      {
+        "count": 2,
+        "raw": "two",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 1,
+    "total_injured": 2,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.4008,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:37.985411"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:38.232145",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Slovakia backs India's permanent UNSC seat",
+    "url": "https://www.greaterkashmir.com/world/slovakia-backs-indias-permanent-unsc-seat-12042721",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Bratislava, June 16: Slovakia backed India's bid for permanent membership in a \"reformed\" UN Security Council as the two countries elevated their ties to a Comprehensive Partnership during Prime Minister Narendra Modi's landmark visit to the Central European nation.\nIn a joint statement issued after talks between Prime Minister Modi and his Slovak counterpart Robert Fico on Monday, the two sides underlined the need for comprehensive reforms of multilateral institutions, including the United Nations and the UNSC, to make them \"more representative, inclusive and reflective of contemporary geopolitical realities\".\nThe two leaders stressed the urgent need to expand the Security Council in both permanent and non-permanent categories.\n\"In this context, India appreciated Slovakia's continued support for India's permanent membership in a reformed and expanded United Nations Security Council,\" the joint statement said.\nModi and Fico reaffirmed their commitment to multilateralism with the United Nations at its core and agreed to coordinate closely in global forums, including the UN.\nIndia has long been pressing for permanent membership in a reformed and expanded Security Council, contending that the current structure of the 15-member body is outdated and does not adequately reflect contemporary global realities.\nNew Delhi's candidature has received backing from a growing number of countries, including several European nations, as well as the other members of the G4 grouping — Brazil, Germany and Japan.\nUNSC comprises five permanent members -- China, France, Russia, the UK and the US -- and 10 non-permanent members elected for two-year terms.\nSlovakia also reaffirmed its constructive approach towards India's membership of the Nuclear Suppliers Group (NSG), a 48-nation multilateral export control regime.\nModi's visit, the first by an Indian prime minister to Slovakia since the country's independence in 1993, saw the two nations elevate their ties to a Comprehensive Partnership aimed at deepening cooperation across strategic, economic, technological and security domains.\nModi was in Bratislava as part of his weeklong visit to Europe.\nThe two leaders also reaffirmed their commitment to a free, open and rules-based Indo-Pacific, respect for international law and freedom of navigation.\nModi and Fico also unequivocally condemned terrorism in all its forms and manifestations, including cross-border terrorism.\nThey also strongly condemned the terror attack in Jammu and Kashmir's Pahalgam on April 22 last year, in which 26 people were shot dead by Lashkar-e-Taiba (LeT) terrorists.\nThe two countries agreed to establish a Joint Working Group on Counter-Terrorism and called for strong action against terrorists and entities designated by the UNSC's 1267 Sanctions Committee, as well as their proxies, sponsors, financiers and supporters.\nIndia and Slovakia also agreed to work closely towards the early finalisation and adoption of the Comprehensive Convention on International Terrorism (CCIT) at the United Nations.\nOn defence cooperation, the two leaders agreed to strengthen collaboration in defence technologies, research and development, capacity building and defence industrial cooperation.\nThey welcomed the signing of a Letter of Intent on Defence Cooperation.\nThe two sides also agreed to strengthen cooperation in the protection of critical information infrastructure and in preventing and countering cybercrime, while promoting a secure, accessible, stable, interoperable, and resilient digital space.\nThe leaders also expressed their commitment to supporting each other in safeguarding information technology systems against emerging quantum threats to cryptography, including through preparedness for post-quantum security transitions.\nWelcoming the conclusion of negotiations on the India-European Union Free Trade Agreement in January this year, the leaders called for its early signing and implementation to unlock new opportunities in trade and investment.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [
+      "Lashkar-E-Taiba",
+      "Let"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "Lashkar-e-Taiba",
+      "Taiba LeT terrorists"
+    ],
+    "victim_target": [
+      "26 people"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Targeted Attack",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.4043,
+    "secondary_tactic": "Border Infiltration",
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:39.809398"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:39.907822",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Collective action essential to combat menace of substance abuse among youth: SSP Reasi",
+    "url": "https://www.greaterkashmir.com/jammu/collective-action-essential-to-combat-menace-of-substance-abuse-among-youth-ssp-reasi-12042665",
+    "matched_keywords": [
+      "reasi"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Jammu, June 15: Senior Superintendent of Police (SSP) Reasi Mukund Tibrewal has emphasised the urgent need for collective action to combat the growing menace of substance abuse among youth.\nTibrewal, while addressing the gathering in an awareness programme against drug menace at Gen Zorawar Singh Memorial auditorium in Reasi, highlighted that such initiatives played a vital role in sensitising society and encouraging community participation in safeguarding the future of young generations.\nThe programme was organised by the District Police Reasi in collaboration with Team Jammu, Vaishno Devi Youth Association and several other social organisations on June 14.\nDemonstrating a unified commitment to combat drug abuse and be part of ongoing 100 day long “Nasha Mukt Jammu Kashmir Mahaabhiyan” initiated by the Lieutenant Governor J&K, Manoj Sinha, the District Reasi Police, Team Jammu and other organisations involving senior citizens and youth vowed to crush drug mafia and save the future of youth.\nA heartrending skit by young members of Nav Durga Kala Manch, headed by Shaazi Khan, associated with Team Jammu, displayed how youth were dying and moving towards darkness after getting trapped in clutches of drug syndicates.\nOn the occasion, several youth came forward and provided vital information about suspected activities of drug peddlers in Reasi as well as in Katra town.\nSSP Reasi, in his address, stated that while the Police was actively carrying out enforcement measures against drug trafficking and abuse, the role of parents and guardians remained equally crucial. He appealed to them to remain vigilant about their children’s daily activities, behavioural patterns, and social circles. He emphasised that timely supervision, open communication and a supportive family environment could serve as effective safeguards against drug addiction, which posed a serious threat to both individual well-being and society at large. He further urged all stakeholders to work collectively in fostering a safe, healthy, and drug-free society.\nChairman Team Jammu and spokesperson, J&K BJP, Zorawar Singh Jamwal, appreciated the proactive involvement of the public and emphasised the need for sustained community vigilance to curb drug-related activities. He highlighted that the police department was taking stringent measures to dismantle drug networks and appealed to citizens to cooperate with law enforcement agencies by sharing timely information.\nHe further stressed that public participation was crucial in ensuring the success of the “drug-free J&K” campaign.\nZorawar Singh Jamwal also expressed concern over the increasing inflow of narcotics into border areas through drone activities by Pakistan from across the border. He stated that such tactics posed a serious threat to the social fabric and security of the region. He called upon residents to remain vigilant, immediately report any suspicious movements or objects to the police and avoid handling unknown items.\nEmphasizing the role of families and society, he urged parents, teachers, and community leaders to guide the youth towards positive and constructive activities. He further appealed for a united front against drug abuse, stating that only collective awareness, responsibility, and timely action can effectively curb this growing menace.\nYouth representatives including social activists Vijay Paroch and Raghav Kesar also voiced their strong support for the campaign.\nDySP, DAR, Sarabjit Singh presented vote of thanks while SP Katra, Kameshwar Puri; ASP, Reasi, Iftekhar Ahmed and SHO, Reasi, Inspector Khayatiman Khajuria were among other prominent dignitaries present on the occasion.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Reasi",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.072,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:41.635566"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:47.957719",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Voluntary blood donation camp held at Srinagar Airport",
+    "url": "https://www.greaterkashmir.com/kashmir/voluntary-blood-donation-camp-held-at-srinagar-airport-12042517",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Minister for Health and Medical Education, Social Welfare and Education, Sakeena Itoo today inspected the Voluntary Blood Donation Camp organised by Sher-i-Kashmir Institute of Medical Sciences (SKIMS), Soura, in collaboration with Airport Authority Limited and Central Industrial Security Force (CISF) at Sheikh-ul-Alam International Airport here.\nThe Minister appreciated the collective efforts of SKIMS and stakeholders in promoting voluntary blood donation and creating awareness about the life-saving significance of donating blood. She lauded the enthusiastic participation of airport employees, security personnel and volunteers who came forward to contribute to this noble humanitarian cause.\nInteracting with donors and organisers, Sakeena Itoo highlighted the critical role of voluntary blood donation in strengthening healthcare services and ensuring the availability of safe blood for patients in need. She emphasized that regular blood donation is a selfless act that can save countless lives and reflects the spirit of social responsibility and community service.\nThe Minister commended SKIMS for its continued initiatives aimed at encouraging voluntary blood donation across Jammu and Kashmir.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "CENTRAL INDUSTRIAL SECURITY FORCE",
+      "CISF"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0267,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:49.372603"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:49.649976",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "No end to traffic jams in Srinagar",
+    "url": "https://www.greaterkashmir.com/srinagar/no-end-to-traffic-jams-in-srinagar-12042510",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Traffic congestion continued in Srinagar on Monday leaving commuters stranded for hours and disrupting normal life across the city.\nAfter the weekend rush, the working day witnessed massive traffic snarls during peak hours at several locations, including MA Road, Dalgate, Boulevard Road, Pantha Chowk, Natipora, Hyderpora, Hazratbal and several Downtown stretches.\nCommuters said the situation has worsened significantly over the past few weeks due to the growing influx of tourist vehicles and increasing inter-district traffic movement.\nThe traffic chaos came a day after thousands of tourists and locals thronged famous gardens, picnic spots and recreational destinations across Kashmir, leading to severe congestion on Sunday. On Monday, major roads continued to witness heavy traffic pressure.\n\"It took me more than an hour to travel a distance that normally takes 15 minutes. Every major road was choked with vehicles. Moving around the city has become a nightmare,\" said Mohammad Yousuf, a commuter from Hazratbal.\nResidents from areas including Harwan, Dara, Chandpora, Shalimar, Nishat, Brein, Tailbal and adjoining localities said they bear the brunt of traffic jams almost daily as most tourist movement passes through city center and the Dalgate-Boulevard corridor.\n\"Even a simple household errand requires us to factor in traffic delays. Our daily routine has been severely affected. The city infrastructure is struggling to cope with the growing traffic volume,\" said Faizan, a resident of Nishat.\nCommuters alleged that the increasing number of tourist vehicles entering Kashmir from outside the Union Territory has further added to the pressure on roads. They said Srinagar serves as the primary base for tourists visiting different destinations across Kashmir, resulting in heavy traffic concentration in and around the city.\nThe impact is also being felt on emergency services. Residents said ambulances and other emergency vehicles frequently get caught in traffic jams, raising concerns over public safety.\n\"It is now common to see ambulances struggling to navigate through congested roads. Delays in emergencies can have serious consequences,\" said a commuter at Dalgate.\nTransport operators echoed similar concerns and called for better regulation of tourist traffic.\nAll Kashmir Transport Confederation President Sheikh Javaid Ahmed said the unprecedented increase in vehicles arriving from outside the Valley has added to the traffic burden.\n\"There is a huge influx of vehicles from outside the Union Territory during the tourist season. Besides that, many vehicles registered outside Kashmir are being operated here without being linked to any local transport association. There is a need for proper regulation and monitoring,\" Ahmed said.\nHe said streamlining tourist transport operations would not only ease congestion but also help protect the livelihood of local transport operators.\n\"Regulation is important for both traffic management and sustaining local transport services. If proper mechanisms are put in place, the pressure on roads can be reduced to a considerable extent,\" he said.\nOfficials of the Traffic Police have been acknowledging the growing pressure on roads and said all available manpower has been deployed to manage congestion.\nEarlier, senior traffic officials said additional personnel are stationed at vulnerable junctions and traffic regulating measures have been intensified during peak hours.\n\"We are witnessing a significant increase in traffic movement. Traffic regulation drives are also being conducted during late evening hours to ensure smoother movement,\" officials said.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0816,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:51.049661"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:51.113490",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "CM hands over appointment letters to 132 junior engineers at SKICC",
+    "url": "https://www.greaterkashmir.com/governance/cm-hands-over-appointment-letters-to-132-junior-engineers-at-skicc-12042500",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Srinagar, Jun 15: Chief Minister Omar Abdullah today handed over appointment letters to 132 newly recruited Junior Engineers (Civil) of the Public Works (Roads & Buildings) Department at a function held at Sher-i-Kashmir International Convention Centre (SKICC), Srinagar.\nAddressing the appointees and their families, the Chief Minister described the occasion as a significant milestone in the lives of the young engineers and urged them to view their appointment not merely as a government job but as a solemn responsibility towards the people of Jammu and Kashmir.\nCongratulating the new recruits across Jammu and Kashmir, Omar Abdullah said that the appointment orders represented the culmination of years of hard work, perseverance and sacrifices made by their families. He emphasised that public expectations and aspirations were attached to every government appointment and called upon the engineers to discharge their duties with honesty, integrity and professional commitment.\n“The people of Jammu and Kashmir expect us to use public resources responsibly and deliver quality services and infrastructure. Every rupee spent by the government belongs to the people and must be utilised judiciously for their welfare,” the Chief Minister said.\nHighlighting the crucial role of engineers in development, he said that roads, bridges, hospitals and other public assets created today should stand the test of time and serve future generations. He stressed that quality should never be compromised in the execution of public works.\n“If a hospital is built, it should serve people for decades. If a bridge is constructed, it should remain strong and reliable for generations. Citizens have every right to expect durable and quality infrastructure from us,” he said.\nThe Chief Minister urged the newly appointed engineers to remain guided by professional ethics and personal accountability throughout their careers. He said that true satisfaction comes from performing one’s duties honestly and efficiently, adding that every public servant must strive to ensure that they can look back at their day’s work with a sense of fulfilment and integrity.\nCM Omar Abdullah observed that the young engineers would play an important role in shaping the future of Jammu and Kashmir over the next three decades of service. He encouraged them to leave behind a legacy of quality work and meaningful contributions to the region’s development.\nReferring to the challenges often faced in public service, the Chief Minister said that ideal conditions do not always exist and officers must be prepared to work effectively even in difficult circumstances. He maintained that sincerity of purpose and commitment to public welfare should remain the guiding principles in every situation.\nThe Chief Minister also advised the new recruits to serve wherever they are posted and avoid seeking transfers immediately after appointments. He urged them to embrace opportunities to work in remote and underserved areas and ensure that people living in far-flung regions receive the same quality of services and infrastructure as those in urban centres.\n“Take care of the people living in remote areas. Through your work, leave a lasting mark on Jammu and Kashmir. Let the quality of the roads, bridges and public infrastructure you build become your identity and contribution to society,” he said.\nDeputy Chief Minister Surinder Choudhary, while congratulating the newly appointed Junior Engineers and their families, said that the appointments carried immense responsibility towards the people and development of Jammu and Kashmir.\nHe urged the engineers to uphold the highest standards of professionalism, transparency and integrity in their work and stressed that there should be no compromise on quality under any circumstances.\n“As Junior Engineers, you will play a vital role in preparation of DPRs, project execution, billing processes, quality testing, monitoring and supervision of developmental works. Ensure that every p",
+    "source_type": "rss",
+    "ner_locations": [
+      "Jammu",
+      "Srinagar"
+    ],
+    "ner_actors": [
+      "Let"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0637,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:39:52.509798"
+  },
+  {
+    "timestamp": "2026-06-16T20:39:54.334879",
+    "source_key": "greater_kashmir",
+    "source": "Greater Kashmir",
+    "title": "Non-fenced power canals in Ganderbal turn into death traps",
+    "url": "https://www.greaterkashmir.com/kashmir/non-fenced-power-canals-in-ganderbal-turn-into-death-traps-12042498",
+    "matched_keywords": [
+      "ganderbal"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-16",
+    "content": "Ganderbal, Jun 15: Major power canals traversing several areas of Ganderbal district have virtually turned into death traps due to the absence of fencing and other safety measures, prompting residents to demand immediate intervention from the authorities.\nThe canals feeding the Upper Sindh Hydroelectric Project (USHP) Stage-I at Sumbal and USHP Stage-II at Kangan pass through densely populated areas from Kullan to Kangan. Despite posing a potential threat to human life and property, large stretches of these canals remain unfenced and unprotected. Several other canals supplying water to hydropower projects in the district are also reportedly lacking adequate safety infrastructure.\nResidents allege that the canals have claimed numerous lives and livestock since their establishment decades ago. They said the absence of fencing and damaged canal banks continue to expose thousands of people living nearby to constant danger.\n“Despite the passage of decades, no one has bothered to install proper fencing along these canals. Many people have lost their lives, while livestock and property have also suffered damage,” residents said.\nThe concerns have resurfaced following Monday’s incident in Gund, where two persons—a man and a teenage girl—reportedly drowned in a power canal. Their bodies were later recovered after an extensive rescue operation.\nLocals said many of the bodies recovered from the canals over the years were victims of accidental falls, while some cases involved alleged suicides. They argue that several such incidents could have been prevented had adequate safety barriers been installed.\n“Many human lives have been lost after people accidentally slipped into the canals. In numerous cases, proper fencing could have prevented the tragedy,” said Ghulam Mohi-ud-Din, a resident of the area.\nResidents accused the authorities, particularly the Power Development Corporation (PDC), of failing to address long-standing safety concerns despite repeated incidents.\nAccording to local sources, when the USHP-I and USHP-II canals were constructed in the 1970s, safety arrangements such as guard quarters, watchers and lighting systems had been put in place. However, these measures gradually disappeared over the years.\n“For more than two decades, neither watchers nor functioning lights have been seen along the canals, making them even more hazardous, especially during the night,” sources said.\nResidents also recalled previous incidents involving breaches in the canal system. In March 2013, a section of the USHP-I canal reportedly breached following a landslide in the Gund area, causing damage to houses and agricultural land. A similar incident occurred on the Wanagth link canal near Panzin several years ago, resulting in significant property losses.\n“We live under constant fear. Even light rainfall causes anxiety because landslides can block the canal and lead to breaches,” said Bashir Ahmad, a resident of Gund.\nLocals further highlighted the plight of animals that accidentally fall into the canals. They said livestock often become trapped on the smooth concrete walls, unable to climb out. During shutdown periods, trapped animals may starve, while in flowing water they often drown.\nThe residents have urged the administration and concerned departments to undertake comprehensive fencing of the canals, repair damaged embankments and restore safety mechanisms to prevent further loss of life and property.",
+    "source_type": "rss",
+    "ner_locations": [
+      "Ganderbal"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [
+      {
+        "count": null,
+        "raw": "Many people have",
+        "affiliation": "civilian"
+      }
+    ],
+    "casualties_injured": [],
+    "total_killed": 1,
+    "total_injured": 0,
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.109,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T20:39:55.711865"
+  },
+  {
+    "timestamp": "2026-06-16T20:43:36.961337",
+    "source": "Greater Kashmir",
+    "title": "Anantnag Police intensifies anti-sabotage operations ahead of Amarnath Yatra 2026: officials",
+    "url": "https://www.greaterkashmir.com/kashmir/anantnag-police-intensifies-anti-sabotage-operations-ahead-of-amarnath-yatra-2026-officials-12040105",
+    "matched_keywords": [
+      "anantnag"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "Srinagar, June 15: Anantnag Police has stepped up security measures across the district by launching extensive anti-sabotage operations and area domination exercises ahead of the annual Shri Amarnath Ji Yatra-2026.\nOfficials said the intensified security checks are part of a comprehensive plan to ensure a safe, secure and incident-free pilgrimage for devotees visiting the holy cave shrine.\nSpecialised police teams are conducting thorough anti-sabotage sweeps along the entire Yatra route from Khanabal to Pahalgam, covering critical locations, transit points, lodgement centres, parking areas and other vulnerable spots. The operations are being carried out using advanced security gadgets and modern detection equipment to identify and neutralise potential threats.\nTo strengthen the security grid, Anantnag Police has deployed trained K9 squads, bomb detection teams and technical surveillance units for sanitisation of the Yatra axis and adjoining areas. Authorities said particular attention is being paid to the inspection of vehicles, including abandoned and unattended vehicles, to prevent any attempt by anti-national elements to disrupt the pilgrimage.\nAs part of the security drill, special checks are also being conducted at railway stations, railway tracks, bridges, culverts, public utility installations and other critical infrastructure across the district. Regular search and sanitisation drives are underway to maintain heightened vigilance before the commencement of the Yatra.\nPolice officials said security preparedness is being reviewed continuously and all necessary protocols are being implemented to ensure smooth conduct of the pilgrimage.\nAnantnag Police has appealed to the public to remain vigilant and immediately report any suspicious activity, object or unattended vehicle to the nearest police station or security personnel.\nReiterating its commitment to the safety of pilgrims, Anantnag Police said all efforts are being made to provide a peaceful, secure and spiritually fulfilling Shri Amarnath Ji Yatra-2026.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Anantnag",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "potential threats"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0713,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T20:43:40.004963"
+  }
+]

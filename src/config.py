@@ -31,6 +31,10 @@ CIVIL_UNREST_SCORE = float(os.getenv("CIVIL_UNREST_SCORE", 7.5))
 HIGH_RISK_THRESHOLD = float(os.getenv("HIGH_RISK_THRESHOLD", 8.0))
 MEDIUM_RISK_THRESHOLD = float(os.getenv("MEDIUM_RISK_THRESHOLD", 5.0))
 
+# ================== TACTIC CLASSIFIER (BART zero-shot) ==================
+BART_MODEL = os.getenv("BART_MODEL", "facebook/bart-large-mnli")
+BART_CONFIDENCE_THRESHOLD = float(os.getenv("BART_CONFIDENCE_THRESHOLD", 0.55))
+
 
 # ================== RSS + HYBRID SETTINGS ==================
 USE_RSS = True

@@ -1,0 +1,742 @@
+[
+  {
+    "timestamp": "2026-06-08T23:39:38.348058",
+    "source": "Kashmir Life",
+    "title": "Leopard Kills Nine-year-old Boy in North Kashmir",
+    "url": "https://kashmirlife.net/leopard-kills-nine-year-old-boy-in-north-kashmir-439365/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-08",
+    "content": "SRINAGAR: A nine-year-old boy was killed in a leopard attack at Manzpathra village of Chowkibal area in North Kashmir’s Kupwara district on Monday, triggering panic among local residents.\nThe man-animal encounter occurred near high school and left the child severely injured. However, the victim succumbed to his injuries later.\nThe incident spread fear across the area, particularly as it came just weeks after another child from the same village was attacked by a leopard and injured.\nLocals have urged the Wildlife Department and district administration to launch an immediate operation to capture the leopard and prevent further attacks. (KNO)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kupwara",
+      "Srinagar"
+    ],
+    "ner_actors": [
+      "Kno"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:33.556962",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-06T17:17:02.980161",
+    "source": "Kashmir Life",
+    "title": "Wangchuk Threatens 42-Day Hunger Strike if CJP Leaders are Arrested",
+    "url": "https://kashmirlife.net/wangchuk-threatens-42-day-hunger-strike-if-cjp-leaders-are-arrested-439023/",
+    "matched_keywords": [
+      "arrested"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-06",
+    "content": "SRINAGAR: Climate activist Sonam Wangchuk has announced that he will undertake a 42-day hunger strike if Abhijeet Dipke, founder of the Cockroach Janta Party (CJP), or any other members of the movement are arrested ahead of a planned protest at Delhi’s Jantar Mantar today. Wangchuk also confirmed that he will travel from Ladakh to participate in the demonstration.\nHOPE FOR THE BEST, PREPARE FOR THE WORST.\nLet’s make this the most peaceful movement in India’s history.\nPlease be vigilant that no miscreants play mischief.\nSee you all in Delhi tomorrow…#CockroachJantaParty #CJP #SonamWangchuk pic.twitter.com/qJAwal2wIy— Sonam Wangchuk (@Wangchuk66) June 5, 2026\nIn a video message posted on X, Wangchuk said he was prepared to undertake an indefinite fast lasting six weeks if any arrests were made, adding that such a step would be taken reluctantly. He also called on supporters to consider how they would respond to such a development.\nHis remarks come ahead of Dipke’s return to India for the planned protest, which is seeking the resignation of Union Education Minister Dharmendra Pradhan over alleged irregularities in examinations, including NEET-UG, CUET, CBSE and SSC GD.\nWangchuk said his association with the movement had developed unexpectedly after he publicly described the Cockroach Janta Party as a creative expression of India’s younger generation.\nHe said he had grown closely connected with the group in a short period and described its members as simple, sincere, honest and patriotic young people.\nAppealing for restraint ahead of the protest, Wangchuk urged supporters to ensure that the demonstration remains entirely peaceful and cautioned against any attempts to provoke unrest.\nEarlier this week, the group announced that Wangchuk would join the June 6 protest if the Education Minister did not step down. Wangchuk also stated that any “self-respecting minister” should resign if developments had adversely affected the futures of millions of students.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [
+      "Let"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:32.643657",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-09T17:53:51.462693",
+    "source": "Kashmir Life",
+    "title": "Will Join NC’s Jantar Mantar Protest, But Core Demand Remains Article...",
+    "url": "https://kashmirlife.net/will-join-ncs-jantar-mantar-protest-but-core-demand-remains-article-370-mp-aga-ruhullah-439467/",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "SRINAGAR: Member of Parliament Aga Ruhullah Mehdi on Tuesday said he will join the National Conference’s proposed protest at Jantar Mantar, but emphasised that his primary demand remains the restoration of Article 370, not just statehood.\nSpeaking to reporters in Pulwama, Ruhullah said he would “definitely” participate but stressed that the struggle should not be confined to a one-day political event.\nHe called for a sustained and organised movement, arguing that the demand must go beyond statehood to include restoration of constitutional protections that existed before 2019.\nHe said a single protest would not suffice and underlined the need for a continuous political campaign reflecting broader concerns, including rights and protections of the people of Jammu and Kashmir.\nThe MP also flagged issues faced by the younger generation in the post-2019 period, saying justice is essential for lasting peace.\nRaising concerns over land rights, jobs and reservation policies, he alleged that locals were being deprived of their due share. Citing examples from rural areas, including Pulwama, he said restrictions affecting agriculture and livelihoods point to “systemic injustice”.\nRuhullah said key political and administrative commitments remain unfulfilled and added that while improved governance could ease tensions, unresolved issues continue to fuel public dissatisfaction.\nReiterating his stand, he said “permanent peace” can only be achieved through “justice”, not symbolic measures. (KNO)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Pulwama",
+      "Jammu"
+    ],
+    "ner_actors": [
+      "Kno"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T17:53:51.542896"
+  },
+  {
+    "timestamp": "2026-06-10T16:39:01.887700",
+    "source": "Kashmir Life",
+    "title": "Delhi High Court Grants Bail to Khurram Parvez in NIA Terror Funding Case",
+    "url": "https://kashmirlife.net/delhi-high-court-grants-bail-to-khurram-parvez-in-nia-terror-funding-case-439576/",
+    "matched_keywords": [
+      "terror funding"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-10",
+    "content": "SRINAGAR: The Delhi High Court on Wednesday granted bail to Kashmiri human rights activist Khurram Parvez in a terror funding case registered by the National Investigation Agency under the Unlawful Activities (Prevention) Act (UAPA).\nAccording to a report by Live Law, a division bench comprising Justice Navin Chawla and Justice Ravinder Dudeja allowed Parvez’s appeal challenging a trial court order dated December 17, 2024, which had denied him bail.\n“We have granted bail, subject to various conditions,” the bench said while pronouncing the verdict. A detailed order is awaited.\nParvez was arrested from Srinagar on November 22, 2021, and was later remanded to judicial custody on February 25, 2022, after a series of police custody remands. As of December 19, 2024, when the appeal was filed, he had spent more than three years in custody.\nThe NIA alleged that a network linked to the banned militant outfit Lashkar-e-Taiba had recruited Over Ground Workers (OGWs), collected intelligence on security installations and facilitated terror funding. Although Parvez was not named in the original FIR, he was arrested during the course of the investigation.\nAccording to the charge sheet, the allegations against Parvez included recruiting OGWs for LeT, collecting information regarding the movement and structure of the Army, maintaining links with Pakistan-based militant organisations and instigating protests following the killing of Burhan Wani in 2016.\nParvez, in his appeal, argued that the prosecution’s case was unsupported by evidence and that he was a “factual stranger” to the larger conspiracy alleged by the NIA.\nThe defence contended that there was no digital evidence showing his contact with members of any proscribed organisation and that no call detail records had been collected regarding the alleged meeting between him and co-accused Muneer Ahmad Kataria.\nIt was further argued that there was no evidence showing Parvez passed sensitive military information to any militant operative and that no allegation connected him to any terror funding money trail.\nSenior Advocate Tanveer Ahmed Mir appeared for Parvez along with advocates Swati Khanna, Raminder Kaur, Md. Imran Ahmad, Shahzad Khan and Kartik Venu. The NIA was represented by Special Public Prosecutor Rahul Tyagi along with advocates Priya Rai, Shubham Goyal, Jatin Khatri and Amit Rohila.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [
+      "Let"
+    ],
+    "ner_state_actors": [
+      "NIA"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-10T16:39:01.995737"
+  },
+  {
+    "timestamp": "2026-06-04T16:51:37.504392",
+    "source": "Kashmir Life",
+    "title": "Illegal LPG Stockpile Seized in Central Kashmir, FIR Registered",
+    "url": "https://kashmirlife.net/illegal-lpg-stockpile-seized-in-central-kashmir-fir-registered-438828/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "SRINAGAR: Police in central Kashmir’s Ganderbal district conducted a search operation at Nunner Takia on Thursday, leading to the recovery of a large number of domestic and commercial LPG cylinders stored without valid authorisation or licence, officials said.\nActing on specific inputs, a police team carried out the operation at the premises of one Javid Ahmad Sofi, son of Mohd Ramzan Sofi, a resident of Nunner Takia. During the search, cylinders of various companies were found stored in large quantities in violation of safety and regulatory norms.\nOfficials from the Consumer Affairs and Public Distribution (CAPD) Department were present on the spot during the seizure, which was carried out as per legal procedure. Authorities said the unauthorised storage posed a serious risk to public safety and prima facie violated relevant provisions of law.\nFollowing the seizure, police registered FIR No. 91/2026 under Sections 3/7 of the Essential Commodities Act and Section 287 of the Bharatiya Nyaya Sanhita (BNS). Further investigation is underway.\nPolice said strict action will continue against activities that endanger public safety or disrupt the supply of essential commodities, and urged citizens to report such violations to the nearest police station.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Ganderbal",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:32.702674",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T00:50:34.841608",
+    "source": "Kashmir Life",
+    "title": "Jammu: Admin Raids Aman Arms Company, Unearths Series of Serious Violations",
+    "url": "https://kashmirlife.net/jammu-admin-raids-aman-arms-company-unearths-series-of-serious-violations-438887/",
+    "matched_keywords": [
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "SRINAGAR: The Jammu district administration on Thursday uncovered alleged violations of firearms regulations during a surprise inspection of Aman Arms Company at Railhead Shopping Complex, officials said.\nThe raid, conducted on the directions of District Magistrate Jammu Rakesh Minhas, was led by Tehsildar Bahu Raju Sambyal and Tehsildar Headquarters Mona Chalotra. Officials said the inspection revealed that the establishment had been operating without a valid arms dealership licence.\nAccording to the administration, the firm’s application for an arms dealership licence had been rejected in 2024, making its subsequent activities as an arms dealer unauthorised and in violation of the Arms Act, 1959 and the Arms Rules, 2016.\nDuring the inspection, officials recovered several firearms licences that had last been renewed in districts including Poonch, Kishtwar, Ganderbal and Pulwama. Personal documents belonging to licence holders were also found on the premises.\nThe administration further stated that it had received complaints alleging that the establishment had failed to return firearms licences to their owners, reportedly while offering renewal and related facilitation services. Officials said the practice raised concerns over unauthorised handling of arms licence documentation.\nTaking serious note of the findings, the District Magistrate directed that appropriate legal action be initiated against those responsible. He also ordered continued inspections of arms dealerships across the district to ensure compliance with existing laws and government directives.\nThe district administration urged arms licence holders to remain vigilant and cautioned the public against dealing with unauthorised agents, intermediaries or unlicensed establishments for services related to firearms licences.\nOfficials reiterated that all services relating to arms licences, including renewals, fresh applications and surrender of weapons, are available through the National Database of Arms Licences–Arms Licensing and Information System (NDAL-ALIS), the Government of India’s official online portal.\nThe administration also appealed to citizens to report any individual or establishment seeking money, documents or firearms licences on the pretext of facilitating arms licence-related services.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Kishtwar",
+      "Ganderbal",
+      "Pulwama",
+      "Jammu",
+      "Poonch"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:32.794191",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T20:45:33.220213",
+    "source": "Kashmir Life",
+    "title": "Body of Srinagar Man Recovered from Lidder River in Pahalgam After...",
+    "url": "https://kashmirlife.net/body-of-srinagar-man-recovered-from-lidder-river-in-pahalgam-after-six-days-438956/",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-05",
+    "content": "SRINAGAR: The body of a man who had been missing for six days was recovered from the Lidder River in the Pahalgam area of south Kashmir’s Anantnag district on Friday, officials said.\nThe deceased has been identified as Mohammad Ashraf. His body was spotted in the Aamad area of Pahalgam, following which police and rescue teams were rushed to the spot and retrieved it from the river.\nAshraf had gone missing nearly a week ago, prompting search operations by the authorities in the area.\nPolice said the body has been sent for medico-legal formalities.\nFurther proceedings have been initiated to determine the circumstances surrounding the death.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Anantnag",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:32.833845",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T20:01:54.256081",
+    "source": "Kashmir Life",
+    "title": "Over 1,130 Drug Smugglers Arrested in Jammu Kashmir Anti-Narcotics Drive, Says...",
+    "url": "https://kashmirlife.net/over-1130-drug-smugglers-arrested-in-jammu-kashmir-anti-narcotics-drive-says-lg-sinha-in-poonch-439222/",
+    "matched_keywords": [
+      "arrested",
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-07",
+    "content": "SRINAGAR: Lieutenant Governor Manoj Sinha on Sunday said more than 1,130 drug smugglers have been arrested across Jammu and Kashmir during the ongoing anti-narcotics campaign, while announcing stricter measures, including the cancellation of passports, driving licences, arms licences and Aadhaar-linked benefits of those involved in drug trafficking.\nAddressing the ‘Drug-Free JK’ campaign and padyatra in Poonch, the Lieutenant Governor said the administration has intensified its fight against drug abuse and narco-terrorism, with law enforcement agencies being given a free hand to dismantle the entire narcotics network operating in the Union Territory.\nHe said that during the past 57 days, authorities have registered 1,038 FIRs, arrested over 1,130 drug smugglers, detained 63 individuals under the PIT-NDPS Act and attached more than 100 properties linked to drug trafficking. In addition, around 700 driving licences have been cancelled and proceedings initiated to revoke 130 passports.\nThe Lieutenant Governor said the campaign has now covered all 20 districts of Jammu and Kashmir and will continue for the next 43 days with the objective of making every panchayat, ward and household drug-free.\nDescribing Poonch as a sensitive border district, he warned that cross-border drug smuggling was not only destroying young lives but also financing terrorism. He said narco-terror networks were attempting to exploit the region’s geography and called for a united societal response to counter the threat.\nSinha said the administration’s strategy is focused on both enforcement and prevention, with youth clubs being mobilised as the frontline defence against drug networks and women being encouraged to take leadership roles in anti-drug campaigns at the village level.\nHe emphasised that education, skill development and sports would play a key role in steering young people away from substance abuse and creating long-term resistance to the drug menace.\nThe Lieutenant Governor also announced that under a newly issued Standard Operating Procedure (SOP), individuals found involved in drug smuggling would face immediate punitive action, including the attachment of movable and immovable assets under the NDPS Act.\nCalling for public participation, he urged citizens to reject indifference and actively support efforts to expose drug smugglers and peddlers, asserting that a drug-free Jammu and Kashmir could only be achieved through collective action.\n“The road ahead is long, but we will not stop until every narco-terror network is dismantled,” he said.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu",
+      "Poonch",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:33.026751",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-07T23:59:26.759897",
+    "source": "Kashmir Life",
+    "title": "Padyatra Covers All 20 Districts of Jammu Kashmir in Drive Against...",
+    "url": "https://kashmirlife.net/padyatra-covers-all-20-districts-of-jammu-kashmir-in-drive-against-drugs-and-narco-terrorism-lg-sinha-439235/",
+    "matched_keywords": [
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-07",
+    "content": "SRINAGAR: Lieutenant Governor Manoj Sinha on Sunday led the ‘Drug-Free JK’ campaign and Padyatra in Poonch, reaffirming the administration’s resolve to eliminate drug abuse and dismantle the narco-terror network across Jammu and Kashmir.\nAddressing the gathering, the Lieutenant Governor said the Padyatra has now covered all 20 districts of the Union Territory, with the core objective of freeing Jammu and Kashmir from the menace of drugs and countering narco-terrorism.\nHe said the renewed phase of the campaign, launched from Poonch, would intensify over the next 43 days, calling for collective participation from citizens, Panchayats and wards to target drug smugglers and peddlers, expand awareness, and strengthen rehabilitation efforts. He stressed that sustained community participation was essential for building a healthier society.\nOver the past 57 days, he said, visits had been undertaken to all districts of Jammu and Kashmir, during which a commitment was made that those involved in harming society would be dealt with firmly. He added that the government was committed to securing a safer and brighter future for the region.\nThe Lieutenant Governor noted that Poonch, being a border district, remained vulnerable to cross-border drug trafficking, which he said not only destroys young lives but also fuels terrorism. He called for a whole-of-society approach to confront the challenge.\nHe further stated that tackling the drug problem required a shift from indifference to active involvement, warning that silence only benefits drug networks. He said meaningful change could only be achieved when communities stand united against the menace.\nHighlighting enforcement action taken during the campaign, he said 1,130 drug smugglers had been arrested in 1,038 FIRs, 63 individuals detained under the PIT-NDPS Act, and more than 100 properties attached. In addition, around 700 driving licences have been cancelled and steps initiated to revoke 130 passports as part of efforts to disrupt drug-related networks.\nThe Lieutenant Governor also emphasised the importance of prevention through youth engagement, stating that education, skills and sports were key tools to channel young people towards constructive paths. He said Youth Clubs would act as the frontline against drug abuse, while women would play a central role in leading awareness and eradication efforts at the village level.\nHe announced that law enforcement agencies have been given full operational freedom to eliminate the narco-terror ecosystem, with stricter standard operating procedures in place. These include attachment of assets and cancellation of identification and travel documents of those involved in drug trafficking under relevant legal provisions.\nReiterating the government’s commitment, he said the campaign would continue until every drug network is dismantled, urging police and enforcement agencies to ensure zero tolerance towards drug peddling in their jurisdictions. He expressed confidence that ",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu",
+      "Poonch",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:33.141288",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-10T02:22:23.855971",
+    "source": "Kashmir Life",
+    "title": "Zojila Tunnel Breakthrough Brings Kashmir–Ladakh Closer to Year-Round Connectivity",
+    "url": "https://kashmirlife.net/zojila-tunnel-breakthrough-brings-kashmir-ladakh-closer-to-year-round-connectivity-439494/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "SRINAGAR: The strategically important Zojila Tunnel project achieved a major breakthrough on Tuesday with the successful connection of both ends of the main tunnel near Minamarg in Ladakh, bringing India closer to establishing all-weather surface connectivity between Kashmir and Ladakh for the first time.\nUnion Minister for Road Transport and Highways Nitin Gadkari witnessed the breakthrough ceremony at the eastern portal of the tunnel along the Srinagar–Leh National Highway in the presence of Jammu and Kashmir Lieutenant Governor Manoj Sinha, Chief Minister Omar Abdullah, Members of Parliament, senior civil and military officials and representatives of the executing agencies. Ladakh Lieutenant Governor Vinai Kumar Saxena joined the event virtually.\nThe breakthrough was achieved through a controlled blast remotely triggered by the Union Minister, marking a key engineering milestone in one of the country’s most challenging mountain infrastructure projects.\nThe Zojila Tunnel, being developed between Baltal and Minamarg on National Highway-1, is a nearly 14-kilometre-long bi-directional tunnel being constructed at a cost of around Rs 6,800 crore. Built at elevations ranging between 2,900 and 3,310 metres, the project is designed to provide uninterrupted year-round connectivity across the Zojila Pass, which remains cut off for several months during winter due to heavy snowfall and avalanches.\nOfficials said the tunnel, measuring 13.153 kilometres in its main stretch, has been designed as a horseshoe-shaped, single-tube, two-lane structure with modern safety systems, including advanced ventilation, automatic fire detection systems, CCTV surveillance and pedestrian cross-passages. The project also includes snow galleries, avalanche protection structures, catch dams, four bridges, 40 culverts and approach roads.\nAddressing the gathering, Gadkari described the project as a transformative infrastructure initiative for the Himalayan region.\n“This is not merely a transportation project but a gateway to development. Upon completion, travel time between Sonamarg and Minamarg will reduce from nearly two hours to around 30 minutes,” he said.\nThe Union Minister said the tunnel would strengthen tourism, trade, employment generation and strategic mobility while ensuring safer travel by reducing disruptions caused by adverse weather and avalanches.\nHighlighting broader infrastructure expansion in the region, Gadkari said highway projects worth nearly Rs 1.35 lakh crore are currently completed, under construction or planned across Jammu and Kashmir, while projects worth around Rs 18,000 crore are underway in Ladakh.\nLieutenant Governor Manoj Sinha termed the tunnel a “lifeline” for Jammu and Kashmir and Ladakh and credited Prime Minister Narendra Modi and Union Minister Gadkari for accelerating infrastructure development in border regions.\n“The Zojila Tunnel will strengthen supply chains, boost tourism and provide vital strategic support to our Armed Forces,” Sinha ",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T02:22:24.078456"
+  },
+  {
+    "timestamp": "2026-06-10T02:22:32.477211",
+    "source": "Kashmir Life",
+    "title": "South Kashmir: Narcotics and Rs 25.50 Lakh Cash Recovered by Police",
+    "url": "https://kashmirlife.net/south-kashmir-narcotics-and-rs-25-50-lakh-cash-recovered-by-police-439524/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-09",
+    "content": "SRINAGAR: Police in south Kashmir’s Anantnag district on Tuesday recovered 104 grams of charas-like substance and Rs 25.50 lakh in cash during a raid conducted in the Tulkhan area of Bijbehara, marking a significant breakthrough in an ongoing anti-narcotics operation.\nActing on reliable information regarding the concealment of narcotics by a suspected drug peddler, identified as Farooq Ahmad Dar, son of Ghulam Hassan Dar, a resident of Tulkhan, police teams carried out a swift raid at his under-construction residential house.\nDuring the search operation, officers recovered 104 grams of charas-like sticks along with cash amounting to Rs 25,50,000, which had been concealed beneath boulders on the ground floor of the structure.\nFollowing the recovery, Case FIR No. 154/2026 under Section 8/20 of the Narcotic Drugs and Psychotropic Substances (NDPS) Act was registered at the concerned police station, and investigation has been initiated. The accused has been arrested in connection with the case.\nPolice said further investigation is underway to ascertain the wider network and possible linkages involved in the drug trade.\nReiterating its commitment to curbing drug trafficking, Anantnag Police stated that sustained efforts are being made to dismantle narcotics networks and urged the public to share information regarding drug-related activities to assist enforcement agencies.\nOfficials said the drive against drugs will continue with intensified focus to make the district drug-free and safeguard the youth from substance abuse.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Anantnag"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T02:22:32.580409"
+  },
+  {
+    "timestamp": "2026-06-12T21:07:55.271288",
+    "source": "Kashmir Life",
+    "title": "Is Kashmir Forgetting the Dignity of Those Who Guide Its Faith?",
+    "url": "https://kashmirlife.net/is-kashmir-forgetting-the-dignity-of-those-who-guide-its-faith-439691/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "by Syed Majid Gilani\nA chance encounter with an Imam earning Rs 7,000 a month raises questions about dignity, security, and community responsibility\nIt was the day before yesterday. I was on my way when I noticed a man standing quietly by the roadside. His appearance suggested he was a Maulana: simple clothes, a calm face, and a certain dignity that needed no introduction. He raised his hand gently, asking for a lift. I stopped.\nHe sat beside me, and for a few moments there was silence. Then, as often happens on simple journeys, a conversation began. He spoke about his life, years spent in madrasas, immersed in books and discipline. Step by step, he had completed his religious education. Today, he serves as an Imam and Khateeb in a mosque.\nWe spoke of ordinary things, family, children, daily life. He told me his children go to school. He lives in a rented room in Srinagar, far from his native place. Like so many others, he is simply trying to build a life.\nThen I asked him a simple question: how much do you earn?\nHe paused, not long, just enough for the silence to deepen. Then he said quietly that his monthly income was around seven thousand rupees.\nHis words were simple, but they did not pass so easily. Everything around us remained unchanged, the road, the traffic, the people moving past us. But within me, something shifted. I looked at him again.\nHere was a man who leads prayers five times a day. He teaches children how to read the Qur’an. He reminds people of what is right, speaks about living peacefully, serving humanity without bias, and emphasizes universal brotherhood. And yet, he lives with so little.\nHe even mentioned that most Imams, in his experience, live the same way.\nI had no reply.\nWhen we reached his destination, he smiled, thanked me, and stepped out. Within moments, he disappeared into the crowd. But his words did not leave me.\nThat night, I lay in bed, but sleep refused to come.\nI kept thinking: he is not just an Imam. He is a father, a husband, someone’s son. He has responsibilities, rent, food, children’s education, healthcare, social obligations, no different from anyone else.\nWe respect people like him. We greet them with honour. We listen when they speak. We call their role noble, even sacred. But perhaps, without realising it, we do not always think about their lives beyond the mosque.\nOur mosques are beautiful, clean, peaceful, and well maintained. Carpets are replaced, walls repainted, lights renewed. But the one who stands there every day, what does his life look like when he returns home?\nWhy is it that those who guide us, show us, and teach us the way to peaceful and humane living are often left to struggle in silence?\nWhy is there so little stability in their lives? Why does a profession that shapes hearts and minds not carry the same security as many others?\nIn many places, their positions are uncertain. A small disagreement, a change in the mohalla or masjid committee, or even a difference of opinion can take awa",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:07:55.480519"
+  },
+  {
+    "timestamp": "2026-06-12T21:08:20.494954",
+    "source": "Kashmir Life",
+    "title": "Iran Orders Complete Closure of Strait of Hormuz",
+    "url": "https://kashmirlife.net/iran-orders-complete-closure-of-strait-of-hormuz-439674/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "SRINAGAR: Iran’s Islamic Revolutionary Guard Corps (IRGC) has announced that the Strait of Hormuz has been “closed to all vessels” following fresh US strikes on Iran, warning that any ship attempting to pass through the strategic waterway could be targeted, according to CNN.\n“Effective immediately, due to insecurity in the region, the Strait of Hormuz is declared closed to all vessels, including oil tankers and commercial ships,” the IRGC said in a statement posted on its official Telegram channel and cited by CNN.\nThe statement further warned that “any vessel attempting to transit the strait will be targeted”.\nAccording to Al Jazeera, citing Iranian media reports, heavy clashes and exchanges of fire have taken place in the Strait of Hormuz between US forces and naval units of the IRGC.\nIranian media reports, cited by Al Jazeera, said US forces had struck seven coastal locations, including areas in and around Bandar Abbas, Sirik, Qeshm Island and Hengam Island.\nThe IRGC Navy also claimed that two vessels attempting to “illegally” transit the Strait of Hormuz had been struck.\nMeanwhile, Press TV reported that two residents of Kargan in Minab County were injured by shrapnel following a US strike.\nAl Jazeera, quoting Iran’s Mehr News Agency, reported fresh explosions in the port city of Bandar Abbas, stating that the blasts were linked to an incident in the eastern part of the city.\nFurther explosions were reported in several other locations, including the southern towns of Sirik and Minab, as well as Qeshm Island and the northern city of Gorgan, according to Iranian media reports.\nSeparately, US Central Command (CENTCOM) said its forces had begun carrying out additional self-defence strikes against multiple targets in Iran.\nCENTCOM said the strikes were launched in response to what it described as continued and “unwarranted” Iranian aggression.\nIn a post on X, the official CENTCOM account said: “U.S. Central Command forces began launching additional self-defence strikes today at 5:15 p.m. ET against multiple targets in Iran at the Commander in Chief’s direction. The strikes are in response to Iran’s unwarranted and continued aggression.”\nThe developments come amid sharply escalating tensions between Washington and Tehran, with conflicting claims emerging over the status of shipping through the Strait of Hormuz. While Iranian authorities have declared the waterway closed, US Central Command has disputed those claims and said commercial shipping continues to transit the strait.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:08:20.660872"
+  },
+  {
+    "timestamp": "2026-06-12T21:45:36.374713",
+    "source": "Kashmir Life",
+    "title": "Accidental Grenade Blast Injures Two Soldiers in Poonch",
+    "url": "https://kashmirlife.net/accidental-grenade-blast-injures-two-soldiers-in-poonch-439895/",
+    "matched_keywords": [
+      "poonch"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-12",
+    "content": "SRINAGAR: Two Army personnel were injured in an accidental grenade blast at LoC in Poonch district on Friday.\nOfficials said that an accidental grenade explosion occurred in the forward area along the LoC today during a training exercise. Two army soldiers sustained injuries in the incident.\nBoth the soldiers were immediately shifted to 425 Army Field Hospital, Poonch for treatment.\nFurther details on their condition and the incident are awaited.(GNS)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Poonch",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Personnel"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": [
+        "two injured"
+      ]
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:45:36.408532"
+  },
+  {
+    "timestamp": "2026-06-02T23:21:12.692011",
+    "source": "Kashmir Life",
+    "title": "Sonam Wangchuk to Join June 6 Protest at Jantar Mantar",
+    "url": "https://kashmirlife.net/sonam-wangchuk-to-join-june-6-protest-at-jantar-mantar-438616/",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-02",
+    "content": "SRINAGAR: Activist Sonam Wangchuk on Tuesday announced that he would join a proposed protest at Delhi’s Jantar Mantar on June 6 if no action is taken by June 5 on demands raised by the Cockroach Janta Party, including the resignation of Union Education Minister Dharmendra Pradhan. Wangchuk made the announcement through posts on social media platforms X and Instagram, saying he had held discussions with the group’s founder, Abhijeet Dipke, and reviewed information and concerns shared by the organisation before extending conditional support to the demonstration. In a video message, Wangchuk said his decision was driven by broader concerns about the state of education in India rather than any single examination-related issue. While discussions surrounding the protest have included references to examinations such as NEET, CUET and CBSE board processes, he said the matter reflected wider systemic challenges within the education sector. The education reform advocate stressed the need for meaningful improvements in learning outcomes, particularly in government schools and rural areas. Drawing on his decades-long experience in education initiatives in remote regions, Wangchuk highlighted persistent shortcomings in infrastructure, teaching standards and policy implementation. The Cockroach Janta Party, which describes itself as a youth-driven and satirical movement, has been campaigning largely through digital platforms on issues related to education governance and examination systems. The organisation has said the June 6 protest will be peaceful and open to individuals who share similar concerns. Save my name, email, and website in this browser for the next time I comment. Your personal data will be processed and information from your device (cookies, unique identifiers, and other device data) may be stored by, accessed by and shared with 210 partners, or used specifically by this site. We and our partners may use precise geolocation data. List of partners. Some vendors may process your personal data on the basis of legitimate interest, which you can object to by managing your options below. Look for a link at the bottom of this page or in the site menu to manage or withdraw consent in privacy and cookie settings. You can choose how your personal data is used. Vendors want your permission to do the following: Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here. Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the numb",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:33.270621",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-03T20:59:51.308402",
+    "source": "Kashmir Life",
+    "title": "NC Legislature Party to Hold Protest in New Delhi to Demand...",
+    "url": "https://kashmirlife.net/nc-legislature-party-to-hold-protest-in-new-delhi-to-demand-statehood-constitutional-guarantees-tanvir-sadiq-438737/",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-03",
+    "content": "SRINAGAR: The National Conference (NC) has announced that it will stage a protest in New Delhi on the first day of the Monsoon Session of Parliament, seeking the restoration of statehood to Jammu and Kashmir, party chief spokesperson Tanvir Sadiq said on Wednesday.\nHe said the decision was taken at a meeting of the NC legislature party attended by MLAs and allied members, during which several political and governance issues were also reviewed.\nSadiq said the matter of Jammu and Kashmir’s special status was a key point of discussion. He confirmed that the party will travel to the national capital to press its demand for statehood and constitutional safeguards, with the protest location to be decided later.\nDescribing statehood as a long-standing demand, he said the leadership believes the time is appropriate to raise the issue at the national level in view of developments since 2019.\nThe meeting also deliberated on issues such as drug abuse, alcohol consumption, and developmental challenges across the Jammu, Kashmir, Pir Panjal, and Chenab regions. Chief Minister Omar Abdullah, he added, was present throughout the deliberations.\nOn cabinet expansion, Sadiq said the matter rests with the Chief Minister and will be taken up at an appropriate time.\nHe dismissed questions over remarks made by opposition leaders, stating that the party’s position had already been conveyed.\nMeanwhile, the absence of MPs Aga Ruhullah and Mian Altaf from a high-level meeting chaired by Chief Minister Omar Abdullah has drawn political attention in Jammu and Kashmir, triggering discussion in political circles as observers await any official clarification.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:33.335203",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-04T19:13:02.430806",
+    "source": "Kashmir Life",
+    "title": "Hundreds Rally in Ramban Over Sawalkakote Hydroelectric Project",
+    "url": "https://kashmirlife.net/hundreds-rally-in-ramban-over-sawalkakote-hydroelectric-project-438839/",
+    "matched_keywords": [
+      "ramban"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "SRINAGAR: Hundreds of people on Thursday participated in a rally in Ramban town under the banner of the Sawalkakote Joint Action Committee (SJAC), demanding transparency and protection of local interests in the proposed 1,856 MW Sawalkakote Hydroelectric Project.\nThe rally reflected concerns among residents over land acquisition, rehabilitation and employment opportunities linked to the project.\nCarrying placards reading “Our Land, Our Rights, Our Future”, “Ramban Ki Majboori Hai, Sawalkote Zaroori Hai”, “We Want Compensation as Per the Fair Compensation Act”, “First Preference to Ramban Youth in Employment” and “No Development Without Local Consent”, the protesters marched from Dak Bungalow through the main business areas of the town.\nAddressing a gathering at the end of the march, SJAC president Advocate Fairoz Khan said the people of Ramban were not opposed to development but wanted protection of their rights and livelihoods.\n“We are not anti-development, but development cannot come at the cost of our dignity and livelihoods. Ramban must remain the central stakeholder,” Khan said.\nHe also referred to reports of possible connectivity changes that could bypass Ramban district.\nThe Sawalkakote Hydroelectric Project on the Chenab river has remained under discussion for several years. Recent movement on the project has led to renewed concerns among project-affected families regarding compensation, rehabilitation and employment.\nThe SJAC demanded that compensation for land acquisition be provided in accordance with the Fair Compensation Act and said local youth should get preference in jobs linked to the project.\nCommittee members also raised the issue of extensions in the tendering process. Speakers said the tender process has been extended multiple times since February, with the latest deadline moved from June 4 to June 16.\nThe committee said the protest remained peaceful but warned of further agitation if the administration failed to hold talks with affected families and local stakeholders.\nAmong those who addressed the gathering were Ali Shan, Sanjay Kumar, Rahi Manzoor, Mudasir Azmat, Sheetal Singh Bali, Abdul Rahim Bali, Tauseef Mir, Iftiyaz Shoil, Vakil Singh, Gulraz Ahmed, Masood Khan, Ravinder Singh, Mohd Yousuf and Zakir Ahmed, besides other committee members and civil society representatives.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Ramban",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:33.428430",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-04T23:00:08.173704",
+    "source": "Kashmir Life",
+    "title": "NC Using Statehood for Political Mileage, Protest Political Stunt: BJP MP",
+    "url": "https://kashmirlife.net/nc-using-statehood-for-political-mileage-protest-political-stunt-bjp-mp-438875/",
+    "matched_keywords": [
+      "protest"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-04",
+    "content": "SRINAGAR: BJP Rajya Sabha MP Ghulam Ali Khatana on Thursday termed the National Conference’s proposed protest for restoration of statehood to JK as a “political stunt”\nSpeaking to reporters during his visit to Pattan village in North Kashmir, Khatana said, “The National Conference had relied on political theatrics during the Assembly election campaign and was now attempting to divert attention from what he described as its failure to fulfil promises made to the people.”\n“The National Conference was high on dramas during the election campaign and made tall promises to the people. They cannot give statehood. It is the Centre that has to restore statehood and both the Prime Minister and Home Minister have already made their position clear on the issue,” he said.\nBJP MP alleged that the ruling party secured electoral support through political rhetoric but had failed to address key public concerns during its nearly two years in office.\n“It has been close to two years and people are not happy with the promises made in the party’s manifesto. The situation in education and healthcare sectors remains unsatisfactory,” he said.\nKhatana claimed that several schools continue to face an acute shortage of teaching staff, with some institutions functioning with only one or two teachers despite having hundreds of students. He also alleged that many hospitals are struggling due to a shortage of doctors and cited Banihal as an example.\nHe claimed that dissatisfaction existed within the ruling party itself and said even some of its legislators were unhappy with the leadership. “The Omar Abdullah-led government has left people on God’s mercy and failed to address their day-to-day issues,” he alleged.\nHighlighting the role of youth, Khatana said young people in Jammu and Kashmir were increasingly focusing on education, sports, entrepreneurship and social reform initiatives.\n“The youth of Jammu and Kashmir are taking the lead in sports, startups and the fight against drugs. They are moving towards development, peace and progress and turning away from those who used them for vested interests over the past several decades,” he said.\nThe BJP MP also praised the efforts of security forces, saying their coordinated work alongside the public had helped improve the overall situation in the region.\n“Our security forces deserve appreciation for their role in bringing peace and stability. Through coordinated efforts with the people, they have helped Jammu and Kashmir move away from stone pelting, bloodshed and mourning towards an atmosphere of peace and development,” he said.(KNO)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:33.526355",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-16T04:07:12.826997",
+    "source": "Kashmir Life",
+    "title": "Srinagar Airport Marks Yatri Suvidha Diwas with Passenger-centric Celebrations",
+    "url": "https://kashmirlife.net/srinagar-airport-marks-yatri-suvidha-diwas-with-passenger-centric-celebrations-440238/",
+    "matched_keywords": [
+      "srinagar"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "SRINAGAR: Srinagar International Airport on Monday said they have celebrated Yatri Suvidha Diwas with a vibrant mix of passenger-focused, cultural, and social initiatives.\nThey said the day witnessed enthusiastic participation from passengers, visitors, stakeholders, dignitaries and students, reflecting the airport’s commitment to community engagement, service excellence, and social responsibility.\nIn a statement, a spokesperson said the Airports Authority of India, Srinagar International Airport Celebrates Yatri Suvidha Diwas with Enthusiasm and Community Participation\nHe said Srinagar International Airport celebrated Yatri Suvidha Diwas on June 15, 2026 with great zeal and enthusiasm through a series of passenger-centric, cultural, and social activities.\n“The celebrations commenced with the rendition of “Vande Mataram“, followed by a Plantation drive conducted in the esteemed presence of Deputy Commissioner, Budgam, SSP, Budgam, and other dignitaries,” said the spokesperson.\nHe said passengers and visitors enthusiastically participated in various attractions, including vibrant Cultural performances in the Arrival Hall, an engaging Selfie point featuring government initiatives on development, and “Paint Your Ideas” canvas stations, where passengers showcased their artistic talents through paintings and sketches.\nThe spokesperson said a Cleanliness drive was organised to promote awareness about maintaining a clean environment. Health check-up camps for stakeholders and passengers, along with a Blood donation camp, were also conducted within the terminal premises.\n“Interactive quiz sessions added to the festive atmosphere, with winners receiving prizes for their participation. The occasion also recognised the invaluable contributions of the women workforce and other staff members whose dedication ensures the smooth functioning of airport operations.”\nHe added, a special highlight of the day was the visit of students from neighbouring schools, including specially-abled children, who were given an opportunity to experience and learn about the airport environment. The event concluded with a prize distribution ceremony, making the celebration both memorable and inspiring for all participants. (KNO)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Budgam"
+    ],
+    "ner_actors": [
+      "Kno"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0237,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:07:14.491703"
+  },
+  {
+    "timestamp": "2026-06-16T04:07:16.364895",
+    "source": "Kashmir Life",
+    "title": "Decade of Decline: Jammu Kashmir Records 20 Per Cent Fall in...",
+    "url": "https://kashmirlife.net/decade-of-decline-jammu-kashmir-records-20-per-cent-fall-in-student-transition-from-secondary-to-higher-secondary-440234/",
+    "matched_keywords": [
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "SRINAGAR: Jammu and Kashmir has recorded its sharpest decline in student progression from secondary to higher secondary in a decade, with the transition rate falling more than 20 percent between 2014 and 2024.\nThe official figures available reveal that JK has recorded the second highest decline in the transition rate across the country during this period.\n“The steepest declines in transition from secondary to higher secondary between the years 2014 and 2024 were recorded in Arunachal Pradesh with 81.8 percent to 60.7 percent and Jammu Kashmir with 93.38 percent to 72.9 percent.”\nThe documents said that despite notable improvements, persistent challenges remain in ensuring retention through the higher secondary stage.\n“As participation beyond Grade 10 lies outside the mandate of the RTE Act, financial constraints, early entry into the workforce, and social pressures continue to impede progression, underscoring the need for sustained policy and institutional support,” it reads.\nAs already reported last year, In Jammu and Kashmir, over 17 percent of students at primary level and 12 percent learners at senior secondary level quit studies midway.\nThe news agency had reported that “The retention rate at Primary level in Jammu and Kashmir was 82.70 and 88.42 at senior secondary level.”\nHowever, in the previous academic session, nearly 46,000 Out of School Children (OoSC) were mainstreamed.\nFurthermore, the figures further reveal that during the year 2024-25, electricity coverage was completed in 87.2 percent of schools in Jammu and Kashmir.\nThe overall trend highlights sustained policy push, investment in school infrastructure, and greater convergence with rural electrification schemes.\n“Yet, bridging the last-mile gaps in challenging geographies remains critical to achieving true universality,” it reads. (KNO)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [
+      "Kno"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0435,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:07:18.190507"
+  },
+  {
+    "timestamp": "2026-06-16T04:07:34.620993",
+    "source": "Kashmir Life",
+    "title": "Inside Kashmir’s Rehabs",
+    "url": "https://kashmirlife.net/inside-kashmirs-rehabs-vol-18-issue-10-438058/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "Inside Kashmir’s rehabilitation centres, former patients describe abuse, isolation and humiliation, raising urgent questions about whether these facilities heal addiction or deepen the trauma, reports Afreen Ashraf\nRahil woke up staring at an unfamiliar ceiling. For a few moments, nothing felt strange. Then slowly he realised this was not the ceiling he had looked at for 20 years of his life.\nHe rolled his eyes around without moving his body, trying to understand where he was. The room was small and narrow. All four walls, along with the ceiling, were plain whitewashed. A small rectangular window painted green let in only a thin line of light. There was a steel bed with a thin mattress over it, a dirty blanket folded nearby, and no pillow to rest his head on. In one corner of the room sat a surveillance camera.\nThen another realisation struck him. He was naked.\nFor the next few hours, he began asking questions. “I kept asking where I was,” Rahil recalled. “Nobody answered me properly.”\nOnly after some time was he informed that he had been admitted to a rehabilitation centre in Budgam. His family had brought him there after recently discovering his drug addiction, which, according to Rahil, began following a period of personal turmoil. Like many families in Kashmir dealing with addiction inside their homes, they believed rehabilitation would help him recover.\nWhat followed was something else entirely.\nWalls Close In\nFor more than three weeks, Rahil remained inside that room in near-complete silence, with nobody to talk to. He had no sense of structure, no activity to occupy his hours, and no meaningful human contact to anchor his days. The solitude began affecting him in ways he had not expected.\n“At times those whitewashed walls began playing tricks with me,” he recalled. “When you spend most of your days in solitude, your mind starts imagining people. You begin talking to them even when you know they are only inside your head.”\nCounselling sessions were rare, he said, and human interaction inside the centre very limited. The surveillance camera in the corner of his room became the only constant presence he was aware of. “Sometimes I thought maybe they were only examining me through the camera,” he said. “Maybe they were just monitoring me.” He was not sure whether anyone was actually watching, but the uncertainty itself became its own kind of pressure.\nOne incident still disturbs him. He was taken from his room for what was described as a bathing session. “I was pushed inside a bathroom, two men standing outside near the entrance. Water was thrown at me through a pipe.” He found it awkward and humiliating. That sense of humiliation, he said, did not leave him.\nAs the days passed, Rahil grew increasingly desperate to speak to someone, anyone. “At last, for how long can you control yourself,” he said. One day, while moving through a corridor, he quietly slipped into the office room and stole back his phone. “I only wanted to talk to someone,” he s",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Budgam"
+    ],
+    "ner_actors": [
+      "Let"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "another realisation"
+    ],
+    "victim_target": [
+      "him"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0552,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:07:37.013192"
+  },
+  {
+    "timestamp": "2026-06-16T04:07:24.386052",
+    "source": "Kashmir Life",
+    "title": "Love Across Kashmir LoC Reveals Enduring Human Bonds",
+    "url": "https://kashmirlife.net/love-across-kashmir-loc-reveals-enduring-human-bonds-438532/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": "2026-06-15",
+    "content": "SRINAGAR: The recent detention of a 22-year-old man near Uri after he allegedly crossed the Line of Control (LoC) to meet a woman he had befriended online has once again drawn attention to the complex web of human relationships that continue to exist across Kashmir’s divided frontier.\nThe youth, identified as Zeeshan Ahmed Mir, a resident of Painkadi in Muzaffarabad, was reportedly detained by Army personnel after attempting to enter the Indian side through the Silikote area of the Uri sector in north Kashmir.\nDuring preliminary questioning, officials said Zeeshan claimed he had crossed the LoC to meet a female friend with whom he had developed a relationship through social media interactions. Security agencies are currently investigating the circumstances surrounding the crossing and verifying the digital communication between the two. The woman is also being questioned as part of the investigation.\nWhile authorities are treating the incident as a security matter, the episode has also highlighted the enduring familial, emotional and social ties that continue to bind communities across the LoC despite decades of conflict, separation and heavily fortified borders.\nStretching nearly 740 kilometres across Jammu and Kashmir, the LoC cuts through mountains, forests, rivers and villages, dividing communities that once shared close social and familial bonds. Border areas such as Uri, Karnah, Keran, Tangdhar, Poonch and Rajouri historically witnessed regular interaction among families, relatives and communities before the conflict fortified the frontier.\nThe tightening of border controls over the years left many families separated, with communication and travel becoming increasingly dependent on permits and diplomatic processes. Yet, despite the restrictions, kinship networks, marriages and shared ancestry have continued to sustain relationships across the divide.\nResidents in several border districts recall instances where families living only a few kilometres apart geographically had to travel hundreds, and at times thousands, of miles through official routes to attend weddings or reunite with relatives. In earlier decades, communication often took place through letters or by shouting messages across rivers separating villages on either side of the LoC.\nWith the spread of mobile phones, internet access and social media platforms, communication across the divide has evolved significantly. Officials believe such online interaction played a role in the Uri incident, with Zeeshan reportedly remaining in contact with the woman through digital platforms before attempting the crossing.\nSecurity agencies, however, remain cautious. The LoC continues to be one of the most heavily guarded borders in the region, and any unauthorised movement across it triggers a detailed investigation. Officials said all aspects of the case are being examined.\nThe incident comes days after security forces reportedly intercepted three men from Sopore who were allegedly attempting t",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu",
+      "Rajouri",
+      "Sopore",
+      "Poonch",
+      "Srinagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0067,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:07:26.704777"
+  }
+]

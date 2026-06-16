@@ -4,6 +4,7 @@ import pandas as pd
 
 from src.config import DATA_DIR, KEYWORDS, MIN_RISK_SCORE, CIVIL_UNREST_SCORE, JSON_RETENTION_DAYS
 from src.utils import is_article_too_old
+from src.historical_purge import purge_historical
 
 # ================== CONFIG ==================
 LOG_PURGED = True
@@ -22,12 +23,13 @@ def strict_retrospective_scrub():
 
     total_purged = 0
     total_retained = 0
-    purge_reasons = {"low_score": 0, "out_of_region": 0, "duplicate": 0, "too_old": 0}
+    purge_reasons = {"low_score": 0, "out_of_region": 0, "duplicate": 0, "too_old": 0, "manual": 0}
 
     # ==========================================
     # Global Lexical Memory
     # ==========================================
     global_seen_events = [] 
+    manual_purge_urls = set()
 
     for json_file in DATA_DIR.glob("*.json"):
         if "twitter" in json_file.name.lower():
@@ -47,6 +49,7 @@ def strict_retrospective_scrub():
                 content = article.get("content", "").lower()
                 tactic = article.get("granular_incident_type", "Unknown")
                 published_date = article.get("published_date")
+                is_manual_purge = bool(article.get("manual_purge"))
 
                 is_in_region_ner = any(loc in valid_territories for loc in ner_locations)
                 has_regional_keyword = any(loc in title or loc in content for loc in valid_territories)
@@ -68,12 +71,15 @@ def strict_retrospective_scrub():
 
                 required_score = CIVIL_UNREST_SCORE if tactic == "Civil Unrest" else MIN_RISK_SCORE
 
-                if score >= required_score and is_in_region and not is_dup and not is_too_old:
+                if score >= required_score and is_in_region and not is_dup and not is_too_old and not is_manual_purge:
                     pruned_articles.append(article)
                     global_seen_events.append(words)
                 else:
                     total_purged += 1
-                    if is_too_old:
+                    if is_manual_purge:
+                        purge_reasons["manual"] += 1
+                        manual_purge_urls.add(article.get("url"))
+                    elif is_too_old:
                         purge_reasons["too_old"] += 1
                     elif is_dup:
                         purge_reasons["duplicate"] += 1
@@ -83,7 +89,7 @@ def strict_retrospective_scrub():
                         purge_reasons["out_of_region"] += 1
 
                     if LOG_PURGED:
-                        reason = "OLD" if is_too_old else ("DUP" if is_dup else ("SCORE" if score < required_score else "LOC"))
+                        reason = "MANUAL" if is_manual_purge else ("OLD" if is_too_old else ("DUP" if is_dup else ("SCORE" if score < required_score else "LOC")))
                         print(f"   🗑️ Purged [{reason}] | Score={score:.1f} | {article.get('title', '')[:80]}...")
 
             total_retained += len(pruned_articles)
@@ -102,16 +108,30 @@ def strict_retrospective_scrub():
         except Exception as e:
             print(f"⚠️ Failed to scrub {json_file.name}: {e}")
 
+    # ================== HISTORICAL ARCHIVE PURGE ==================
+    hist_summary = None
+    if manual_purge_urls:
+        try:
+            hist_summary = purge_historical(
+                manual_purge_urls, hist_root=DATA_DIR.parent / "historical", write=True
+            )
+        except Exception as e:
+            print(f"⚠️ Historical purge failed: {e}")
+
     # ================== FINAL REPORT ==================
     print("\n" + "="*65)
     print("🏁 SCRUBBING METRICS REPORT")
     print("="*65)
     print(f"🗑️  Total Purged:              {total_purged}")
+    print(f"   ├── Manually Flagged:        {purge_reasons['manual']}")
     print(f"   ├── Too Old (> {JSON_RETENTION_DAYS} days): {purge_reasons['too_old']}")
     print(f"   ├── Lexical Duplicates:      {purge_reasons['duplicate']}")
     print(f"   ├── Low Score:               {purge_reasons['low_score']}")
     print(f"   └── Out of Region:           {purge_reasons['out_of_region']}")
     print(f"🛡️  Total Retained:            {total_retained}")
+    if hist_summary is not None:
+        print(f"🗂️  Historical rows purged:    {hist_summary.get('rows_removed', 0)}"
+              f"  (backup: {hist_summary.get('backup_path')})")
     print("="*65 + "\n")
 
 if __name__ == "__main__":

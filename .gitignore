@@ -16,6 +16,7 @@ data/historical/**/*.csv
 data/screenshots/*.png
 data/screenshots/*.jpg
 logs/
+test_final/
 
 # Reports
 reports/*.pdf

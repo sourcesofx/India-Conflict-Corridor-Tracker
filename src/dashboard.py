@@ -11,6 +11,7 @@ import ast
 from src.config import DISTRICT_COORDS, KEYWORDS
 from src.red_flag_engine import RedFlagEngine
 from src.report_generator import HybridIntelCompiler
+from src.review_tab import render_review_tab
 
 st.set_page_config(page_title="India Conflict Corridor Tracker", page_icon="🛡️", layout="wide")
 
@@ -180,7 +181,7 @@ m4.metric("Active Districts", filtered["ner_locations"].explode().nunique() if n
 m5.metric("Active Actors", filtered["ner_actors"].explode().nunique() if not filtered.empty else 0)
 
 # ====================== TABS ======================
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["📈 Time Series", "🗺️ Heatmap", "🔥 Actors & Correlation", "📋 Latest Articles", "📄 Weekly Summary"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📈 Time Series", "🗺️ Heatmap", "🔥 Actors & Correlation", "📋 Latest Articles", "📄 Weekly Summary", "🛡️ Review Queue"])
 
 with tab1:
    if not filtered.empty:
@@ -271,51 +272,59 @@ with tab3:
            st.plotly_chart(fig_state, use_container_width=True)
 
        # ROW 3: Operational Links
+       # ROW 3: Operational Links
        st.markdown("<hr style='border-color: #1F3A2E; margin-top: 15px; margin-bottom: 25px;'>", unsafe_allow_html=True)
-       st.markdown("<p style='font-weight: bold; font-size: 1.1rem; margin-bottom: 0px;'>Verified Operational Links (Actor ➔ Tactic ➔ Target)</p>", unsafe_allow_html=True)
-      
-       links = []
+       st.markdown("<p style='font-weight: bold; font-size: 1.1rem; margin-bottom: 0px;'>Operational Links (Threat Actor &#10138; Tactic)</p>", unsafe_allow_html=True)
+       st.caption("Recurring links only (2+ incidents), drawn from verified NER actor entities.")
+
+       INVALID_ACTORS = {"—", "[]", "none", "nan", "unknown", "", "who", "one", "two others"}
+       TOP_N_ACTORS = 10
+
+       # Build Actor -> Tactic pairs from the clean NER actor lists (same source as the bar charts above).
+       actor_freq = {}
+       pairs = []
        for row in filtered.to_dict('records'):
-           perps = row.get("Perpetrator", []) if "Perpetrator" in row else row.get("perpetrator", [])
-           tactic = row.get("granular_incident_type", "Unknown")
-           targets = row.get("Target / Victim", []) if "Target / Victim" in row else row.get("victim_target", [])
-          
-           if isinstance(perps, str): perps = [perps]
-           if isinstance(targets, str): targets = [targets]
-           if not isinstance(perps, list): perps = []
-           if not isinstance(targets, list): targets = []
-          
-           invalid_vals = ["—", "[]", "None", "nan", "Unknown", ""]
-           valid_perps = [p for p in perps if p and str(p).strip() not in invalid_vals]
-           valid_targets = [t for t in targets if t and str(t).strip() not in invalid_vals]
-          
-           if (valid_perps or valid_targets) and tactic not in ["Unknown", "Other"]:
-               for p in valid_perps:
-                   links.append({"source": str(p).title(), "target": tactic, "value": 1})
-               for t in valid_targets:
-                   links.append({"source": tactic, "target": str(t).title(), "value": 1})
-                  
-       if links:
-           links_df = pd.DataFrame(links)
-           sankey_data = links_df.groupby(['source', 'target']).size().reset_index(name='value')
-           sankey_data = sankey_data[sankey_data['value'] >= 1]
-           
-           if not sankey_data.empty:
-               all_nodes = list(pd.concat([sankey_data['source'], sankey_data['target']]).unique())
-               node_dict = {node: i for i, node in enumerate(all_nodes)}
-               sankey_data['source_idx'] = sankey_data['source'].map(node_dict)
-               sankey_data['target_idx'] = sankey_data['target'].map(node_dict)
-              
-               fig_sankey = go.Figure(data=[go.Sankey(
-                   node = dict(pad = 15, thickness = 15, line = dict(color = "black", width = 0.5), label = all_nodes, color = "#C4663F"),
-                   link = dict(source = sankey_data['source_idx'], target = sankey_data['target_idx'], value = sankey_data['value'], color = "rgba(107, 155, 126, 0.3)")
-               )])
-               fig_sankey.update_layout(template="plotly_dark", paper_bgcolor="#0C1B16", plot_bgcolor="#0C1B16", margin=dict(l=10, r=10, t=25, b=10), height=380)
-               st.plotly_chart(fig_sankey, use_container_width=True)
-           else:
-               st.info("No recurring operational patterns met the visual density threshold (Connection Count >= 2).")
+           tactic = str(row.get("granular_incident_type", "")).strip()
+           if tactic in ("", "Unknown", "Other", "nan"):
+               continue
+           actors = row.get("ner_actors", [])
+           if not isinstance(actors, list):
+               actors = []
+           for a in actors:
+               name = str(a).strip()
+               if name.lower() in INVALID_ACTORS:
+                   continue
+               name = name.title()
+               actor_freq[name] = actor_freq.get(name, 0) + 1
+               pairs.append((name, tactic))
+
+       # Keep only the most active actors, then only recurring actor -> tactic links.
+       top_actors = {a for a, _ in sorted(actor_freq.items(), key=lambda x: -x[1])[:TOP_N_ACTORS]}
+       link_counts = {}
+       for actor, tactic in pairs:
+           if actor in top_actors:
+               link_counts[(actor, tactic)] = link_counts.get((actor, tactic), 0) + 1
+       link_counts = {k: v for k, v in link_counts.items() if v >= 2}
+
+       if link_counts:
+           actor_nodes = sorted({a for (a, _) in link_counts})
+           tactic_nodes = sorted({t for (_, t) in link_counts})
+           all_nodes = actor_nodes + tactic_nodes
+           node_dict = {n: i for i, n in enumerate(all_nodes)}
+           node_colors = ["#6B9B7E"] * len(actor_nodes) + ["#C4663F"] * len(tactic_nodes)
+
+           src = [node_dict[a] for (a, _) in link_counts]
+           tgt = [node_dict[t] for (_, t) in link_counts]
+           val = list(link_counts.values())
+
+           fig_sankey = go.Figure(data=[go.Sankey(
+               node = dict(pad = 18, thickness = 16, line = dict(color = "black", width = 0.5), label = all_nodes, color = node_colors),
+               link = dict(source = src, target = tgt, value = val, color = "rgba(107, 155, 126, 0.3)")
+           )])
+           fig_sankey.update_layout(template="plotly_dark", paper_bgcolor="#0C1B16", plot_bgcolor="#0C1B16", margin=dict(l=10, r=10, t=25, b=10), height=380)
+           st.plotly_chart(fig_sankey, use_container_width=True)
        else:
-           st.info("No active Actor or Target entities extracted in the current timeframe to generate links.")
+           st.info("No recurring actor → tactic links (2+ incidents) in the current timeframe.")
 
        # ==========================================
        # ROW 4: Geographic Correlation Matrix
@@ -359,18 +368,51 @@ with tab4:
            else:
                return pd.Series(["—"] * len(latest), index=latest.index)
 
-       # === Smart Formatter ===
        def format_casualties(val):
-           if isinstance(val, str) and "{'killed'" in val:
-               try: val = ast.literal_eval(val)
-               except: pass
+           # A repr-string of a dict/list (legacy storage) -> parse back first.
+           if isinstance(val, str):
+               s = val.strip()
+               if s[:1] in ("{", "["):
+                   try:
+                       val = ast.literal_eval(s)
+                   except Exception:
+                       return s if s not in ("[]", "{}", "None", "nan", "") else "—"
+               else:
+                   return s if s not in ("None", "nan", "") else "—"
+
+           def _item(it):
+               if isinstance(it, dict):
+                   c = it.get("count")
+                   aff = it.get("affiliation", "unspecified")
+                   label = "" if aff in (None, "", "unspecified") else f" {aff}"
+                   return f"{c if c is not None else 'several'}{label}"
+               return str(it).strip()
+
+           def _render(items):
+               if not isinstance(items, list):
+                   items = [items] if items else []
+               out = []
+               for it in items:
+                   if it in (None, "", [], {}):
+                       continue
+                   text = _item(it)
+                   if text:
+                       out.append(text)
+               return ", ".join(out)
+
+           if isinstance(val, list):
+               val = {"killed": val, "injured": []}
+
            if isinstance(val, dict):
-               items = val.get("killed", []) + val.get("injured", [])
-               return ", ".join(items).title() if items else "—"
-           elif isinstance(val, list):
-               return ", ".join(val).title() if val else "—"
-           elif isinstance(val, str):
-               return val.title() if val.strip() not in ["[]", "{}", "None", "nan", ""] else "—"
+               killed = _render(val.get("killed", []))
+               injured = _render(val.get("injured", []))
+               parts = []
+               if killed:
+                   parts.append(f"Killed: {killed}")
+               if injured:
+                   parts.append(f"Injured: {injured}")
+               return " | ".join(parts) if parts else "—"
+
            return "—"
 
        latest["Render_Perp"] = safe_format("Perpetrator", "perpetrator")
@@ -447,6 +489,9 @@ with tab5:
            )
        else:
            st.info("No data available for the trailing 7 days.")
+
+with tab6:
+   render_review_tab(st)
 
 # ====================== RED ALERT LOGIC ======================
 st.subheader("🚨 Tactical Red Flag Alerts (24hr Window)")

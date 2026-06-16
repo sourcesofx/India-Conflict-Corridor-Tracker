@@ -1,7 +1,9 @@
 import re
 import json
 import pandas as pd
+import numpy as np
 from src.config import KEYWORDS, DATA_DIR
+from src.extraction import format_casualties
 
 
 def extract_content_with_trafilatura(url: str) -> str:
@@ -71,33 +73,115 @@ def contains_keywords(text: str) -> list:
             matched.append(kw)
     return matched
 
+DEDUP_STOPLIST = {
+    "kashmir", "jammu", "india", "indian", "northeast", "assam", "manipur",
+    "police", "force", "forces", "security", "army", "militant", "militants",
+    "terrorist", "terrorists", "encounter", "attack", "attacks", "killed",
+    "dead", "death", "injured", "protest", "protests", "operation", "district",
+    "after", "amid", "over", "said", "says", "near", "from", "into", "with",
+    "their", "report", "reports", "official", "officials", "year", "years",
+}
 
-def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None) -> pd.DataFrame:
-    if df.empty:
+_EMBEDDER = None
+_EMBEDDER_TRIED = False
+
+
+def _get_default_embedder():
+    global _EMBEDDER, _EMBEDDER_TRIED
+    if _EMBEDDER_TRIED:
+        return _EMBEDDER
+    _EMBEDDER_TRIED = True
+    try:
+        from sentence_transformers import SentenceTransformer
+        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+        def _encode(texts):
+            return model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+
+        _EMBEDDER = _encode
+        print("   🧠 Loaded MiniLM sentence-embedding model for semantic dedup.")
+    except Exception as e:
+        print(f"   ⚠️ sentence-transformers not available ({e.__class__.__name__}); "
+              f"dedup using word-overlap only. Run: pip install sentence-transformers")
+        _EMBEDDER = None
+    return _EMBEDDER
+
+
+def _title_tokens(title) -> set:
+    words = re.findall(r"\b[a-z][a-z'-]{3,}\b", str(title).lower())
+    return set(w for w in words if w not in DEDUP_STOPLIST)
+
+
+def _jaccard(a: set, b: set) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+def _date_bucket(row, window_days: int):
+    for col in ("timestamp", "published_date"):
+        val = row.get(col)
+        if val:
+            dt = pd.to_datetime(val, errors="coerce")
+            if not pd.isna(dt):
+                if getattr(dt, "tzinfo", None) is not None:
+                    dt = dt.tz_localize(None)
+                return int(dt.toordinal() // window_days)
+    return "NA"
+
+
+def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
+                        threshold: float = 0.5, window_days: int = 3,
+                        use_embeddings: bool = True, embedding_threshold: float = 0.78,
+                        embedder=None) -> pd.DataFrame:
+    """
+    Collapse duplicate reports of the same event. Within each region+time block,
+    two articles are duplicates if EITHER:
+      - their titles share enough words (Jaccard >= threshold), OR
+      - their meanings are close (embedding cosine >= embedding_threshold).
+    The second test catches the same event written with different words.
+    Keeps the highest-scoring article of each cluster.
+    """
+    if df is None or df.empty:
         return df
 
-    deduped_indices = []
-    seen_words_list = []
+    work = df.copy()
+    if "final_risk_score" in work.columns:
+        work = work.sort_values("final_risk_score", ascending=False, kind="stable")
 
-    for idx, row in df.iterrows():
-        words = set(re.findall(r'\b\w{4,}\b', str(row.get('title', '')).lower()))
+    # Compute meaning-vectors for every title in one batch (optional layer).
+    embeddings = None
+    if use_embeddings:
+        if embedder is None:
+            embedder = _get_default_embedder()
+        if embedder is not None:
+            texts = [f"{r.get('title', '')}. {str(r.get('content', ''))[:200]}"
+                     for _, r in work.iterrows()]
+            embeddings = embedder(texts)
+
+    seen = {}   # block -> list of (token_set, embedding_or_None)
+    keep = []
+    for pos, (idx, row) in enumerate(work.iterrows()):
+        block = (str(row.get("region", "") or ""), _date_bucket(row, window_days))
+        toks = _title_tokens(row.get("title", ""))
+        emb = embeddings[pos] if embeddings is not None else None
+
         is_dup = False
-
-        for seen_words in seen_words_list:
-            if words and seen_words:
-                overlap = len(words.intersection(seen_words))
-                if overlap / min(len(words), len(seen_words)) > 0.65:
-                    is_dup = True
-                    break
+        for seen_toks, seen_emb in seen.get(block, []):
+            if _jaccard(toks, seen_toks) >= threshold:
+                is_dup = True
+                break
+            if emb is not None and seen_emb is not None \
+                    and float(np.dot(emb, seen_emb)) >= embedding_threshold:
+                is_dup = True
+                break
 
         if not is_dup:
-            seen_words_list.append(words)
-            deduped_indices.append(idx)
-
-        if max_results and len(deduped_indices) >= max_results:
-            break
-
-    return df.loc[deduped_indices].copy()
+            seen.setdefault(block, []).append((toks, emb))
+            keep.append(idx)
+            if max_results and len(keep) >= max_results:
+                break
+    return df.loc[keep].copy()
 
 
 def is_article_too_old(published_date, max_days: int = 7) -> bool:
@@ -160,21 +244,6 @@ def archive_to_historical(article: dict):
             if not val: return ""
             return ", ".join(val) if isinstance(val, list) else str(val)
 
-        def format_casualties(val):
-            """Smart formatter for casualties_killed dict (from classifier regex) or legacy list."""
-            if not val:
-                return ""
-            if isinstance(val, dict):
-                killed = ", ".join(val.get("killed", [])) if val.get("killed") else ""
-                injured = ", ".join(val.get("injured", [])) if val.get("injured") else ""
-                parts = []
-                if killed: parts.append(f"Killed: {killed}")
-                if injured: parts.append(f"Injured: {injured}")
-                return " | ".join(parts) if parts else ""
-            if isinstance(val, list):
-                return ", ".join(val)
-            return str(val)
-
         # SPACY-SPECIFIC MAPPING
         actors = article.get("ner_actors", [])
         state_actors = article.get("ner_state_actors", [])
@@ -193,7 +262,10 @@ def archive_to_historical(article: dict):
             # Dashboard Schema Mapping (Using purely local SpaCy extractions)
             "Render_Perp": format_list(all_perps),
             "Render_Target": format_list(article.get("ner_locations", [])),
-            "Render_Casualties": format_casualties(article.get("casualties_killed")),
+            "Render_Casualties": format_casualties({
+                "killed": article.get("casualties_killed", []),
+                "injured": article.get("casualties_injured", []),
+            }),
             
             "region": article.get("region"),
             "source_type": article.get("source_type"),

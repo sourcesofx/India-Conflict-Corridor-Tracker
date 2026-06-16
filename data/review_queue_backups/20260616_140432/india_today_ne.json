@@ -1,0 +1,457 @@
+[
+  {
+    "timestamp": "2026-06-09T15:55:58.418334",
+    "source": "India Today NE",
+    "title": "Naga CSOs condemn government inaction over civilian killing, demand justice for victims",
+    "url": "https://www.indiatodayne.in/manipur/video/naga-csos-condemn-government-inaction-over-civilian-killing-demand-justice-for-victims-1405255-2026-06-09",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": null,
+    "content": "Naga CSOs condemn government inaction over civilian killing, demand justice for victims\nSeveral Naga civil society organisations and indigenous community groups on Tuesday, June 9 strongly condemned what they described as the Manipur government's failure to curb militant violence and ensure the safety of civilians, following the killing of a Rongmei Naga villager in an alleged militant ambush.\nRepresentatives of various Naga civil society organisations and local community bodies gathered at the mortuary of the Regional Institute of Medical Sciences (RIMS), Imphal, to pay homage to 58-year-old Chunjanglung Panmei, who was killed during an alleged ambush by armed militants on June 8. Floral tributes were offered to the deceased during a condolence programme attended by members of different communities and civil society groups.\nSpeaking to the media on the sidelines of the event, Foothill Naga Coordinating Committee (FNCC) leader Ng Akhui expressed strong dissatisfaction over what he termed the government's inability to prevent repeated attacks on innocent civilians and bring the perpetrators to justice.\nAkhui alleged that armed militants have continued targeting civilians in various parts of the state, while the government has failed to take effective action. He questioned the purpose of governance if authorities were unable to safeguard the lives of ordinary citizens and urged the administration to take immediate steps against those responsible for the killing.\nAccording to Akhui, Panmei, a resident of Pongringlong village in Kangpokpi district, was allegedly killed by armed Kuki militants while he had gone to repair water pipelines and collect firewood from a nearby forest. Describing the incident as an act of terrorism, he called for the immediate arrest and prosecution of those involved.\nHe further alleged that indigenous communities have been facing continuous threats from armed groups, while official responses have largely been limited to issuing condemnation statements. Such responses, he said, have failed to inspire confidence among affected communities.\nThe FNCC leader also raised concerns over the movement of armed militants carrying sophisticated weapons despite the presence of security forces. He claimed that the perceived lack of action by security agencies has created a trust deficit among local residents, forcing villages to organise their own defence mechanisms through village guards.\nAkhui further questioned the effectiveness of security operations and alleged that the continued presence of armed militants in public areas without intervention has raised serious concerns among local communities.\nHe also reiterated demands for the withdrawal of the Suspension of Operations (SoO) agreements with Kuki militant groups and called for stronger measures to address what he described as the root causes of the ongoing conflict.\nThe incident occurred in the early hours of June 8 when armed militants allegedly ambushed a group of Rongmei Naga v",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "Militant"
+    ],
+    "victim_target": [
+      "Civilian"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:55:58.541655"
+  },
+  {
+    "timestamp": "2026-06-09T15:56:05.991689",
+    "source": "India Today NE",
+    "title": "NVG-EC condemns killing of village guard in Manipur’s Noney District, mourns victim’s death",
+    "url": "https://www.indiatodayne.in/manipur/story/nvg-ec-condemns-killing-of-village-guard-in-manipurs-noney-district-mourns-victims-death-1404917-2026-06-08",
+    "matched_keywords": [
+      "noney"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "NVG-EC condemns killing of village guard in Manipur’s Noney District, mourns victim’s death\nThe Naga Village Guard, Eastern Command (NVG-EC), has strongly condemned the killing of a village guard from Pongringlong Part-I village in Manipur’s Noney district and expressed deep concern over what it described as a targeted attack on Rongmei Naga villagers.\nThe Naga Village Guard, Eastern Command (NVG-EC), has strongly condemned the killing of a village guard from Pongringlong Part-I village in Manipur’s Noney district and expressed deep concern over what it described as a targeted attack on Rongmei Naga villagers.\nAccording to a statement issued by the organisation, Chunjanglung Panmei (57), a village guard from Pongringlong Part-I, was killed on Monday morning during an alleged ambush near the village, located close to Tupul in Noney district.\nThe NVG-EC alleged that armed Kuki militants attacked a group of Rongmei Naga villagers who had gone to collect firewood in the forested area between Pongringlong and Charoi Pondaijang at around 5 a.m. on June 8. The organisation stated that while most of the villagers managed to escape and return home, Panmei went missing during the incident.\nAccording to the statement, a search was later conducted in the area, during which Panmei’s body was reportedly found in a nearby jungle. The organisation alleged that he had sustained multiple gunshot wounds and claimed that he was captured before being killed.\nThe NVG-EC further alleged that the villagers of Pongringlong had faced repeated attacks in recent weeks. It referred to incidents on May 26 and June 5, 2026, which it attributed to Kuki militants and cadres operating under the Suspension of Operations (SoO) arrangement.\nDescribing the killing as a heinous crime, the organisation condemned those responsible and warned of what it termed a “befitting retaliation.” It also called attention to the security situation faced by Naga villages in the region.\nThe organisation expressed condolences to the bereaved family and paid tribute to Panmei’s service as a village guard. In its statement, the NVG-EC said it mourned the loss of the 57-year-old and honoured his commitment to protecting his community.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Noney"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "Militant"
+    ],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Targeted Attack",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:56:06.092156"
+  },
+  {
+    "timestamp": "2026-06-09T23:35:19.389329",
+    "source": "India Today NE",
+    "title": "Farmer shot dead in Manipur’s Tamenglong district, security tightened",
+    "url": "https://www.indiatodayne.in/manipur/story/farmer-shot-dead-in-manipurs-tamenglong-district-security-tightened-1405549-2026-06-09",
+    "matched_keywords": [
+      "tamenglong"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Farmer shot dead in Manipur’s Tamenglong district, security tightened\nA farmer was shot dead in Manipur’s Tamenglong district on Tuesday, June 9 after a group of suspected armed miscreants allegedly opened fire on cultivators working in a paddy field, officials said.\nA farmer was shot dead in Manipur’s Tamenglong district on Tuesday, June 9 after a group of suspected armed miscreants allegedly opened fire on cultivators working in a paddy field, officials said.\nAccording to police, the incident occurred at around 11:30 am at Lansan Kuki village under the jurisdiction of Tamei Police Station in Tamenglong district. A group of farmers was reportedly working in a paddy field along the Imphal-Tamenglong road near Lansan village when unidentified armed men opened fire.\nThe deceased was identified as Haogin Louvum (55), a resident of Lansan Kuki village in Tamenglong district. Police said the victim belonged to the Kuki community.\nOfficials stated that local residents have alleged the involvement of armed cadres suspected to be associated with the Zeliangrong United Front (Kamson) faction, a Naga militant outfit. However, police said the identity of the attackers and any group responsible for the incident has not been officially confirmed.\nThe body has been recovered and shifted to Kangpokpi district for necessary legal procedures. A case has been registered at the concerned police station and an investigation is underway.\nPolice said tension continues to prevail along the Imphal-Tamenglong road region following the incident, prompting authorities to strengthen security deployment in the area.\nThe killing occurred amid heightened tensions between Naga and Kuki communities. Earlier on Tuesday, 14 Kuki civilians who had been in the custody of Naga civil bodies since May 13 were released. The civilians had been held following the twin ambush incidents in Kangpokpi and Noney districts that claimed four lives, including three church leaders and one Naga man.\nInter-community tensions further escalated after another violent incident on Monday in which Chunjanglung Panmei (57), a Naga civilian, was killed in an alleged ambush by unidentified armed miscreants at Pongringlong Part-I in Kangpokpi district. The victim was reportedly among a group of villagers who had gone to collect firewood when the attack took place.\nMeanwhile, the Kuki Inpi Sadar Hills alleged that Haogin Louvum was killed by cadres of the NSCN-IM Kamson group. The organisation further claimed that the deceased’s body was not allowed to pass through Makui village while being transported for his last rites.\nIn a separate statement, the Kuki Inpi Manipur, the apex civil body of the Kuki community, described the incident as a “cold-blooded murder” and alleged a serious failure of the state’s security apparatus. The organisation said the killing raised concerns over the safety of vulnerable Kuki-Zo villages in Tamenglong district and questioned the adequacy of security measures in the region.\nThe o",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Tamenglong",
+      "Kangpokpi",
+      "Noney"
+    ],
+    "ner_actors": [
+      "Nscn"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T23:35:19.529771"
+  },
+  {
+    "timestamp": "2026-06-13T12:56:02.239823",
+    "source": "India Today NE",
+    "title": "Assam Rifles, police recover huge cache of arms and military stores in Manipur's Kakching",
+    "url": "https://www.indiatodayne.in/manipur/story/assam-rifles-police-recover-huge-cache-of-arms-and-military-stores-in-manipurs-kakching-1407388-2026-06-13",
+    "matched_keywords": [
+      "kakching"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Assam Rifles, police recover huge cache of arms and military stores in Manipur's Kakching\nAssam Rifles and Thoubal Police Commandos jointly recovered a massive cache of arms, ammunition and military-grade equipment during an operation in Manipur's Kakching district, dealing a significant blow to insurgent networks operating in the region.\nAssam Rifles and Thoubal Police Commandos jointly recovered a massive cache of arms, ammunition and military-grade equipment during an operation in Manipur's Kakching district, dealing a significant blow to insurgent networks operating in the region.\nThe operation was carried out in the general area of Purnaheitupokpi in Kakching district, based on specific intelligence inputs. Security forces recovered a large quantity of weapons, ammunition, explosives and combat gear suspected to be linked to insurgent activities.\nAmong the weapons seized were a USA-made .32 pistol along with four rounds of ammunition, two single-barrel breech-loading (SBBL) guns and two detonators. The recovered ammunition included 17 AK-series rounds, 18 SLR rounds, 29 rounds of .303 ammunition and three INSAS rounds. Security personnel also recovered a striker spring, two tear smoke shells, 12 KCP logo stickers and a bipod.\nIn addition to the arms and ammunition, the joint team recovered a substantial quantity of military equipment, including 12 bulletproof plates, two bulletproof fibre plates, two helmets and a bulletproof jacket.\nThe cache also included 60 combat shirts, 57 combat pants, two combat jackets, 18 combat caps, eight pairs of combat shoes, 23 combat belts and an MP-5 sling.\nOfficials said the recovery represents a major success in ongoing efforts to curb insurgent activities and maintain law and order in the conflict-affected state.\nAll recovered weapons, ammunition and military stores have been handed over to Heirok Police Station for further investigation and necessary legal action.\nSecurity forces have intensified intelligence-based operations across Manipur in recent months to recover illegal arms and dismantle militant infrastructure amid continuing efforts to restore peace and stability in the state.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kakching",
+      "Thoubal"
+    ],
+    "ner_actors": [
+      "Kcp"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T12:56:02.847676"
+  },
+  {
+    "timestamp": "2026-06-02T16:33:19.116831",
+    "source": "India Today NE",
+    "title": "‘We brought his body home, but his soul was gone’: Mother of Nalbari youth killed while saving cousin seeks justice",
+    "url": "https://www.indiatodayne.in/assam/video/we-brought-his-body-home-but-his-soul-was-gone-mother-of-nalbari-youth-killed-while-saving-cousin-seeks-justice-1401500-2026-06-02",
+    "matched_keywords": [
+      "nalbari",
+      "killed"
+    ],
+    "risk_score": 22,
+    "risk_level": "HIGH",
+    "region": "ne",
+    "published_date": "2026-06-02",
+    "content": "Grief-stricken and struggling to come to terms with the loss of her son, Deepa Barman, the mother of deceased Madhurjya Barman, on June 2, has appealed for justice and urged the government to ensure that no other family suffers a similar tragedy. Recalling her last moments with her son, Deepa Barman said the family had attended a function at a relative's house on the day of the incident. While she and her husband returned home in the evening, Madhurjya later went to Nalbari to return some books. \"He left around 5.30 pm and came back at around 7 pm. He met me while I was talking on the phone. He touched my face and said he had come back to see me before leaving again. That was the last time I saw my son,\" she said. Soon after, the family received a call from the police informing them that Madhurjya had met with an accident and asking them to come to Ghograpar. When they reached the hospital, they were not allowed to see him immediately. \"We brought his body home the next day. His body was there, but he was gone. We brought his body home, but his soul was gone,\" she said. Describing her son as a kind-hearted and hardworking young man, Deepa said he lost his life while trying to save his cousin sister. \"No mother should have to suffer this pain. It should never happen to anyone's son. The police have said he was killed. Whoever was involved, and whoever helped the killers, should be punished. I request the government to ensure that such incidents do not happen to any girl or boy in the future,\" she said. The incident relates to the Gangapur attack in Nalbari district, in which 19-year-old Madhurjya Barman was killed and his cousin, 18-year-old Mridumudra Deka, was critically injured while they were travelling on a scooter near Gangapur under Mukalmua on Sunday night. Madhurjya, a resident of Balipathar in Chamata and Assistant General Secretary of the West Nalbari Regional Students' Union, died on the spot. Mridumudra was shifted to Gauhati Medical College and Hospital, where she remains under treatment in the intensive care unit. Police have named Roz Ali in connection with the attack. Following a manhunt, the prime accused, Roz Ali, was reportedly killed during a police encounter in Mukalmua. The investigation into the case is ongoing, with police examining all aspects surrounding the attack. (Inputs from ANI) Copyright©2026 Living Media India Limited. For reprint rights: Syndications Today Add India Today NE to Home Screen",
+    "ner_locations": [
+      "Nalbari"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:34.208255",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-10T18:58:39.541783",
+    "source": "India Today NE",
+    "title": "Three sentenced to 20 years RI in 9,500 yaba tablet seizure case in Tripura",
+    "url": "https://www.indiatodayne.in/tripura/story/three-sentenced-to-20-years-ri-in-9500-yaba-tablet-seizure-case-in-tripura-1405972-2026-06-10",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": null,
+    "content": "Three sentenced to 20 years RI in 9,500 yaba tablet seizure case in Tripura\nThe Sonamura sub-divisional court of Sepahijala District has sentenced three persons to 20 years of rigorous imprisonment after they were arrested with 9,500 yaba tablets in 2024.\nThe Sonamura sub-divisional court of Sepahijala District has sentenced three persons to 20 years of rigorous imprisonment after they were arrested with 9,500 yaba tablets in 2024.\nSpeaking on the matter to the media, an advocate said that Special Judge Sanjay Bhattacharya, NDPS, Sonamura sub-division, Sepahijala District, heard a case of Jatrapur Police Station in the same district and delivered the order today.\n“On September 10, 2024, the officer-in-charge of the police station received a tip-off that a vehicle carrying contraband items was approaching from Sonamura towards the Kathalia area. The OC, along with other staff, laid an ambush and detained the car late at night. During the search of the vehicle, 9,500 yaba tablets were seized. Driver Madai Shil, along with Manik Mia and Prasanta Roy, were arrested, and all were residents of Belonia under South Tripura District,” he said.\nHe said that OC Subrata Debnath filed a case against them. Inspector Arup Debbarma started investigating the case and submitted a charge sheet before the court.\n“During the hearing, a total of 19 witnesses were produced. Today, the court delivered its verdict, sentencing them to 20 years of rigorous imprisonment and a fine of Rs 1 lakh,” he added.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Sepahijala"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T18:58:39.643310"
+  },
+  {
+    "timestamp": "2026-06-12T21:12:07.402044",
+    "source": "India Today NE",
+    "title": "Four arrested in Assam's Sivasagar arms trafficking case; probe underway",
+    "url": "https://www.indiatodayne.in/assam/video/four-arrested-in-assams-sivasagar-arms-trafficking-case-probe-underway-1407155-2026-06-12",
+    "matched_keywords": [
+      "sivasagar",
+      "arrested"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Four arrested in Assam's Sivasagar arms trafficking case; probe underway\nPolice have arrested four persons in connection with an alleged arms trafficking network in Assam's Sivasagar district and are investigating possible links to other criminal activities, officials said on Friday, June 12.\nAddressing a press conference, Additional Superintendent of Police (Crime) Moidul Islam said the arrests were made following an investigation into the case, which has been registered at Sivasagar Police Station.\nAccording to the police, the alleged masterminds of the network have been identified as Achinta Baruah of Gonakpatti, Amar Das alias John Mesh of Khatkhati, Bikram Baruah of Cherekapar and Papu Das of Bhatiyapar.\nOfficials said a handmade pistol was recovered during the operation. Preliminary investigations suggest that the weapon may have been smuggled into Assam from neighbouring Nagaland.\nIslam said the investigation had revealed suspected links between the accused and other criminal activities, including vehicle theft. Police are examining whether the group was involved in a wider organised network.\nThe four arrested persons were taken to Sivasagar Civil Hospital for medical examination as part of the legal process. Police said three other individuals have also been detained for questioning.\nReferring to allegations made by MLA Akhil Gogoi regarding a purported plot to assassinate him, Islam said the investigation has not so far yielded any specific evidence to substantiate such claims.\nPolice have registered a case and intensified the investigation. Officials said further arrests and recoveries could not be ruled out as the probe progresses.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Sivasagar"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Targeted Attack",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:12:07.503169"
+  },
+  {
+    "timestamp": "2026-06-13T12:56:08.676354",
+    "source": "India Today NE",
+    "title": "Live 1962 war-era mortar defused by Indian Army in Arunachal's Tawang",
+    "url": "https://www.indiatodayne.in/arunachal-pradesh/story/live-1962-war-era-mortar-defused-by-indian-army-in-arunachals-tawang-1407385-2026-06-13",
+    "matched_keywords": [
+      "tawang"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Live 1962 war-era mortar defused by Indian Army in Arunachal's Tawang\nA live mortar shell believed to date back to the 1962 India-China war was successfully defused by the Indian Army in Arunachal Pradesh's Tawang district, officials said on June 12.\nA live mortar shell believed to date back to the 1962 India-China war was successfully defused by the Indian Army in Arunachal Pradesh's Tawang district, officials said on June 12.\nAccording to Tawang Superintendent of Police Tasi Darang, the unexploded mortar was recovered on Thursday afternoon from the Lebrang area under Tawang township, prompting immediate security measures in the vicinity.\nUpon receiving information from the Tawang Police Station, local authorities coordinated with the Indian Army, while police personnel cordoned off the area to ensure public safety and prevent any untoward incident.\nThe mortar was safely defused on Friday in the presence of senior officials, including personnel from the 190 Mountain Brigade. Brigadier Bhupal Singh, Colonel N Vasantharaj, Major Mohammad Akhlas and senior police officials were present during the operation.\nArmy bomb disposal experts transported the explosive device to the isolated Methang area, where it was successfully neutralised without any incident.\nPraising the swift response of the Army, SP Darang commended the 190 Mountain Brigade for its professionalism and technical expertise in handling the potentially dangerous situation.\nHe noted that unexploded ammunition dating back to the 1962 India-China war is occasionally recovered from border areas of Arunachal Pradesh and warned that such ordnance remains highly explosive despite its age.\nThe police have urged residents to immediately report any suspected explosives or unexploded military ammunition to the authorities and avoid handling such objects under any circumstances.\nNo injuries or damage were reported during the recovery and disposal operation.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Tawang"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "IED/Explosion",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T12:56:09.104410"
+  },
+  {
+    "timestamp": "2026-06-13T15:00:35.585571",
+    "source": "India Today NE",
+    "title": "Assam CM claims Arya Nagar controversy highlighted to divert attention from Nalbari encounter case and Goalpara beef row",
+    "url": "https://www.indiatodayne.in/assam/story/assam-cm-claims-arya-nagar-controversy-highlighted-to-divert-attention-from-nalbari-encounter-case-and-goalpara-beef-row-1407408-2026-06-13",
+    "matched_keywords": [
+      "encounter",
+      "goalpara",
+      "nalbari"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Assam CM claims Arya Nagar controversy highlighted to divert attention from Nalbari encounter case and Goalpara beef row\nHimanta Biswa Sarma said the Arya Nagar incident was highlighted while other controversies unfolded. He alleged the focus shifted attention from the Nalbari encounter case and the Goalpara row.\n- Sarma spoke on the matter after a Cabinet meeting in Guwahati\n- He said initial ethnic framing later gave way to extortion allegations\n- The remarks referenced the Nalbari case involving encounter victim Roz Ali\nAssam Chief Minister Himanta Biswa Sarma has claimed that the recent controversy surrounding the Arya Nagar incident in Guwahati was being disproportionately highlighted to divert public attention from two other major developments in the state—the Nalbari encounter case involving Roz Ali and the ongoing Goalpara beef-tiffin controversy.\nSpeaking after a Cabinet meeting, the Chief Minister alleged that the focus on the Arya Nagar incident, which initially gained attention as a confrontation involving Assamese and Bihari groups, coincided with intense public discussions over the Nalbari and Goalpara cases.\nThe Nalbari case relates to the June 1 police encounter in which Ashik Ali alias Roz was killed after being accused of attacking an 18-year-old girl and fatally assaulting her 19-year-old cousin, Madhurjya Barman, a local student leader. Police said Roz Ali was killed after allegedly snatching a service rifle from a policeman and opening fire while being taken to recover the murder weapon. The incident sparked widespread debate and political reactions across Assam.\nThe Goalpara controversy, meanwhile, emerged after a minor student was detained and his mother arrested following allegations that beef had been brought to a government school in a tiffin box. The incident led to police action, public protests, and discussions on communal harmony, with reports suggesting that disciplinary action could be taken against several students.\nReferring to the Arya Nagar episode, the Chief Minister alleged that the incident was being amplified in public discourse despite investigations later pointing towards an alleged extortion-related dispute rather than a purely ethnic confrontation. He suggested that the narrative surrounding the Arya Nagar case was overshadowing discussions on the Nalbari encounter and Goalpara developments.\nThe Arya Nagar incident had drawn significant attention after clashes broke out during a protest against alleged illegal drug activities, resulting in injuries to several individuals, including a police official and media personnel. Viral videos and social media posts linked the confrontation to Assamese-Bihari tensions, although the circumstances surrounding the incident remain under investigation.\nThe Chief Minister's remarks reflect his political assessment of the situation. The allegation that the Arya Nagar controversy was deliberately highlighted to divert attention from the Nalbari and Goalpara cases has not ",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Nalbari",
+      "Goalpara"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T15:00:35.728394"
+  },
+  {
+    "timestamp": "2026-06-02T23:22:31.192922",
+    "source": "India Today NE",
+    "title": "Assam, Meghalaya agree to continue farming in Lapangap, defer border demarcation",
+    "url": "https://www.indiatodayne.in/assam/story/assam-meghalaya-agree-to-continue-farming-in-lapangap-defer-border-demarcation-1401752-2026-06-02",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-02",
+    "content": "The governments of Assam and Meghalaya on June 2 agreed to allow residents on both sides of the disputed Lapangap region to continue cultivation in designated areas, while leaving the issue of permanent boundary demarcation to a state-level committee. The decision was taken at a high-level meeting held at the Assam Police Camp in Lapangap, attended by political leaders, senior administrative and police officials, and representatives of local bodies from both states. Under the agreement, villagers of Lapangap will continue paddy cultivation in the foothill areas of the disputed region, while residents of Tahpat will be allowed to cultivate seasonal crops such as banana, pineapple and ginger on the hilltops and slopes. The meeting followed recent discussions between Meghalaya Chief Minister Conrad Sangma and Assam Chief Minister Himanta Biswa Sarma aimed at resolving long-standing issues in the border area through dialogue. According to a joint statement, both sides agreed that the question of permanent boundary demarcation in the area of difference would be taken up by the appropriate committee at the state level for a final decision. The two governments also committed themselves to maintaining peace and harmony in the region and avoiding any activity that could affect the law and order situation. Lapangap has remained a sensitive border location, particularly after a Karbi villager died following a clash between residents from the two sides in October last year. The meeting brought together senior officials from Meghalaya, including Deputy Chief Minister Sniawbhalang Dhar, Principal Secretary Frederick R Kharkongor, Commissioner and Secretary Cyril V Diengdoh, Jaintia Hills Autonomous District Council Chief Executive Member Thombor Shiwat, West Jaintia Hills Deputy Commissioner Abhinav Singh and Superintendent of Police Jagpal Singh Dhanoa. The Assam delegation included Karbi Anglong Autonomous Council Chief Executive Member and MLA Tuliram Ronghang, MP Amarsing Tisso, Additional Chief Secretary Ajay Kumar Tiwari, and legislators Surjya Rongphar, Lunsing Teron, Habbey Teron and Niso Terangpi, among others. Officials noted that an earlier meeting of village representatives convened by the West Jaintia Hills district administration on May 18 had failed to reach a consensus because of differing views over the types of plantation activities that should be permitted in the area. The latest agreement is being seen as a significant step towards easing tensions in Lapangap, with both state governments and local stakeholders opting for a practical arrangement that protects the livelihood interests of local communities while broader boundary issues remain under discussion. Copyright©2026 Living Media India Limited. For reprint rights: Syndications Today Add India Today NE to Home Screen Your personal data will be processed and information from your device (cookies, unique identifiers, and other device data) may be stored by, accessed by and shared with 210",
+    "source_type": "playwright",
+    "ner_locations": [
+      "West Jaintia Hills"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 7.5,
+    "final_risk_level": "MEDIUM",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T14:27:34.314792",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-16T04:14:38.989606",
+    "source": "India Today NE",
+    "title": "Manipur: Massive protest erupts at RIMS over admission of three injured persons after Kangpokpi firing incident",
+    "url": "https://www.indiatodayne.in/manipur/video/manipur-massive-protest-erupts-at-rims-over-admission-of-three-injured-persons-after-kangpokpi-firing-incident-1408393-2026-06-15",
+    "matched_keywords": [
+      "kangpokpi",
+      "protest"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Manipur: Massive protest erupts at RIMS over admission of three injured persons after Kangpokpi firing incident\nTense situation prevailed at the Regional Institute of Medical Sciences (RIMS), Masnipur, after protests broke out following the admission of three injured persons from the Kuki community who were brought to the hospital for treatment after a firing incident in Kangpokpi district on June 15.\nAccording to available information, a gunfight reportedly took place near Leilon Vaiphei and Konsakhul villages in Kangpokpi district, leaving three persons injured. The injured individuals were subsequently transported to RIMS for medical treatment.\nTheir arrival at the hospital triggered protests, with a large number of people gathering at the RIMS premises and expressing opposition to their admission. Protesters alleged that the incident involved rival Kuki faction groups and questioned the circumstances under which the injured persons were brought to the medical institution.\nSpeaking to the media, T.P. Dining, a leader of the All Naga Students’ Association (ANSAM), criticised Indian security forces over their alleged involvement in escorting the injured individuals to RIMS following the firing incident.\nClaiming that the clash was between Kuki militant factions, Dining questioned why security personnel had allegedly facilitated transportation and protection for those he described as militants.\nHe further alleged that there was a larger conspiracy involving both the Central and State governments in supporting Kuki militant groups.\nDining also raised concerns over the recent killing of six Naga civilians, which he alleged was carried out by Kuki militants. He questioned the role of security agencies in preventing the incident and demanded accountability from the authorities.\nMeanwhile, security measures in and around the RIMS campus were intensified as authorities deployed personnel and maintained heightened vigilance to prevent any untoward situation.\nThe protesters initially gathered outside the RIMS gate, raising slogans. But protesters entered the gate despite the heavy deployment of security forces and started protesting against the admission of the three injured persons.\nOfficials had not issued an immediate statement regarding the allegations at the time of filing this report.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Ansam"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 3,
+        "raw": "three",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 3,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.9714,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:42.454315"
+  },
+  {
+    "timestamp": "2026-06-16T04:14:50.621117",
+    "source": "India Today NE",
+    "title": "Manipur: Fresh attack during Lasan victim’s funeral leaves three injured, Kuki bodies demand action",
+    "url": "https://www.indiatodayne.in/manipur/video/manipur-fresh-attack-during-lasan-victims-funeral-leaves-three-injured-kuki-bodies-demand-action-1408653-2026-06-15",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": null,
+    "content": "Manipur: Fresh attack during Lasan victim’s funeral leaves three injured, Kuki bodies demand action\nA fresh incident of violence that left three youths injured, including a footballer associated with Mohun Bagan, overshadowed the funeral of a victim of the recent Lasan–Langka attack on Monday, June 15 as Kuki civil society organisations renewed allegations against NSCN-IM and its alleged proxy outfit ZUF-K and called for immediate government intervention.\nThe latest violence occurred even as thousands of Kuki residents gathered at the Martyrs' Cemetery in Phaijang to pay their final respects to Jangngam Hangshing, who was killed in the June 13 Lasan–Langka attack, which community organisations alleged was carried out by cadres linked to NSCN-IM and ZUF-K.\nAccording to reports, a fresh bombing incident took place at Leilon Munlui village early Monday, June 15 morning, leaving three youths injured. The injured were identified as Genlenmang Vaiphei (15), Paogoulal Chongloi (18), a footballer associated with Mohun Bagan, and Lunliandaw Vaiphei (20), an internally displaced person.\nAll three were shifted to Imphal for medical treatment. Civil society organisations later expressed concern over reports that a crowd had gathered outside the hospital where the injured were admitted.\nThe attack unfolded during funeral proceedings for Hangshing, whose mortal remains had been brought to Kangpokpi town on Sunday and kept overnight at the Town Committee Hall, where residents and community members paid their respects during a night-long vigil.\nFollowing post-mortem procedures at the District Hospital on Monday, the body was taken to the Martyrs' Cemetery in Phaijang. Leaders of major Kuki organisations, including Kuki Inpi Manipur (KIM) and the Sadar Hills Chiefs' Association, paid tribute by draping traditional shawls over the coffin.\nKuki Inpi Manipur condemned the Leilon incident and described it as an attack on civilians. The organisation alleged the involvement of NSCN-IM and ZUF-K militants and demanded immediate identification, arrest and prosecution of those responsible.\n“Justice must not be delayed. Peace cannot be restored without accountability,” KIM stated while urging authorities to take decisive action.\nThe organisation also questioned what it described as the inability of authorities to prevent recurring incidents of violence, warning that continued inaction could deepen public mistrust.\nThe Leimakhong Area Chiefs' Organisation (LACO) also condemned the attack and alleged that cadres linked to NSCN and ZUF launched the assault at around 6 a.m., resulting in injuries to three civilians.\nLACO raised concerns regarding reports that the attackers had allegedly moved through areas under security surveillance and called for an impartial inquiry into the circumstances surrounding the incident.\nThe organisation further referred to a video circulating on social media that purportedly showed local women preventing an Indian Army column from entering the ar",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi",
+      "Imphal"
+    ],
+    "ner_actors": [
+      "Zuf",
+      "Nscn",
+      "Nscn-Im"
+    ],
+    "ner_state_actors": [
+      "INDIAN ARMY"
+    ],
+    "perpetrator": [],
+    "victim_target": [
+      "who"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 3,
+        "raw": "three",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 3,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.9584,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:54.672547"
+  },
+  {
+    "timestamp": "2026-06-16T04:14:25.820688",
+    "source": "India Today NE",
+    "title": "Manipur: Protest at RIMS turns violent, security uses tear gas to disperse crowd",
+    "url": "https://www.indiatodayne.in/manipur/video/manipur-protest-at-rims-turns-violent-security-uses-tear-gas-to-disperse-crowd-1408478-2026-06-15",
+    "matched_keywords": [
+      "tear gas",
+      "protest"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Manipur: Protest at RIMS turns violent, security uses tear gas to disperse crowd\nA protest at the Regional Institute of Medical Sciences (RIMS) turned violent on Monday, June 15, after security personnel fired tear gas shells to disperse agitated demonstrators gathered at the hospital premises.\nThe protest was triggered by allegations surrounding the treatment of three Kuki individuals who had reportedly sustained injuries during a gunfight near Leilon Vaiphei and Konsakhul villages in Kangpokpi district and were admitted to RIMS.\nA large number of protesters assembled outside the main gate of the hospital and raised slogans expressing dissatisfaction over the medical treatment provided to the injured individuals.\nAs the agitation intensified, sections of the crowd moved into the hospital campus, leading to a prolonged standoff with security personnel deployed at the site. According to reports, the situation escalated when some protesters attempted to enter the emergency ward, prompting a confrontation between security forces and demonstrators.\nTo bring the situation under control and prevent further escalation, security personnel resorted to firing tear gas, following which the protesters dispersed from the immediate area.\nHowever, tensions continued to remain high as groups of protesters persisted with demonstrations outside the RIMS premises. Authorities maintained security deployment in and around the hospital amid concerns over further unrest.\nNo immediate reports of additional injuries or arrests were available at the time of filing this report.\nCopyright©2026 Living Media India Limited. For reprint rights: Syndications Today",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "security personnel"
+    ],
+    "victim_target": [
+      "tear gas",
+      "tear gas shells"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.9477,
+    "secondary_tactic": null,
+    "needs_review": false,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T04:14:29.536498"
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "timestamp": "2026-06-09T15:54:58.778722",
+    "source": "East Mojo",
+    "title": "Manipur: One shot dead by suspected armed militants in Kangpokpi",
+    "url": "https://eastmojo.com/manipur/2026/06/08/manipur-one-shot-dead-by-suspected-armed-militants-in-kangpokpi/",
+    "matched_keywords": [
+      "kangpokpi",
+      "militant"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-08",
+    "content": "Imphal: The ongoing violence in Manipur claimed another civilian’s life in Kangpokpi’s Pongringlong village on Monday. A civilian identified as Chunjanglung Panmei, 57, was reportedly found dead with bullet wounds, suspected to have been inflicted by Kuki armed miscreants.\nAccording to the Joint Tribes Council, Manipur (JTCM), Panmei, a peace-loving villager of Pongringlong and a member of the village authority Pongringlong -1, went out at dawn simply to gather firewood for his family, not to fight or threaten anyone.\n“In return, he was met with bullets. His only crime was being a Naga on his own ancestral land,” stated the JTCM in its condolence message.\nIn another statement, the Naga Village Guard, Eastern Command (NVG-EC) strongly condemned the heinous crime perpetrated by the Kuki militants against a Naga civilian and warned of befitting retaliation.\nThe Naga Village Guard-EC stated that in the early hours of Monday, the Kuki militants armed with sophisticated weapons laid an ambush against the Rongmei Naga villagers, who were gathering firewood between Pongringlong and Charoi Pondaijang at around 5 am. While the others managed to flee the spot and return home, Chunjanglung Panmei was found missing. Later, his body riddled with multiple bullets was found in the jungle near the site of the attack. He was reportedly captured and brutally shot dead without any remorse, the statement said.\nThe Naga Village Guard-EC also noted that recently, Naga villagers of Pongringlong have been repeatedly attacked by Kuki militants backed by cadres under the Suspension of Operations (SoO) pact and narco-terrorists on May 26 and June 5, 2026 respectively.\nMeanwhile, Panmei’s mortal remains have reportedly been brought to RIMS Hospital in Imphal for post-mortem.\nAlso Read | Public outrage grows over alleged sexual assault of minor in Dimapur",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi",
+      "Dimapur"
+    ],
+    "ner_actors": [
+      "Jtcm"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Villager"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [
+        "one dead"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:54:58.882856"
+  },
+  {
+    "timestamp": "2026-06-09T15:55:04.701543",
+    "source": "East Mojo",
+    "title": "Thousands rally in Imphal, demand NRC update before census",
+    "url": "https://eastmojo.com/manipur/2026/06/08/thousands-rally-in-imphal-demand-nrc-update-before-census/",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-08",
+    "content": "Imphal: The demand for the implementation of the National Register of Citizens (NRC) 1951 gathered momentum on Monday as thousands of people from different parts of Manipur assembled in Imphal to stage a mass protest.\nThe rally was organised by 14 CSOs Kangleipak, a coalition of 14 civil society organisations. Protesters demanded that the NRC 1951 be updated and implemented before the commencement of the census exercise in the state.\nParticipants raised slogans and displayed placards carrying messages such as “Do not neglect Manipur,” “No NRC Update, No Census,” “NRC is the only solution to save our indigenous people,” “Nominate an agency from Manipur for the High-Power Committee,” and “Update NRC 1951 before the census.”\nPeople from various communities, including Meiteis, Nagas and Meitei Pangals, took part in the rally. Amid tight security arrangements, the procession began from Tiddim Road and later converged at THAU Ground in Imphal West, where a public meeting was held.\nSpeaking to reporters, 14 CSOs Kangleipak convenor Shanta Nahakpam said the rally was organised to press for NRC implementation in Manipur, a demand that he claimed has been consistently ignored by the Government of India.\n“The Government of India, particularly the BJP-led government, has repeatedly highlighted the issue of illegal immigrants during elections in states such as Assam and West Bengal. However, the concerns of Manipur have largely been ignored,” Nahakpam alleged.\nHe further stated that the Government of India has recently issued a gazette notification constituting a High-Power Committee to study the causes of demographic changes in various states and submit its findings to the Union Ministry of Home Affairs within a year.\nAccording to Nahakpam, Manipur presents a unique case because of its porous international border and the existence of various Suspension of Operations (SoO) agreements and peace arrangements with different armed groups.\n“The 2005 SoO agreement with Kuki armed groups, which the people of Manipur have repeatedly urged the government to review or cancel, is one of the reasons why we are demanding a proper NRC process. An updated NRC would pave the way for an accurate delimitation exercise and help safeguard the political and constitutional rights of the indigenous people of the state,” he said.\nNahakpam maintained that if the Government of India continues to ignore the demand for NRC implementation and limits its response to measures such as the proposed High-Power Committee, the state government should nominate a dedicated agency to independently study demographic changes in Manipur.\n“Unlike Assam, Meghalaya or West Bengal, the issue in Manipur is not limited to illegal immigration from Bangladesh. It also involves challenges arising from the porous Myanmar border and concerns related to narco-terrorism, which the people have been confronting for years,” he added.\nAlso Read: How one Mizo activist brought down a Rs 970-crore smuggling empire",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Imphal West"
+    ],
+    "ner_actors": [
+      "Meitei"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-09T15:55:04.837201"
+  },
+  {
+    "timestamp": "2026-06-12T21:11:05.704740",
+    "source": "East Mojo",
+    "title": "Manipur: Kuki-Zo groups stage coffin protest in Kangpokpi",
+    "url": "https://eastmojo.com/manipur/2026/06/12/manipur-kuki-zo-groups-stage-coffin-protest-in-kangpokpi/",
+    "matched_keywords": [
+      "kangpokpi",
+      "protest"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-12",
+    "content": "Hundreds of Kuki-Zo protesters on June 11 placed the coffin of slain villager Haogin Lhouvum along National Highway-2 in Kangpokpi town, demanding justice, greater security deployment and action against those responsible for his killing in neighbouring Tamenglong district.\nThe protest was organised by the Committee on Tribal Unity (CoTU) and other Kuki civil society organisations amid a district-wide shutdown across Kangpokpi. Protesters staged a sit-in programme beside the highway, where Lhouvum’s coffin remained for several hours.\nLhouvum was killed during an attack on Lasan village in Tamenglong district on June 9. His body was brought from the district hospital morgue to Kangpokpi as mourners and protesters gathered to condemn the incident.\nThe demonstration coincided with a total shutdown called by Kuki civil society organisations from midnight on June 10. Educational institutions, businesses and vehicular movement remained suspended across the district, while emergency services and security personnel were exempted.\nSpeaking during the protest, Kuki CSOs Kangpokpi spokesperson Janghaolun Haokip questioned the role of security forces stationed at Makui village, alleging that they failed to prevent the attack despite being located about five kilometres from Lasan village.\nHaokip said the attack had raised concerns about the effectiveness of security arrangements in the area and called for greater protection of vulnerable Kuki-Zo settlements.\nThe organisations accused the government of failing to ensure the safety of Kuki-Zo civilians and alleged that attacks on their community had increased in recent months.\nAccording to the groups, at least 13 Kuki-Zo civilians, including three pastors, have been killed in separate incidents allegedly involving Tangkhul militant groups. They also claimed that 11 Kuki-Zo villages had been set on fire, including Kultuh village in Kamjong district, where two villagers were reportedly killed in an attack early Thursday.\nThe protesters submitted four demands to the government. These include the immediate deployment of security forces at Lasan and Thenjang villages, security coverage for all vulnerable Kuki-Zo areas, a time-bound judicial inquiry into the killings of 13 Kuki-Zo civilians, and the arrest of the Makui village chief, village authority members and village guards in connection with the incidents.\nHaokip said the community would continue democratic forms of protest until concrete steps were taken to address security concerns and bring those responsible for the killings to justice.\nThe protest ended peacefully, though community leaders warned that further agitation could follow if their demands remain unaddressed.\nAlso read | NSCN demands GoI declare Kuki groups as terrorist organisations",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi",
+      "Kamjong",
+      "Tamenglong"
+    ],
+    "ner_actors": [
+      "Cotu",
+      "Nscn"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Civilian",
+      "Villager"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "classified_at": "2026-06-12T21:11:05.834301"
+  },
+  {
+    "timestamp": "2026-06-16T04:11:05.077863",
+    "source": "East Mojo",
+    "title": "Manipur: Fresh firing in Kangpokpi’s Leilon Munlui leaves three injured",
+    "url": "https://eastmojo.com/manipur/2026/06/15/manipur-fresh-firing-in-kangpokpis-leilon-munlui-leaves-three-injured/",
+    "matched_keywords": [
+      "kangpokpi"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-15",
+    "content": "Kangpokpi: At least three individuals were injured during a fresh exchange of gunfire between two suspected armed groups at Leilon Munlui, a Kuki village located between Leilon Vaiphei and Konsakhul in Kangpokpi district, on Monday morning.\nAccording to local sources, the incident occurred around 6 am, leaving three village volunteers from the Leimakhong area injured. The injured have been identified as Genlenmang Vaiphei (18), Lunliandaw Vaiphei (20), and Paogou Lal (18). Among them, one is reported to be in critical condition after sustaining bullet injuries to the abdomen.\nAll three were initially treated at the Army Hospital in Leimakhong before being shifted to the Regional Institute of Medical Sciences (RIMS) in Imphal for further treatment with the assistance of central security forces.\nThe Leilon Munlui Village Authority strongly condemned the incident, alleging that the attack was carried out by suspected NSCN-IM militants at around 6 am. According to the authority, the three injured villagers sustained serious injuries and are currently undergoing treatment.\nIn a statement, the village authority claimed that the attack was launched from the direction of a CRPF bunker near Konsakhul, located less than 100 metres from Leilon Munlui village.\nThe authority further alleged that the suspected militants appeared to have operated with the support of the CRPF, claiming that both the attack and the subsequent retreat took place from the CRPF’s side and that security personnel did not make any visible attempt to intervene or prevent the assault.\nThe village authority stated that residents are living in fear following the incident and have lost confidence in the security arrangements provided by the CRPF personnel stationed around Leilon Munlui.\nCalling for immediate action, the authority urged both the State and Central governments to arrest those responsible in order to prevent further bloodshed.\nIt also demanded the withdrawal of the CRPF post at Konsakhul, alleging that it is being used as a launching pad for militant attacks on nearby Kuki villages.\nThe authority warned that if the demand is not met, the CRPF should be held responsible for any further escalation of violence in the area.\nThere was no immediate response from the CRPF or NSCN-IM regarding the allegations made by the village authority.\nAlso Read: Nagaland has oil: The question is, who will benefit from it?",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Imphal",
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Nscn-Im"
+    ],
+    "ner_state_actors": [
+      "CRPF"
+    ],
+    "perpetrator": [
+      "Fresh"
+    ],
+    "victim_target": [
+      "At least three individuals"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [
+      {
+        "count": 3,
+        "raw": "three",
+        "affiliation": "unspecified"
+      }
+    ],
+    "total_killed": 0,
+    "total_injured": 3,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.9451,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:11:07.918699"
+  },
+  {
+    "timestamp": "2026-06-16T04:11:29.738531",
+    "source": "East Mojo",
+    "title": "Major anti-drug crackdown in Dibrugarh, ten arrested",
+    "url": "https://eastmojo.com/assam/2026/06/15/major-anti-drug-crackdown-in-dibrugarh-ten-arrested/",
+    "matched_keywords": [
+      "dibrugarh",
+      "arrested"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-15",
+    "content": "Dibrugarh: Dibrugarh Police have achieved a major breakthrough in their ongoing campaign against drug trafficking, arresting 10 persons and seizing a large quantity of suspected heroin, cash, vehicles, gold ornaments and other items during a massive anti-drug operation conducted at Harijan Colony opposite Dibrugarh Town Railway Station.\nActing on specific intelligence inputs, multiple police teams launched coordinated raids at several abandoned railway colony quarters and other locations believed to be part of an organised drug trafficking network operating in the heart of the town.\nDuring the operation, police recovered 79.55 grams of suspected heroin concealed in eight containers. Investigators also seized a Vivo mobile phone along with a SIM card, which are expected to aid the ongoing probe.\nA large number of syringes allegedly used for drug consumption and distribution were also recovered. These included 40 packets containing 240 insulin syringes and six packets containing 60 high-tech insulin syringes.\nDibrugarh Police further seized cash amounting to ₹4,92,710, believed to be proceeds from the illegal drug trade. Four vehicles were also confiscated during the operation, including a Renault Kwid, a Toyota Glanza, an NTORQ 125 scooter and a Jupiter scooter.\nIn addition, police recovered gold ornaments suspected to have been purchased using money generated from narcotics trafficking. The seized valuables include two pairs of gold earrings, a gold chain, a gold ring and a five-gram silver coin.\nAll 10 arrested individuals have been taken into custody for further interrogation. Police sources said several additional names have surfaced during questioning, and efforts are underway to trace and apprehend other persons allegedly linked to the network.\nInvestigators are examining the source of the seized narcotics, the financial transactions involved and the wider distribution network operating in the region.\nThe operation is being viewed as one of the most significant anti-drug crackdowns in Dibrugarh in recent times.\nPolice sources indicated that an organised drug syndicate had allegedly been operating from abandoned railway quarters near the old railway station for a prolonged period. While the operation resulted in major seizures and multiple arrests, the alleged kingpin of the network is reported to have escaped and remains at large.\n“We have arrested 10 individuals in connection with the drug trade. We have seized suspected heroin and other items. More than ₹4 lakh in cash was recovered from their possession. We had received inputs over the last several days and today conducted a surprise raid in the area, resulting in these arrests,” said Dibrugarh Deputy Superintendent of Police (HQ) Nayan Moni Baruah.\nHe added, “The investigation is continuing and further arrests and recoveries are expected in the coming days. We have booked all of them under the NDPS Act.”\nAlso Read: NFHS-6 shows Northeast India’s gender gains are real, but so are the gaps",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Dibrugarh"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0642,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:11:33.163986"
+  }
+]

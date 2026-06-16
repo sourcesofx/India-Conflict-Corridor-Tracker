@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2026-06-09T15:53:23.529270",
+    "source": "Kashmir Media Watch",
+    "title": "Lieutenant Governor Joins ‘Drug-Free J&K’ Campaign and Padyatra in Poonch",
+    "url": "https://www.kashmirmediawatch.com/lieutenant-governor-joins-drug-free-jk-campaign-and-padyatra-in-poonch/",
+    "matched_keywords": [
+      "poonch"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "JAMMU, JUNE 7: Lieutenant Governor, Shri Manoj Sinha today joined the ‘Drug-Free J&K’ Campaign and Padyatra in Poonch. Speaking on the occasion, the Lieutenant Governor said that Padyatra has covered all 20 districts of Union Territory and the objective is clear to free the soil of Jammu Kashmir from scourge of drugs and to eliminate narco-terrorism.\n“The fight for a drug-free Jammu Kashmir intensifies today from Poonch. For next 43 days, every citizen, Panchayat, and ward must unite to target drug smugglers, drug peddlers, drive awareness, and accelerate rehabilitation. Collective responsibility will build a healthier future.\nDuring the past 57 days, I have visited every district of Jammu Kashmir and promised the people that the perpetrators harming our society will not go unpunished. Today I assure all the citizens that we will light the lamp of a brighter future,” the Lieutenant Governor said.\nHe stated that in the next 43 days we must launch a massive movement in Poonch and across UT that will be dedicated to making every panchayat, every lane, and every household in the district drug-free.\n“The people of Poonch know that, being a border district, narco-terrorists attempt to exploit the geography. Cross-border drug smuggling is destroying young lives and, at the same time, financing terrorism. We must confront this through a whole-of-society approach,” the Lieutenant Governor said.\nThe Lieutenant Governor said that confronting the drug menace requires a shift from indifference to action. He said ‘not my problem’ mindset only emboldens drug smugglers and drug peddlers, who rely on public silence to expand their networks.\n“True change happens when communities stand united. A drug-free society is built by those who choose to speak up and act, recognizing that this is a shared battle affecting us all. A prosperous society requires both economic progress and vigilant citizens. To change mindsets and dismantle supply chains, our past 57-day campaign has cracked down hard on the drug network in J&K. Over 1,130 smugglers arrested under 1,038 FIRs, 63 detained under PIT-NDPS, and more than 100 properties attached. To completely immobilize these criminals, we have also cancelled 700 driving licenses and moved to revoke 130 passports,” the Lieutenant Governor said.\nThe Lieutenant Governor called for the ‘Drug-Free J&K’ campaign to reach every household and become a permanent part of public consciousness. True prevention, he emphasized, lies in giving youth a purpose through education, skills, sports, and transforming them into the ultimate weapon against drug addiction.\n“The strategy relies on two powerful pillars. First, mobilize Youth Clubs to act as the frontline defence against local drug networks, and putting women in leadership positions so mothers and sisters can drive the campaign to make every village drug-free,” the Lieutenant Governor said.\nThe Lieutenant Governor announced that law enforcement agencies have been given a free hand to complete",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Poonch",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:53:23.693171"
+  }
+]

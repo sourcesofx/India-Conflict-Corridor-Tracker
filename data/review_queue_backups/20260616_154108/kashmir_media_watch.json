@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2026-06-16T14:41:58.993306",
+    "source": "Kashmir Media Watch",
+    "title": "Kashmir: Peopleâ€™s Aspiration Must Be Respected",
+    "url": "https://www.kashmirmediawatch.com/kashmir-peoples-aspiration-must-be-respected/",
+    "matched_keywords": [],
+    "region": "jk",
+    "published_date": null,
+    "content": "By.Â Dr. Ghulam Nabi Fai\nThe people of Jammu and Kashmir, who are larger in number than 123 currently independent nations and who have a defined historical identity, are at present engaged in a massive, indigenous and non violent struggle to win their freedom from the foreign occupation of their land. This struggle is not motivated by bigotry or ethnic prejudice, for its sole aim is the right of self-determination of the people, irrespective of their religious affiliations and ethnic preferences.\nThe applicability of the principle of self-determination to the specific case of Jammu and Kashmir has been explicitly recognized by the United Nations. It was upheld equally by India and Pakistan when the Kashmir dispute was brought before the Security Council. Since, on the establishment of India and Pakistan as sovereign states, Jammu and Kashmir was not part of the territory of either, the two countries entered into an agreement to allow its people to exercise their right of self-determination under impartial auspices and in conditions free from coercion from either side. The agreement is embodied in the resolutions of the United Nations Commission for India and Pakistan explicitly accepted by both Governments. It is binding on both Governments and no allegation of non-performance of any of its provisions by either side can render it inoperative.\nIt is commonly thought that the resolutions limited the choice of the people of the State regarding their future to accession to either India or Pakistan. Though understandable, the impression is erroneous because the right of self-determination, by definition, is an unrestricted right. By entering into the agreement, India and Pakistan excluded, and rendered inadmissible, each other’s claim to the State until that claim was accepted by the people through a vote taken under an impartial authority. They did not, as they could not, decide what options the people would wish to consider. No agreement between two parties can affect the rights of a third: this is an elementary principle of law and justice which no international agreement, if legitimate, can possibly flout.\nTo put it in everyday language, it was entirely right for India and Pakistan to pledge to each other, as they did, â€˜Here is this large territory; let us not fight over it; let us make its people decide its status.â€™ But it would be wholly illegitimate for them to say, â€˜Let one of us get the territory. Let us go through the motions of a plebiscite to decide which oneâ€™. That would not be a fair agreement; it would be a plot to deny the people of Kashmir the substance of self-determination while providing them its form. It would amount to telling them that they can choose independently but they cannot choose independence. It would make a mockery of democratic norms.\nThis is not a novel view of the Kashmir question. When India first brought the issue to the United Nations, its representative, Sir Gopalaswami Ayyangar set out three options for",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jammu"
+    ],
+    "ner_actors": [
+      "Let"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Civil Unrest",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 9.5,
+    "final_risk_level": "HIGH",
+    "incident_type": "Unrest",
+    "tactic_confidence": 0.2109,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "UNREST",
+    "classified_at": "2026-06-16T14:42:00.675749"
+  },
+  {
+    "timestamp": "2026-06-09T15:53:23.529270",
+    "source": "Kashmir Media Watch",
+    "title": "Lieutenant Governor Joins ‘Drug-Free J&K’ Campaign and Padyatra in Poonch",
+    "url": "https://www.kashmirmediawatch.com/lieutenant-governor-joins-drug-free-jk-campaign-and-padyatra-in-poonch/",
+    "matched_keywords": [
+      "poonch"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "JAMMU, JUNE 7: Lieutenant Governor, Shri Manoj Sinha today joined the ‘Drug-Free J&K’ Campaign and Padyatra in Poonch. Speaking on the occasion, the Lieutenant Governor said that Padyatra has covered all 20 districts of Union Territory and the objective is clear to free the soil of Jammu Kashmir from scourge of drugs and to eliminate narco-terrorism.\n“The fight for a drug-free Jammu Kashmir intensifies today from Poonch. For next 43 days, every citizen, Panchayat, and ward must unite to target drug smugglers, drug peddlers, drive awareness, and accelerate rehabilitation. Collective responsibility will build a healthier future.\nDuring the past 57 days, I have visited every district of Jammu Kashmir and promised the people that the perpetrators harming our society will not go unpunished. Today I assure all the citizens that we will light the lamp of a brighter future,” the Lieutenant Governor said.\nHe stated that in the next 43 days we must launch a massive movement in Poonch and across UT that will be dedicated to making every panchayat, every lane, and every household in the district drug-free.\n“The people of Poonch know that, being a border district, narco-terrorists attempt to exploit the geography. Cross-border drug smuggling is destroying young lives and, at the same time, financing terrorism. We must confront this through a whole-of-society approach,” the Lieutenant Governor said.\nThe Lieutenant Governor said that confronting the drug menace requires a shift from indifference to action. He said ‘not my problem’ mindset only emboldens drug smugglers and drug peddlers, who rely on public silence to expand their networks.\n“True change happens when communities stand united. A drug-free society is built by those who choose to speak up and act, recognizing that this is a shared battle affecting us all. A prosperous society requires both economic progress and vigilant citizens. To change mindsets and dismantle supply chains, our past 57-day campaign has cracked down hard on the drug network in J&K. Over 1,130 smugglers arrested under 1,038 FIRs, 63 detained under PIT-NDPS, and more than 100 properties attached. To completely immobilize these criminals, we have also cancelled 700 driving licenses and moved to revoke 130 passports,” the Lieutenant Governor said.\nThe Lieutenant Governor called for the ‘Drug-Free J&K’ campaign to reach every household and become a permanent part of public consciousness. True prevention, he emphasized, lies in giving youth a purpose through education, skills, sports, and transforming them into the ultimate weapon against drug addiction.\n“The strategy relies on two powerful pillars. First, mobilize Youth Clubs to act as the frontline defence against local drug networks, and putting women in leadership positions so mothers and sisters can drive the campaign to make every village drug-free,” the Lieutenant Governor said.\nThe Lieutenant Governor announced that law enforcement agencies have been given a free hand to complete",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Poonch",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T15:53:23.693171"
+  }
+]

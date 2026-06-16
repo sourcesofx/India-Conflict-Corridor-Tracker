@@ -1,0 +1,117 @@
+[
+  {
+    "timestamp": "2026-06-12T21:06:48.601322",
+    "source": "The Kashmir Walla",
+    "title": "Rajouri gunfight: Body of another militant found after fortnight",
+    "url": "https://thekashmirwalla.com/rajouri-gunfight-body-of-another-militant-found-after-fortnight/",
+    "matched_keywords": [
+      "gunfight",
+      "militant",
+      "rajouri"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "Police on Friday found body of another militant nearly two weeks after a gunfight at Khawas Budhal area of Rajouri district.\n“Body of second militant injured in encounter at Khawas Budhal of district Rajouri has been found by police’s SOG at Dhakikot area,” a police officer said.\nHe said grenades, magazines and other material have been found from the possession of militant.\nSSP Rajouri Amritpal Singh confirmed the recovery of the body. He said body was found towards Reasi area. With the recovery, two militants have been killed in the gunfight. (GNS)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Reasi",
+      "Rajouri"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "SOG"
+    ],
+    "perpetrator": [],
+    "victim_target": [
+      "Militant"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [
+        "two killed"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:06:48.652468"
+  },
+  {
+    "timestamp": "2026-06-12T21:07:14.429609",
+    "source": "The Kashmir Walla",
+    "title": "Statement: Fahad Shah’s custody taken over by SIA Jammu as arrest saga continues",
+    "url": "https://thekashmirwalla.com/statement-fahad-shahs-custody-taken-over-by-sia-jammu-as-arrest-saga-continues/",
+    "matched_keywords": [
+      "jammu"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "Srinagar: On Friday, Fahad Shah was arrested by the State Investigation Agency (SIA) for questioning in a case while he was detained under the Public Safety Act in the Kupwara Jail.\nShah’s custody was taken over from the Kupwara jail authorities for the investigation into the FIR number 01/2022 registered by the SIA at the Joint Interrogation Centre, in Jammu, against an op-ed written by a Kashmiri scholar Abdul Aala Fazili in 2011.\nThis is the fifth time Shah has been arrested consequently since 4 February 2022, or in the last 108 days.\nAs per FIR in this case, seen by The Kashmir Walla, Fazili has been booked under the Unlawful Activities (Prevention) Act (UAPA) sections 13 and 18 and sections 120B, 121, 124, and 153B of the Indian Penal Code (IPC). Unnamed editor of The Kashmir Walla and associates have been booked under sections 13 and 18 of the UAPA and section 120B of the IPC.\nShah was initially arrested by the Pulwama police on 4 February, under sedition and anti-terror law, after The Kashmir Walla reported the events of a gunfight between the government forces and militants in south Kashmir. On 26 February, he was granted bail by an NIA court in Srinagar. However, he was immediately re-arrested by the Shopian police in a case registered against the reporting in January 2021.\nOn 5 March, he was granted bail by a Shopian judicial magistrate – and was subsequently re-arrested again by the Srinagar police in a case registered for The Kashmir Walla’s reporting in July 2020. A day before the bail hearing in this case, on 14 March, Shah was detained under the stringent PSA and was lodged in the Kupwara Jail.\nShah, who founded The Kashmir Walla in 2009, is an award-winning journalist whose work has appeared in several reputed international publications, including Time, Foreign Affairs, Foreign Policy, and The Atlantic. He is also a correspondent for the US-based Christian Science Monitor.\nFor the team at The Kashmir Walla, it is yet another hard blow as we remain concerned about the health and wellbeing of Shah in the JIC in Jammu. We reiterate our appeal to Manoj Sinha-led Jammu and Kashmir administration to drop all the charges against Shah and The Kashmir Walla’s journalistic work and facilitate his immediate release.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Pulwama",
+      "Kupwara",
+      "Srinagar",
+      "Jammu",
+      "Shopian"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [
+      "NIA",
+      "SIA"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:07:14.558724"
+  },
+  {
+    "timestamp": "2026-06-12T21:07:22.428406",
+    "source": "The Kashmir Walla",
+    "title": "Statement: Fresh summons issued to Kashmir Walla editor over Srinagar gunfight coverage",
+    "url": "https://thekashmirwalla.com/statement-fresh-summons-issued-to-kashmir-walla-editor-over-srinagar-gunfight-coverage/",
+    "matched_keywords": [
+      "srinagar",
+      "gunfight"
+    ],
+    "region": "jk",
+    "published_date": null,
+    "content": "Srinagar Police has issued summons to The Kashmir Walla editor Fahad Shah, ordering him to present himself for questioning in connection with the stories that Kashmir Walla published while covering the gunfight in Nawakadal neighbourhood of downtown Srinagar on 19 May 2020 in which two militants were killed and 19 residential houses were damaged.\nOn 9 July 2020, The Kashmir Walla’s editor received a formal summon from Safakadal police station saying that “your presence is necessary for the purpose of enquiry into the offence committed under section 147, 307, 109, 501, 505 IPC”.\nEarlier also, The Kashmir Walla editor was questioned on 20 May 2020 for over four hours by senior officials of the Jammu and Kashmir Police, who alleged that our coverage of the gunfight at Nawakadal had “defamed” the police. At that time, Kashmir Walla editor explained to the police officers that the coverage was based on undisputed facts, eyewitness accounts, interviews of the civilian population, and also the police. These facts were also documented on video. After that 4 hour long questioning by senior police officers, Kashmir Walla editor was allowed to go.\nNow, we have been issued fresh summons.\nWe see these summons as yet another attempt to intimidate and silence journalists. As an independent news organisation based in Srinagar, we do not rely on government advertisements and comprise of a small team of committed young professionals who diligently report facts from the ground. We collect facts and cover every side of the story. It is clear that the facts of these stories that we put out were unpalatable to the police authorities who want no fact to be published. We have repeatedly reminded the authorities that attacking the messenger is not the solution to the problem. Since the last few months especially, we have felt an increasing disregard towards freedom of press and most of the times authorities are not ready to respond to critical but important questions raised by journalists. Despite being stonewalled, we have attempted to the very best to reach out to authorities to get their version.\nOur editor Fahad Shah is currently being questioned in the police station. We ask the authorities to immediately stop this intimidation and allow us to carry on with our professional duties. Journalism is not a crime.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Srinagar",
+      "Jammu"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Militant"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [
+        "two killed"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:07:22.580506"
+  }
+]

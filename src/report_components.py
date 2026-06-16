@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 
 
 from src.config import DATA_DIR, DISTRICT_COORDS
+from src.extraction import format_casualties
 
 
 class DataFetcher:
@@ -67,11 +68,15 @@ class LLMCompiler:
        )
        
        def get_cas_str(row):
-           k = row.get('casualties_killed', [])
-           i = row.get('casualties_injured', [])
-           k_fmt = ", ".join(k) if isinstance(k, list) else str(k)
-           i_fmt = ", ".join(i) if isinstance(i, list) else str(i)
-           return f"Killed: [{k_fmt}] | Injured: [{i_fmt}]"
+           killed = row.get('casualties_killed', [])
+           injured = row.get('casualties_injured', [])
+           if isinstance(killed, dict):   # legacy pre-4b data stored the whole dict here
+               return format_casualties(killed) or "No casualty data"
+           text = format_casualties({
+               "killed": killed if isinstance(killed, list) else [],
+               "injured": injured if isinstance(injured, list) else [],
+           })
+           return text or "No casualty data"
        
        incident_lines = []
        for _, row in top_incidents.iterrows():

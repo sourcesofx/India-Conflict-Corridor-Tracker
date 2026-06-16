@@ -127,7 +127,7 @@ Data Lake + Real-time + Global Lexical Deduplication
 ### Installation
 
 ```bash
-git clone https://github.com/sourcesofx/conflict-corridor.git
+git clone https://github.com/sourcesofx/India-Conflict-Corridor-Tracker
 cd conflict-corridor
 
 python -m venv venv

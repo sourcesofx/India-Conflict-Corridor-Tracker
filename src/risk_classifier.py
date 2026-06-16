@@ -5,26 +5,33 @@ from datetime import datetime
 
 from src.config import DATA_DIR, HIGH_RISK_THRESHOLD, MEDIUM_RISK_THRESHOLD, MIN_RISK_SCORE, CIVIL_UNREST_SCORE, KEYWORDS
 from src.utils import archive_to_historical
+from src.tactic_classifier import classify_tactic
+from src.extraction import extract_casualties, summarize_casualties
+from src.spacy_ext import extract_roles
 
 nlp = spacy.load("en_core_web_lg")
 
 # ====================== CUSTOM ENTITY RULER (ZERO-SHOT NER) ======================
-ruler = nlp.add_pipe("entity_ruler", before="ner", config={"overwrite_ents": True})
+ruler = nlp.add_pipe(
+    "entity_ruler",
+    before="ner",
+    config={"overwrite_ents": True, "phrase_matcher_attr": "LOWER"},
+)
 
 patterns = []
 # 1. Map Geographic Locations
 for loc in KEYWORDS["jk"]["locations"] + KEYWORDS["ne"]["locations"]:
-    patterns.append({"label": "GPE", "pattern": [{"LOWER": loc.lower()}]})
+    patterns.append({"label": "GPE", "pattern": loc})
 
 # 2. Map Non-State Threat Actors (Insurgents / Militants)
 for actor in KEYWORDS["jk"]["actors"] + KEYWORDS["ne"]["actors"]:
-    patterns.append({"label": "THREAT_ACTOR", "pattern": [{"LOWER": actor.lower()}]})
+    patterns.append({"label": "THREAT_ACTOR", "pattern": actor})
     if "-" in actor:
-        patterns.append({"label": "THREAT_ACTOR", "pattern": [{"LOWER": actor.lower().replace("-", " ")}]})
+        patterns.append({"label": "THREAT_ACTOR", "pattern": actor.replace("-", " ")})
 
 # 3. Map State Security Forces (Police, Army, Paramilitary)
 for sf in KEYWORDS["jk"]["state_actors"] + KEYWORDS["ne"]["state_actors"]:
-    patterns.append({"label": "SECURITY_FORCE", "pattern": [{"LOWER": sf.lower()}]})
+    patterns.append({"label": "SECURITY_FORCE", "pattern": sf})
 
 ruler.add_patterns(patterns)
 
@@ -52,27 +59,6 @@ class RiskClassifier:
         self.tactical_nouns = {term.lower() for term in conflict_terms if " " not in term}
         self.tactical_nouns.update(["villager", "driver", "worker", "civilian", "officer", "patrol", "convoy", "suspect"])
 
-    # === Regex Casualty Extractor ===
-    def _extract_casualties(self, text: str) -> dict:
-        """
-        Heuristic to extract casualties locally, split by severity.
-        """
-        if not text: 
-            return {"killed": [], "injured": []}
-            
-        pattern = r'\b(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)\b(?:\s+\w+){0,3}\s+(killed|injured|dead|martyred|slain|neutralised|neutralized|hurt|wounded)'
-        matches = re.findall(pattern, text, re.IGNORECASE)
-        
-        killed, injured = [], []
-        for count, action in matches:
-            count, action = count.lower(), action.lower()
-            if action in ["injured", "hurt", "wounded"]:
-                injured.append(f"{count} {action}")
-            else:
-                killed.append(f"{count} {action}")
-                
-        return {"killed": list(set(killed)), "injured": list(set(injured))}
-
     def classify_article(self, article: dict) -> dict:
         text = f"{article.get('title', '')} {article.get('content', '')}"
         doc = nlp(text)
@@ -83,101 +69,25 @@ class RiskClassifier:
         matched_actors = [ent.text.title() for ent in doc.ents if ent.label_ == "THREAT_ACTOR"]
         matched_state_actors = [ent.text.upper() for ent in doc.ents if ent.label_ == "SECURITY_FORCE"]
 
-        # === RUTHLESS STRICT-LISTING HELPER ===
-        def extract_core_entity(token):
-            for ent in doc.ents:
-                if token.i >= ent.start and token.i < ent.end:
-                    if ent.label_ == "THREAT_ACTOR":
-                        ent_text = ent.text.strip()
-                        return ent_text.upper() if len(ent_text) <= 5 else ent_text.title()
-            physical_targets = {
-                "militant", "terrorist", "police", "army", "civilian", "rebel",
-                "insurgent", "troop", "personnel", "soldier", "officer",
-                "villager", "patrol", "convoy", "crpf", "bsf", "sf"
-            }
-            if token.pos_ in ["NOUN", "PROPN"]:
-                lemma = token.lemma_.lower()
-                if lemma in physical_targets:
-                    return lemma.title()
-            return None
-
         # === Role Extraction (Perpetrator / Victim / Claimed By) ===
-        perpetrator = []
-        victim = []
-        claimed_by = []
+        roles = extract_roles(doc)
+        perpetrator = roles["perpetrator"]
+        victim = roles["victim"]
+        claimed_by = roles["claimed_by"]
 
-        for token in doc:
-            if token.lemma_ in ["kill", "attack", "ambush", "shoot", "neutralize", "gun", "bomb", "injure", "target"]:
-                is_passive = any(child.dep_ == "auxpass" for child in token.children)
-                for child in token.children:
-                    if child.pos_ == "PRON": continue
-                    extracted_entity = extract_core_entity(child)
-                    if not extracted_entity: continue
+        # === Casualty Extraction (counts + affiliation) ===
+        casualties = extract_casualties(text[:1500])
+        cas_summary = summarize_casualties(casualties)
 
-                    if is_passive:
-                        if child.dep_ == "nsubjpass":
-                            victim.append(extracted_entity)
-                        elif child.dep_ == "agent":
-                            for sub in child.children:
-                                if sub.dep_ == "pobj":
-                                    sub_ent = extract_core_entity(sub)
-                                    if sub_ent: perpetrator.append(sub_ent)
-                    else:
-                        if child.dep_ == "nsubj":
-                            perpetrator.append(extracted_entity)
-                        elif child.dep_ in ("dobj", "pobj"):
-                            victim.append(extracted_entity)
-
-            if "claim" in token.lemma_ or "responsib" in token.lemma_:
-                for child in token.children:
-                    if child.dep_ == "nsubj" and child.pos_ != "PRON":
-                        extracted_entity = extract_core_entity(child)
-                        if extracted_entity: claimed_by.append(extracted_entity)
-
-        # === Regex Casualty Extractor ===
-        regex_casualties = self._extract_casualties(text[:1500])
-
-        # === Enhanced Casualty & Granular Incident Extraction ===
-        granular_type = "Unknown"
-        incident_mapping = {
-            r"\b(ieds?|bombs?|grenades?|explosives?|blasts?)\b": "IED/Explosion",
-            r"\b(encounters?|gunfights?|crossfires?|shootouts?)\b": "Gunfight/Encounter",
-            r"\b(ambush(es)?)\b": "Ambush",
-            r"\b(snip(e|ing)|assassinate|targeted attacks?)\b": "Targeted Attack",
-            r"\b(caso|search operations?|cordons?|raids?)\b": "Search Operation",
-            r"\b(infiltrations?|cross-border)\b": "Border Infiltration",
-            r"\b(stone pelting)\b": "Stone Pelting",
-            r"\b(protests?|riots?|curfews?|clash(es)?|economic blockades?|bandhs?|hartals?)\b": "Civil Unrest",
-            r"\b(arson|vandalism|torched)\b": "Arson/Vandalism"
-        }
-
+        # === Tactic classification (hybrid: BART coarse gate + keyword tactic) ===
+        tactic = classify_tactic(article.get("title", ""), article.get("content", ""))
+        granular_type = tactic["granular_incident_type"]
+        incident_type = tactic["incident_type"]
         title_lower = article.get("title", "").lower()
-        confidence_scores = {inc_type: 0.0 for inc_type in incident_mapping.values()}
-       
-        for pattern, inc_type in incident_mapping.items():
-            title_matches = len(re.findall(pattern, title_lower))
-            if title_matches > 0:
-                confidence_scores[inc_type] += (title_matches * 2.0)
-       
-        for pattern, inc_type in incident_mapping.items():
-            body_matches = len(re.findall(pattern, text_lower))
-            if body_matches > 0:
-                confidence_scores[inc_type] += (body_matches * 1.0)
-       
-        best_match = max(confidence_scores, key=lambda k: confidence_scores[k])
-        if confidence_scores[best_match] > 0:
-            granular_type = best_match
-
-        if granular_type in ["IED/Explosion", "Gunfight/Encounter", "Ambush", "Targeted Attack", "Search Operation", "Border Infiltration"]:
-            incident_type = "Kinetic"
-        elif granular_type in ["Stone Pelting", "Civil Unrest", "Arson/Vandalism"]:
-            incident_type = "Unrest"
-        else:
-            incident_type = "Other"
 
         is_in_region = any(loc.lower() in self.locations for loc in matched_locs)
         has_conflict_context = bool(self.conflict_pattern.search(text_lower)) or bool(matched_actors)
-        has_casualties = bool(regex_casualties)
+        has_casualties = cas_summary["has_casualties"]
 
         # === UPGRADE: Action-Aware Infrastructure Circuit Breaker ===
         softer_context_blacklist = [
@@ -198,7 +108,7 @@ class RiskClassifier:
         has_tactical_action = any(word in title_lower for word in tactical_action_signals)
 
         if (incident_type in ["Kinetic", "Unrest"]) and is_in_region and not is_false_positive:
-            if is_infra_development and not has_tactical_action and not (matched_actors or perpetrator or claimed_by or len(regex_casualties["killed"]) > 0):
+            if is_infra_development and not has_tactical_action and not (matched_actors or perpetrator or claimed_by or cas_summary["total_killed"] > 0):
                 granular_type = "Infrastructure Development"
                 incident_type = "Other"
                 final_score = 1.5
@@ -225,11 +135,17 @@ class RiskClassifier:
             "victim_target": list(set(victim)),
             "claimed_by": list(set(claimed_by)),
             "granular_incident_type": granular_type,
-            "casualties_killed": regex_casualties,
-            "casualties_injured": [], 
+            "casualties_killed": casualties["killed"],
+            "casualties_injured": casualties["injured"],
+            "total_killed": cas_summary["total_killed"],
+            "total_injured": cas_summary["total_injured"], 
             "final_risk_score": final_score,
             "final_risk_level": risk_level,
             "incident_type": incident_type,
+            "tactic_confidence": tactic.get("tactic_confidence"),
+            "secondary_tactic": tactic.get("secondary_tactic"),
+            "needs_review": tactic.get("needs_review", False),
+            "coarse_category": tactic.get("coarse_category"),
             "classified_at": datetime.now().isoformat()
         })
         return article

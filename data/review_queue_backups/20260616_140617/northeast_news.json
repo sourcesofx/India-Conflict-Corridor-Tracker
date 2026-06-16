@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2026-06-12T21:12:24.689092",
+    "source": "Northeast News",
+    "title": "Two Manipur Police personnel among four held with 6.1 kg Yaba tablets",
+    "url": "https://nenews.in/manipur/two-manipur-police-personnel-among-four-held-with-6-1-kg-yaba-tablets/53920/",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": null,
+    "content": "Imphal: Four persons, including two personnel of the Manipur Police, were arrested in Kangpokpi district for allegedly transporting a large quantity of synthetic drugs, officials said on Friday.\nThe arrests were carried out on Thursday after police intercepted two vehicles along National Highway-2 under the jurisdiction of Kangpokpi police station during a checking operation.\nAccording to police, security personnel recovered 6.1 kg of Yaba tablets, a highly addictive synthetic narcotic substance, from the vehicles.\nThe arrested individuals were identified as Md. Zamir Khan (45), Samim (36), police constable Md. Zuma Khan (32), and head constable Md. Hafizuddin (42).\nPolice also seized the two vehicles used for transportation — a Winger bearing registration number MN-03B-0283 and a Nissan Magnite bearing registration number MN-08A-0877.\nIn a separate operation conducted on June 11, security forces arrested an active woman cadre of the banned RPF/PLA outfit from Imphal West district.\nThe arrested cadre was identified as Wahengbam Khumbongmayum Tombi Chanu alias Laijalembi (26), a resident of Heibongpokpi Maning Leikai under Lamsang police station. She was apprehended from her residence.\nMeanwhile, on June 10, security forces also arrested an active member of the KCP (Taibanganba) group from Bishnupur district.\nThe accused, identified as Leimapokpam Lemba Singh alias Chalamba (21) of Nambol Makha Leikai, was apprehended from the Nambol Sabal Leikai area under Nambol police station.\nSecurity forces have continued intensive search operations and area domination exercises in fringe and vulnerable locations across various districts of Manipur.\nOfficials said a total of 115 naka/checkpoints were set up across hill and valley districts as part of enhanced security arrangements.\nALSO READ: Security to improve with CoBRA deployment in Manipur: Minister Govindas Konthoujam\nAuthorities also ensured the movement of 201 vehicles carrying essential commodities along National Highway-37. Tight security measures were implemented in vulnerable areas, while security escorts were provided along sensitive stretches to facilitate the safe and uninterrupted movement of vehicles",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Bishnupur",
+      "Kangpokpi"
+    ],
+    "ner_actors": [
+      "Kcp",
+      "Rpf",
+      "Pla"
+    ],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-12T21:12:24.813712"
+  },
+  {
+    "timestamp": "2026-06-09T18:59:04.530312",
+    "source": "Northeast News",
+    "title": "14 Kuki individuals released in Manipur nearly a month after abduction",
+    "url": "https://nenews.in/manipur/14-kuki-individuals-released-in-manipur-nearly-a-month-after-abduction/53623/",
+    "matched_keywords": [
+      "abduction"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Fourteen Kuki individuals who were abducted in Manipur’s Senapati district nearly a month ago were released on Tuesday following sustained efforts by civil society organizations and community leaders, reports said.\nThe hostages had been taken captive on May 13 in the aftermath of an ambush in Kangpokpi district that claimed the lives of three church leaders.\nTheir release was facilitated by the United Naga Council (UNC), the apex body of the Naga community in Manipur, and other civil society organizations based in Senapati district.\nAccording to officials, the release took place at around 3:36 pm following negotiations facilitated by civil society organisations.\nThe freed individuals were handed over to the chief of Taphou Kuki village in what organisers described as a safe and peaceful transfer. The CSOs stated that all those released were in good condition.\nThose released were identified as Thangtinlen Chongloi, Paotinkai Chongloi, Lunsei Chongloi, Kaimang Chongloi, Hengunsei Chongloi, Luntinlal Chongloi, Tonggoulen Chongloi, Sehginlun Chongloi, Sehminhao Chongloi, Paogoulhang Chongloi, Haominlun Kipgen, Lamgoulen Kipgen, Thanglemang Chongloi and Thangminlen Chongloi.\nAlso Read: Security forces appeal to Manipur villages to keep youths away from violence\nUNC president Ng Lorho said the decision to facilitate the release followed appeals from the central and Manipur governments, church organisations and various tribal and civil society bodies.\n“In consultation with all stakeholders, the United Naga Council facilitated the safe release of the 14 Kuki hostages and handed them over to the district administration, police and security forces before the public,” he said.\nLorho said the initiative reflected the Naga community’s commitment to humanitarian principles, human rights and established norms of conflict.\nHe added that the UNC’s intervention was influenced by assurances from both the Union and Manipur governments regarding ongoing efforts to trace six missing Naga individuals and determine their status.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Senapati",
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Ambush",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T18:59:04.642599"
+  },
+  {
+    "timestamp": "2026-06-16T04:14:47.304286",
+    "source": "Northeast News",
+    "title": "60 families evicted from Brahmaputra riverbank in Assam’s Dibrugarh",
+    "url": "https://nenews.in/assam/60-families-evicted-from-brahmaputra-riverbank-in-assams-dibrugarh/54264/",
+    "matched_keywords": [
+      "dibrugarh"
+    ],
+    "region": "ne",
+    "published_date": null,
+    "content": "Around 60 families who had allegedly occupied government land illegally along the Brahmaputra riverbank in Assam’s Dibrugarh district for several years were evicted by the district administration on Monday, reports said.\nThe eviction drive was conducted in the Maijan area following an order from the District and Sessions Court, Dibrugarh, after notices were served to the occupants.\nAs per reports, the families were found to be living in around nine bighas of government land on the riverbank, with some having even constructed permanent RCC houses.\nDuring the drive, many affected residents said that they had purchased the land from middlemen after being assured that the plots were legally approved.\nSeveral families alleged that they had paid amounts ranging from Rs 1 lakh to Rs 3 lakh to land brokers, only to later discover that the land belonged to the government.\nA strong police contingent was deployed at the sites as a precautionary measure to maintain law and order.\nAlso Read: Massive eviction drive begins in Barak Valley; 522 families targeted\nHowever, the eviction process was completed peacefully, with residents removing their belongings before the structures were cleared using excavators.\nDibrugarh East Revenue Circle Officer Samujjwal Borah said that adequate security arrangements were made considering the scale of the operation, and the cooperation of residents ensured that the eviction proceeded without any untoward incident.\nFollowing the eviction drive, affected residents urged authorities to investigate the role of alleged illegal brokers, claiming that their families had been deceived into purchasing government land.",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Dibrugarh"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [
+      "522 families"
+    ],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Armed Incident",
+    "casualties_killed": [],
+    "casualties_injured": [],
+    "total_killed": 0,
+    "total_injured": 0,
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "tactic_confidence": 0.0716,
+    "secondary_tactic": null,
+    "needs_review": true,
+    "coarse_category": "VIOLENT",
+    "classified_at": "2026-06-16T04:14:50.538860"
+  }
+]

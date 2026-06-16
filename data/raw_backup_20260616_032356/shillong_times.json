@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "2026-06-03T17:13:04.073073",
+    "source": "The Shillong Times",
+    "title": "Assam Police makes another arrest in Rs 2,200 crore online trading scam",
+    "url": "https://theshillongtimes.com/2024/09/07/assam-police-makes-another-arrest-in-rs-2200-crore-online-trading-scam/",
+    "matched_keywords": [
+      "assam police"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-03",
+    "content": "Shillong, September 7: Assam Police on Saturday arrested another person from Jorhat district’s Titabor area for his alleged involvement in the Rs 2,200 crore online trading scam that has shocked the state, officials said on Saturday.\nThe arrested person has been identified as Abinash Pardhiya who was taken into custody from Borhola locality in Titabor town.\nPolice said that the accused person was at his residence when he was arrested on Saturday morning.\nA senior police officer said that Pardhiya runs a tuition centre from his residence and he was running the online trading scam under the banner of Good Luck Tutor Centre Private Limited there.\nPolice claimed that he has collectively duped people of lakhs of rupees on the pretext of giving them higher returns through online trading.\nPolice earlier arrested 38 people across the state in connection with the online trading scam.\nTwo prime accused — Bishal Phukan and Swapnanil Das were arrested initially and both of them were sent to seven days’ police custody by the court.\nPolice have apprehensions that Das and Phukan’s network duped a lot of people through online trading and the total amount that was scammed amounts to Rs 2,200 crore.\nAccording to police, Phukan used his lavish lifestyle to entice people and assured his investors of a 30 per cent return on their money within 60 days.\nIn addition to investing in Assamese cinema, he had established four fictitious businesses and bought other houses.\nThe police conducted a raid at his residence in Dibrugarh and seized documents linked to the multi-crore scam.\nMeanwhile, police are looking for Assamese choreographer and actress Sumi Borah, who is also reportedly connected to Phukan’s network.\nIt has been alleged that Phukan spent crores of rupees at Sumi Borah’s wedding in Rajasthan’s Udaipur.\nThe husband of the actress has also come under the scanner of the police and he is also on the run along with Borah. (IANS)",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jorhat",
+      "Dibrugarh"
+    ],
+    "ner_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [
+      "Police"
+    ],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.304793",
+    "ner_state_actors": [],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-04T16:32:10.078602",
+    "source": "The Shillong Times",
+    "title": "HM Shah to review India-Bangladesh border security in Tripura, assess BSF preparedness",
+    "url": "https://theshillongtimes.com/2026/06/04/hm-shah-to-review-india-bangladesh-border-security-in-tripura-assess-bsf-preparedness/",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-04",
+    "content": "Agartala, June 4: Security management along the India-Bangladesh border in Tripura is set to receive renewed focus as Union Home Minister Amit Shah is scheduled to review the prevailing security situation and assess the preparedness of the BSF and other agencies in tackling a range of challenges along the international frontier, officials said on Thursday.\nThe Home Minister will arrive in Agartala on Thursday evening from Meghalaya capital Shillong and is slated to participate in a series of meetings and events on Friday. A senior official said that during his visit, Shah will undertake a comprehensive review of border security arrangements and evaluate the operational readiness of the BSF and other security agencies in addressing issues such as infiltration, trans-border crimes, smuggling, and border management along the India-Bangladesh border.\nThe official said that after the Home Minister’s meeting on Friday, security and vigilance along the Bangladesh border and human habitations on both sides of the border fencing would be further boosted. After chairing the 73rd Plenary Session of the North Eastern Council (NEC) in Shillong on Thursday, HM Shah will arrive in Agartala on the evening.\n“The Home Minister will hold a high-level meeting with senior officials of the BSF, state police and other security agencies to review issues related to the India-Bangladesh border. Prior to the meeting at the BSF frontier headquarters here, Shah will visit selected border locations in West Tripura district to personally see the prevailing situation,” the official said.\nDuring his visit to the Bangladesh frontier on Friday, HM Shah is scheduled to lay the foundation stone for certain infrastructure projects, participate in a tree plantation drive, and attend a Sainik Sammelan. The Home Minister is also slated to lay the foundation stone and attend the Bhumi Pujan ceremony for a hotel project that will be developed following a agreement between Tripura government and a private organisation. Tripura Chief Minister Manik Saha said that Shah is likely to visit border areas in West Tripura.\nHe said that the state government had earlier requested the Union Home Minister to visit the International Border and review the prevailing situation. The Chief Minister highlighting the Centre’s initiatives to strengthen border surveillance, said Tripura would be among the states to benefit from the implementation of smart fencing systems along the International Border. Similar facilities are also planned for Assam and West Bengal, he stated.\nMeanwhile, the Tripura government, the BSF, and the West Tripura district administration are engaged in extensive preparations for the Home Minister’s two-day visit to the state. Tripura, which shares an 856-km-long International Border with Bangladesh and is surrounded on three sides by the neighbouring country, remains highly sensitive and vulnerable to issues such as illegal migration, cross-border smuggling, illicit trade, and other tr",
+    "source_type": "playwright",
+    "ner_locations": [
+      "West Tripura"
+    ],
+    "ner_actors": [
+      "Hm"
+    ],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Border Infiltration",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 10.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.415209",
+    "ner_state_actors": [
+      "BSF"
+    ],
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-05T13:15:17.763066",
+    "source": "The Shillong Times",
+    "title": "Woman among three killed in armed attack on Manipur village; houses set ablaze",
+    "url": "https://theshillongtimes.com/2026/06/05/woman-among-three-killed-in-armed-attack-on-manipur-village-houses-set-ablaze/",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-05",
+    "content": "Imphal, June 5: At least three people, including a woman, were killed after unidentified armed assailants attacked a tribal-inhabited village in Manipur’s Kangpokpi district on Friday, officials said. A police official said that armed cadres belonging to an unidentified group launched an attack on Loibol Khullen village.\nThe assault was met with retaliation by another armed group, triggering a fierce exchange of fire between the rival factions that lasted for nearly half an hour. Three villagers, including a woman, were killed during the crossfire. The deceased have been identified as Letkhongam Haokip, his wife Tinmary Haokip, and Jangminlal Haokip. Following the incident, panic-stricken residents fled their homes and took shelter in nearby forested areas to escape the violence, the official said.\nAt least seven houses were reduced to ashes in the attack, while substantial damage was also inflicted on civilian properties in the village. Additional security forces led by senior officials have rushed to the area and launched a combing operation to nab the perpetrators. The Kuki Inpi Manipur (KIM), the apex body of the Kuki tribal community in the state, strongly condemned the attack and demanded an immediate investigation to identify and apprehend those responsible.\nIn a statement, KIM Secretary (Information and Publicity) Janghaolun Haokip said that the deliberate killing of innocent people and the destruction of homes and livelihoods constituted a grave violation of human dignity and fundamental human rights. “The deliberate targeting of civilians and the destruction of homes can never be justified under any circumstances.\nKIM extends its deepest condolences to the bereaved families and expresses its unwavering solidarity with the affected residents of Loibol Khullen village,” the statement said. The KIM urged the government of India and the security agencies concerned to immediately launch a thorough investigation into the incident, apprehend the perpetrators, and ensure that justice is delivered without delay. The tribal body also called upon the authorities to take urgent measures to safeguard vulnerable villages and prevent further attacks on innocent civilians.\nIANS",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Kangpokpi"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [
+      "Villager"
+    ],
+    "claimed_by": [],
+    "granular_incident_type": "Gunfight/Encounter",
+    "casualties_killed": {
+      "killed": [
+        "three killed"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-09T14:27:35.496243",
+    "llm_enhanced": true
+  },
+  {
+    "timestamp": "2026-06-10T18:36:37.832806",
+    "source": "The Shillong Times",
+    "title": "A rescue worker puts out a fire of damaged cars after a Russian strike in Kharkiv, at Ukraine, on Tuesday. (PTI)",
+    "url": "https://theshillongtimes.com/2026/06/10/a-rescue-worker-puts-out-a-fire-of-damaged-cars-after-a-russian-strike-in-kharkiv-at-ukraine-on-tuesday-pti/",
+    "matched_keywords": [],
+    "region": "ne",
+    "published_date": "2026-06-10",
+    "content": "Sign in Welcome! Log into your account your username your password Forgot your password? Get help Create an account Create an account Welcome! Register for an account your email your username A password will be e-mailed to you. Password recovery Recover your password your email A password will be e-mailed to you. INTERNATIONAL A rescue worker puts out a fire of damaged cars after a Russian strike in Kharkiv, at Ukraine, on Tuesday. (PTI) By: Agencies Date: June 10, 2026 Share post: WhatsAppFacebookXReddItTelegramLinkedin Previous articleIndia wants Pakistan held accountable over PoKNext articleWorld Watch Related articles NATIONAL Cross-border drug trafficking: ED conducts raids across Tripura, Mizoram GUWAHATI, June 10: The Directorate of Enforcement (ED), Aizawl sub-zonal office has conducted a series of raids under... Environment Assam wildlife conservationist Purnima Devi Barman to be conferred global award Guwahati, June 10: Assam-based wildlife biologist and acclaimed conservationist and founder of the Hargila Army, Purnima Devi Barman... News Alert Agricultural Science Laboratories at RGU to boost development of NE Region: NEC Secretary GUWAHATI, June 10 : S. K. Bhalla, Secretary, North Eastern Council (NEC) inaugurated the newly- established Laboratories of Agricultural... NATIONAL Four killed as car plunges in 500-metre gorge in Uttarakhand’s Mussoorie Dehradun, June 10: Four people lost their lives after a car reportedly went out of control and plunged...",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Aizawl"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [
+        "four killed"
+      ],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-10T18:36:37.908952"
+  },
+  {
+    "timestamp": "2026-06-13T14:59:22.128189",
+    "source": "The Shillong Times",
+    "title": "IAF AN-32 bursts into flames after landing in Assam’s Jorhat",
+    "url": "https://theshillongtimes.com/2026/06/13/iaf-an-32-bursts-into-flames-after-landing-in-assams-jorhat/",
+    "matched_keywords": [
+      "jorhat"
+    ],
+    "region": "ne",
+    "published_date": "2026-06-13",
+    "content": "Guwahati, June 13: An Indian Air Force (IAF) AN-32 transport aircraft reportedly caught fire after landing at Assam’s Jorhat on Saturday, triggering emergency response measures at the airbase, officials said. Initial reports indicated that the incident occurred immediately after the aircraft touched down, with flames and thick smoke seen billowing from the aircraft.\nAirport and IAF emergency teams rushed to the spot and launched firefighting operations to contain the blaze. The extent of damage to the aircraft and information regarding casualties were not immediately available. Authorities are expected to order a detailed inquiry into the incident to ascertain the exact cause of the explosion.\nThe Soviet-origin AN-32 is a twin-engine tactical transport aircraft that has served as a key workhorse of the IAF for decades, particularly in difficult terrains and high-altitude sectors in the Northeast and along the Himalayan frontier. The latest incident has once again drawn attention to the aircraft’s operational history.\nIn June 2019, an IAF AN-32 carrying 13 personnel went missing after taking off from Jorhat Air Force Station for Mechuka in Arunachal Pradesh. After an extensive search operation, the wreckage was located in the mountainous terrain of Arunachal Pradesh, and all 13 personnel on board were declared dead.\nAnother AN-32 disappeared over the Bay of Bengal in July 2016 while flying from Chennai to Port Blair with 29 personnel on board. Despite one of India’s largest search operations, the aircraft could not be located for years, and all those on board were presumed dead. Debris linked to the aircraft was eventually identified in 2024.\nThe AN-32 fleet has also witnessed other accidents over the years, including crashes in Arunachal Pradesh and operational incidents at military airfields. Officials are yet to release an official statement on Saturday’s Jorhat incident. Further details are awaited as rescue, assessment and investigation efforts continue.\nIANS",
+    "source_type": "playwright",
+    "ner_locations": [
+      "Jorhat"
+    ],
+    "ner_actors": [],
+    "ner_state_actors": [],
+    "perpetrator": [],
+    "victim_target": [],
+    "claimed_by": [],
+    "granular_incident_type": "Search Operation",
+    "casualties_killed": {
+      "killed": [],
+      "injured": []
+    },
+    "casualties_injured": [],
+    "final_risk_score": 8.0,
+    "final_risk_level": "HIGH",
+    "incident_type": "Kinetic",
+    "classified_at": "2026-06-13T14:59:22.212692"
+  }
+]
