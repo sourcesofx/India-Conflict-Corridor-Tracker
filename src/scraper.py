@@ -135,12 +135,9 @@ async def extract_publication_date(page, article_url: str) -> str | None:
     """
     import re
     try:
-        #METHOD 1: Extract from URL directly
         url_match = re.search(r'/(\d{4})/(\d{2})/(\d{2})/', article_url)
         if url_match:
             return f"{url_match.group(1)}-{url_match.group(2)}-{url_match.group(3)}"
-
-        # Method 2: JSON-LD
         json_ld_scripts = await page.query_selector_all('script[type="application/ld+json"]')
         for script in json_ld_scripts:
             try:
@@ -162,7 +159,6 @@ async def extract_publication_date(page, article_url: str) -> str | None:
             except:
                 continue
 
-        # Method 3: Meta tags
         meta_selectors = [
             'meta[property="article:published_time"]',
             'meta[property="og:article:published_time"]',
@@ -182,8 +178,6 @@ async def extract_publication_date(page, article_url: str) -> str | None:
                         return dt.date().isoformat()
                     except:
                         return date_str[:10]
-
-        # Method 4: Visible date on page
         visible_selectors = [
             'time[datetime]',
             '.published-date',

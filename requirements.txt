@@ -1,10 +1,15 @@
 streamlit==1.32.0
 pandas==2.2.1
+numpy==1.26.4
 plotly==5.19.0
 kaleido==0.1.0.post1
+Pillow==12.2.0
 playwright==1.42.0
 spacy==3.7.4
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl
+transformers==4.44.2
+sentence-transformers==3.1.1
+torch==2.2.2
 feedparser==6.0.11
 requests==2.31.0
 trafilatura==1.8.1

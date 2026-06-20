@@ -1,21 +1,3 @@
-"""
-review_tab.py  --  Streamlit rendering for the Review Queue tab.
-
-Reads/writes the CANONICAL JSON lake (data/raw/*.json) -- the same store the
-dashboard and clean_database use -- so corrections and flags are durable. The
-heavy lifting lives in review_queue.py (Streamlit-free, unit-tested); this is
-the thin UI glue.
-
-Two analyst actions per flagged article:
-  - Reclassify tactic  -> save_correction_json(..., write=True)
-  - Not relevant       -> mark_not_relevant_json(..., write=True)
-       sets manual_purge=True; the row leaves the queue now and is removed on
-       the next clean_database run. A confirm tick guards against misclicks.
-
-Compatibility: avoids st.container(border=...) (needs Streamlit >= 1.29);
-reruns via st.rerun() or st.experimental_rerun(), whichever exists.
-"""
-
 from src.review_queue import (
     load_review_json,
     review_rows,
@@ -43,13 +25,12 @@ def render_review_tab(st) -> None:
     st.subheader("🛡️ Review Queue")
     st.caption(
         "Articles the classifier flagged as uncertain. Reclassify them, or mark "
-        "irrelevant noise for removal on the next database clean. Edits write "
-        "straight to the live JSON lake."
+        "irrelevant noise for removal on the next database clean."
     )
 
     try:
         df = load_review_json()
-    except Exception as e:  # pragma: no cover - defensive
+    except Exception as e:
         st.error(f"Could not load the JSON lake: {e}")
         return
 

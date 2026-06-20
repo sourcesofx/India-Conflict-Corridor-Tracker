@@ -1,24 +1,3 @@
-"""
-extraction.py
-=============
-Deterministic, dependency-free casualty extraction.
-
-Pulls killed / injured counts out of article text AND links each to an
-affiliation (militant / security / civilian / unspecified), then reconciles
-repeated mentions so one event reported twice in the same article isn't
-double-counted.
-
-Canonical schema (used everywhere downstream):
-
-    {
-      "killed":  [ {"count": int|None, "raw": "2 soldiers", "affiliation": "security"}, ... ],
-      "injured": [ {"count": int|None, "raw": "several",    "affiliation": "civilian"}, ... ]
-    }
-
-count is None when the quantity is genuinely vague ("several", "many") -- we
-record that casualties occurred without inventing a number.
-"""
-
 from __future__ import annotations
 import re
 from typing import Optional
@@ -123,13 +102,57 @@ def _is_killed(outcome: str) -> bool:
     o = outcome.lower()
     return not any(w in o for w in ("injur", "wound", "hurt", "maim"))
 
+_SINGULAR_HUMAN = (
+    r"soldier|jawan|trooper|policeman|cop|constable|commando|officer|guard|spo|"
+    r"militant|terrorist|insurgent|rebel|gunman|cadre|ultra|infiltrator|"
+    r"civilian|villager|worker|labourer|laborer|driver|resident|protester|"
+    r"protestor|student|pilgrim|passenger|woman|man|child|youth|leader|person|"
+    r"victim|farmer|teenager|boy|girl|minor|teacher|trader|shopkeeper"
+)
+_PASSIVE_FOLLOW = (
+    r"in|during|by|near|after|while|on|at|over|amid|following|as|when|outside|"
+    r"inside|along|and"
+)
+_NEG_NEAR = re.compile(
+    r"\b(?:no|not|without|zero|never|nobody|none|avoid|prevent|prevented)\b",
+    re.IGNORECASE,
+)
+_SINGULAR_RE = re.compile(
+    rf"(?:\b(?:a|an|the|one)\s+)?\b(?P<noun>{_SINGULAR_HUMAN})\s+"
+    rf"(?:was\s+|were\s+|been\s+|got\s+)?"
+    rf"(?P<outcome>{_KILLED_VERBS}|{_INJURED_VERBS})\b"
+    rf"(?=\s+(?:{_PASSIVE_FOLLOW})\b|\s*[.,;:])",
+    re.IGNORECASE,
+)
+_BODIES_RE = re.compile(
+    rf"\b(?P<num>{_NUM_WORD})\s+(?:dead\s+|decomposed\s+|mutilated\s+|charred\s+)?"
+    rf"bodies\b(?:(?:\s+[A-Za-z][\w'-]*){{0,5}}?)\s+"
+    rf"\b(?:found|recovered|retrieved|exhumed|handed\s+over)\b",
+    re.IGNORECASE,
+)
+
+_OBJ_PERSON = (
+    _SINGULAR_HUMAN +
+    r"|soldiers|militants|civilians|people|persons|men|jawans|troopers|cops|police|"
+    r"terrorists|insurgents|cadres|rebels|gunmen|villagers|protesters|protestors|"
+    r"students|workers|residents|passengers"
+)
+_OBJ_AFTER = re.compile(
+    rf"^\s+(?:{_NUM_WORD})\s+(?:[A-Za-z][\w'-]*\s+){{0,2}}?(?:{_OBJ_PERSON})\b",
+    re.IGNORECASE,
+)
+
 
 def extract_casualties(text: str) -> dict:
     empty = {"killed": [], "injured": []}
     if not text:
         return empty
     raw_killed, raw_injured = [], []
+
+    # Pass 1 -- number-anchored "<n> <noun> killed/injured"
     for m in _CASUALTY_RE.finditer(text):
+        if _OBJ_AFTER.match(text[m.end():]):
+            continue
         quant_raw = m.group(1)
         middle = m.group(2) or ""
         outcome = m.group("outcome")
@@ -139,6 +162,24 @@ def extract_casualties(text: str) -> dict:
             "affiliation": classify_affiliation(middle) if middle.strip() else "unspecified",
         }
         (raw_killed if _is_killed(outcome) else raw_injured).append(entry)
+
+    # Pass 2 -- singular human victim, no number -> count 1
+    for m in _SINGULAR_RE.finditer(text):
+        if _NEG_NEAR.search(text[max(0, m.start() - 18):m.start()]):
+            continue
+        noun, outcome = m.group("noun"), m.group("outcome")
+        entry = {"count": 1, "raw": noun.strip(), "affiliation": classify_affiliation(noun)}
+        (raw_killed if _is_killed(outcome) else raw_injured).append(entry)
+
+    # Pass 3 "<n> bodies found/recovered" -> killed
+    for m in _BODIES_RE.finditer(text):
+        num_raw = m.group("num")
+        raw_killed.append({
+            "count": parse_quantity(num_raw),
+            "raw": f"{num_raw.strip()} bodies",
+            "affiliation": "unspecified",
+        })
+
     return {"killed": _reconcile(raw_killed), "injured": _reconcile(raw_injured)}
 
 

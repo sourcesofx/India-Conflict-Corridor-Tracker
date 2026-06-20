@@ -1,21 +1,3 @@
-"""
-review_queue.py  --  data layer for the Review Queue tab (JSON-backed).
-
-Pure pandas / standard-library logic (NO Streamlit, NO models) so it can be
-unit-tested anywhere. Operates on the CANONICAL JSON lake (data/raw/*.json) --
-the same store the dashboard and clean_database use -- so edits are durable.
-
-  load_review_json        -> all articles as a DataFrame (+ needs_review_bool, _source_json)
-  review_rows             -> just the flagged rows
-  valid_tactics / tactic_to_incident / incident_for_tactic -> reclassify options
-  save_correction_json    -> reclassify an article's tactic
-  mark_not_relevant_json  -> flag manual_purge for clean_database to remove
-
-Safety: the write functions are dry-run by default; with write=True they back up
-the source JSON first, then mutate matching articles (by url) and rewrite the
-file in the same json.dump style the scraper / clean_database use.
-"""
-
 import json
 import shutil
 from datetime import datetime
@@ -40,8 +22,6 @@ def _is_true(v: Any) -> bool:
 
 def load_review_json(data_dir: Any = DATA_DIR) -> pd.DataFrame:
     """Read every data/raw/*.json into one DataFrame.
-
-    - skips twitter files (as the scraper / clean_database do)
     - adds a real boolean column `needs_review_bool`
     - tags each row with `_source_json` so a write-back knows the file
     Returns an empty DataFrame if there are no JSON files.
@@ -83,11 +63,11 @@ def review_rows(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # --------------------------------------------------------------------------- #
-#  Tactic options for the reclassify dropdown (derived from tactic_classifier)
+#  Tactic options for the reclassify dropdown
 # --------------------------------------------------------------------------- #
-_VIOLENT_GENERIC = "Armed Incident"   # assign_tactic VIOLENT fallback
-_UNREST_GENERIC = "Civil Unrest"      # assign_tactic UNREST fallback (also a keyword tactic)
-_ROUTINE_TACTIC = "Other"             # assign_tactic ROUTINE
+_VIOLENT_GENERIC = "Armed Incident"
+_UNREST_GENERIC = "Civil Unrest"
+_ROUTINE_TACTIC = "Other"
 
 
 def tactic_to_incident() -> "dict[str, str]":
@@ -134,12 +114,6 @@ def incident_for_tactic(tactic: str) -> str:
 #
 #  save_correction_json   -> reclassify an article's tactic
 #  mark_not_relevant_json -> flag manual_purge=True so clean_database purges it
-#
-#  Both: dry-run by default; with write=True the source JSON is backed up first,
-#  then matching articles (by url) are mutated and the file rewritten with the
-#  same json.dump style the scraper / clean_database use (indent=2, no ASCII
-#  escaping). Setting needs_review=False drops the row from the queue.
-# --------------------------------------------------------------------------- #
 def _find_source_json(url: str, data_dir: Path):
     """Search every (non-twitter) JSON for the url; return the first match."""
     for path in sorted(Path(data_dir).glob("*.json")):
@@ -168,9 +142,6 @@ def _backup_file(path: Any, backup_dir: Any) -> str:
 
 def _locate_and_load_json(url, source_json, data_dir, result):
     """Resolve the source JSON path + load it + count url matches.
-
-    On any failure, fills result['error'] and returns (None, None, 0).
-    On success returns (path, articles, n_matched).
     """
     data_dir = Path(data_dir)
     if source_json:
@@ -263,8 +234,7 @@ def mark_not_relevant_json(
     """Flag the article(s) with this url for purge by clean_database.
 
     Sets manual_purge=True and needs_review=False (so it leaves the queue). The
-    actual removal happens on the next clean_database run; nothing is deleted
-    here.
+    actual removal happens on the next clean_database run.
     """
     result: dict = {
         "url": url, "source_json": None, "found": False, "n_matched": 0,

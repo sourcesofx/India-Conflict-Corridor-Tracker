@@ -109,6 +109,11 @@
       "so o", "chaka jam", "highway blockade"
     ]
   },
+  "coverage_states": [
+    "jammu", "kashmir", "j&k", "ladakh",
+    "assam", "manipur", "meghalaya", "mizoram",
+    "nagaland", "tripura", "arunachal", "sikkim"
+  ],
   "base_high_risk": [
     "terrorist", "militant", "explosive",
     "encounter", "gunfight", "cross-border firing",

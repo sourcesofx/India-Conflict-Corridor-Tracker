@@ -106,6 +106,15 @@ def _get_default_embedder():
         _EMBEDDER = None
     return _EMBEDDER
 
+def fix_mojibake(text: str) -> str:
+    """Repair UTF-8 text mis-decoded as Windows-1252 (mojibake)."""
+    if not text or not any(m in text for m in ("â€", "Ã", "Â")):
+        return text
+    try:
+        return text.encode("cp1252", errors="strict").decode("utf-8", errors="strict")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+
 
 def _title_tokens(title) -> set:
     words = re.findall(r"\b[a-z][a-z'-]{3,}\b", str(title).lower())
@@ -130,17 +139,42 @@ def _date_bucket(row, window_days: int):
     return "NA"
 
 
+_DISTRICT_KEYS = None
+def _district_keys() -> set:
+    """Lazily-cached lowercased set of known district names (from config)."""
+    global _DISTRICT_KEYS
+    if _DISTRICT_KEYS is None:
+        try:
+            from src.config import DISTRICT_COORDS
+            _DISTRICT_KEYS = {str(k).lower() for k in DISTRICT_COORDS}
+        except Exception:
+            _DISTRICT_KEYS = set()
+    return _DISTRICT_KEYS
+
+def _event_locations(row) -> set:
+    """Places anchoring this event: NER locations if present, else any known
+    district named in the title (fallback for rows without NER, incl. tests)."""
+    raw = row.get("ner_locations")
+    if isinstance(raw, str):
+        import ast
+        try: raw = ast.literal_eval(raw)
+        except Exception: raw = []
+    if isinstance(raw, list) and raw:
+        return {str(x).lower() for x in raw}
+    head = str(row.get("title", "")).lower()
+    return {d for d in _district_keys() if d in head}
+
+
 def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
                         threshold: float = 0.5, window_days: int = 3,
                         use_embeddings: bool = True, embedding_threshold: float = 0.78,
                         embedder=None) -> pd.DataFrame:
     """
     Collapse duplicate reports of the same event. Within each region+time block,
-    two articles are duplicates if EITHER:
-      - their titles share enough words (Jaccard >= threshold), OR
-      - their meanings are close (embedding cosine >= embedding_threshold).
-    The second test catches the same event written with different words.
-    Keeps the highest-scoring article of each cluster.
+    two articles are duplicates if EITHER titles share enough words (Jaccard >=
+    threshold) OR meanings are close (cosine >= embedding_threshold) -- UNLESS the
+    two name different, non-overlapping places, in which case they are distinct
+    events (e.g. "...killed in Pulwama" vs "...killed in Kupwara") and never merge.
     """
     if df is None or df.empty:
         return df
@@ -149,7 +183,6 @@ def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
     if "final_risk_score" in work.columns:
         work = work.sort_values("final_risk_score", ascending=False, kind="stable")
 
-    # Compute meaning-vectors for every title in one batch (optional layer).
     embeddings = None
     if use_embeddings:
         if embedder is None:
@@ -159,15 +192,18 @@ def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
                      for _, r in work.iterrows()]
             embeddings = embedder(texts)
 
-    seen = {}   # block -> list of (token_set, embedding_or_None)
+    seen = {}
     keep = []
     for pos, (idx, row) in enumerate(work.iterrows()):
         block = (str(row.get("region", "") or ""), _date_bucket(row, window_days))
         toks = _title_tokens(row.get("title", ""))
         emb = embeddings[pos] if embeddings is not None else None
+        locs = _event_locations(row)
 
         is_dup = False
-        for seen_toks, seen_emb in seen.get(block, []):
+        for seen_toks, seen_emb, seen_locs in seen.get(block, []):
+            if locs and seen_locs and locs.isdisjoint(seen_locs):
+                continue
             if _jaccard(toks, seen_toks) >= threshold:
                 is_dup = True
                 break
@@ -177,7 +213,7 @@ def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
                 break
 
         if not is_dup:
-            seen.setdefault(block, []).append((toks, emb))
+            seen.setdefault(block, []).append((toks, emb, locs))
             keep.append(idx)
             if max_results and len(keep) >= max_results:
                 break
@@ -187,8 +223,6 @@ def lexical_deduplicate(df: pd.DataFrame, max_results: int | None = None,
 def is_article_too_old(published_date, max_days: int = 7) -> bool:
     """
     Returns True if the article is mathematically older than max_days.
-    Defaults to False (keep the article) if the date is completely unreadable,
-    preventing strict HTML errors from dropping breaking intelligence.
     """
     if not published_date:
         return False
@@ -259,7 +293,7 @@ def archive_to_historical(article: dict):
             "incident_type": article.get("incident_type", "Unknown"),
             "granular_incident_type": article.get("granular_incident_type", "Operational Activity"),
             
-            # Dashboard Schema Mapping (Using purely local SpaCy extractions)
+            # Dashboard Schema Mapping
             "Render_Perp": format_list(all_perps),
             "Render_Target": format_list(article.get("ner_locations", [])),
             "Render_Casualties": format_casualties({
@@ -272,9 +306,20 @@ def archive_to_historical(article: dict):
         }
 
         df = pd.DataFrame([row])
+        url = row.get("url")
 
         if csv_path.exists():
-            df.to_csv(csv_path, mode="a", header=False, index=False)
+            try:
+                existing = pd.read_csv(csv_path)
+            except Exception:
+                existing = None
+            if existing is not None and url and "url" in existing.columns \
+                    and (existing["url"].astype(str) == str(url)).any():
+                existing = existing[existing["url"].astype(str) != str(url)]
+                combined = pd.concat([existing, df], ignore_index=True)
+                combined.to_csv(csv_path, index=False)
+            else:
+                df.to_csv(csv_path, mode="a", header=False, index=False)
         else:
             df.to_csv(csv_path, mode="w", header=True, index=False)
             

@@ -17,6 +17,10 @@ data/screenshots/*.png
 data/screenshots/*.jpg
 logs/
 test_final/
+data/raw_backup_*/
+data/historical_purge_backup_*/
+data/review_queue_backups/
+data_backup_*/
 
 # Reports
 reports/*.pdf
@@ -31,3 +35,4 @@ reports/temp_assets/*.jpg
 .Trashes
 ehthumbs.db
 Thumbs.db
+data/historical_backup_*/

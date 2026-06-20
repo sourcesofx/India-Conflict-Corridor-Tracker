@@ -93,12 +93,10 @@ def strict_retrospective_scrub():
                         print(f"   🗑️ Purged [{reason}] | Score={score:.1f} | {article.get('title', '')[:80]}...")
 
             total_retained += len(pruned_articles)
-
-            # 1. Update the primary local JSON file
+            
+            #Data storage
             with open(json_file, "w", encoding="utf-8") as f:
                 json.dump(pruned_articles, f, indent=2, ensure_ascii=False)
-
-            # 2. Sync clean states to companion local CSVs for data lake parity
             csv_path = json_file.with_suffix('.csv')
             if pruned_articles:
                 pd.DataFrame(pruned_articles).to_csv(csv_path, index=False)

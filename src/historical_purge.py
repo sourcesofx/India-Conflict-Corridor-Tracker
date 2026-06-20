@@ -1,19 +1,3 @@
-"""
-historical_purge.py  --  remove a set of URLs from the historical trend archive.
-
-When an analyst marks an article "not relevant", clean_database drops it from the
-live JSON lake. But the same article was archived to data/historical/YYYY/MM.csv
-at scrape time (archive_to_historical), so it must be removed there too or it
-keeps polluting 6-12 month trend analysis. This module is that removal pass.
-
-Pure pandas / stdlib (no Streamlit). Dry-run by default; on write it backs up the
-whole historical tree once (mirroring resync_historical's backup style), then
-rewrites only the files that changed.
-
-Caveat: this does not stop a future scrape from re-archiving the same URL; a
-durable block-list would be a separate feature.
-"""
-
 import glob
 import os
 import shutil
@@ -74,7 +58,7 @@ def purge_historical(urls, hist_root=None, data_root=None,
         "error": None,
     }
     if not targets:
-        return result  # nothing to remove
+        return result
 
     hist_root = _resolve_hist_root(hist_root, data_root)
     if not os.path.isdir(hist_root):
@@ -84,7 +68,7 @@ def purge_historical(urls, hist_root=None, data_root=None,
     files = sorted(glob.glob(os.path.join(hist_root, "**", "*.csv"), recursive=True))
     result["files_scanned"] = len(files)
 
-    planned = {}  # path -> reduced DataFrame
+    planned = {}
     for f in files:
         try:
             df = pd.read_csv(f)

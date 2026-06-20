@@ -12,6 +12,7 @@ from src.config import DISTRICT_COORDS, KEYWORDS
 from src.red_flag_engine import RedFlagEngine
 from src.report_generator import HybridIntelCompiler
 from src.review_tab import render_review_tab
+from src.actor_aliases import canonicalize_actors
 
 st.set_page_config(page_title="India Conflict Corridor Tracker", page_icon="🛡️", layout="wide")
 
@@ -65,7 +66,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("Conflict Corridor Incident Tracker")
-st.caption("Jammu & Kashmir • Northeast India • Real-time Bureau Intelligence")
+st.caption("Jammu & Kashmir • Northeast India • Real-time Threat Intelligence")
 
 # ====================== DATA LOADING + DEDUPLICATION ======================
 @st.cache_data(ttl=30)
@@ -84,7 +85,6 @@ def load_data() -> pd.DataFrame:
            with open(json_file, "r", encoding="utf-8") as f:
                data = json.load(f)
                for article in data:
-                   # Failsafe 1: Force cast to string to prevent AttributeError on NoneType
                    title = str(article.get("title") or "").lower()
                    
                    if not title:
@@ -93,15 +93,11 @@ def load_data() -> pd.DataFrame:
                    # Safely extract alphanumeric words (length >= 4)
                    words = set(re.findall(r'\b\w{4,}\b', title))
                    is_duplicate = False
-                   
-                   # Failsafe 2: Only attempt intersection if the set contains valid words
                    if words:
                        for seen_words in global_ui_seen_words:
                            if seen_words:
                                overlap = len(words.intersection(seen_words))
                                denominator = min(len(words), len(seen_words))
-                               
-                               # Failsafe 3: Guard against ZeroDivisionError
                                if denominator > 0 and (overlap / denominator) > 0.65:
                                    is_duplicate = True
                                    break
@@ -118,9 +114,13 @@ def load_data() -> pd.DataFrame:
            continue
 
    df = pd.DataFrame(clean_articles)
-   # Failsafe 4: Ensure column exists before datetime coercion
    if not df.empty and "timestamp" in df.columns:
        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+   for col in ("ner_actors", "ner_state_actors"):
+       if not df.empty and col in df.columns:
+           df[col] = df[col].apply(
+               lambda v: canonicalize_actors(v) if isinstance(v, list) else v
+           )
    return df
 
 df: pd.DataFrame = load_data()
@@ -272,15 +272,12 @@ with tab3:
            st.plotly_chart(fig_state, use_container_width=True)
 
        # ROW 3: Operational Links
-       # ROW 3: Operational Links
        st.markdown("<hr style='border-color: #1F3A2E; margin-top: 15px; margin-bottom: 25px;'>", unsafe_allow_html=True)
        st.markdown("<p style='font-weight: bold; font-size: 1.1rem; margin-bottom: 0px;'>Operational Links (Threat Actor &#10138; Tactic)</p>", unsafe_allow_html=True)
        st.caption("Recurring links only (2+ incidents), drawn from verified NER actor entities.")
 
        INVALID_ACTORS = {"—", "[]", "none", "nan", "unknown", "", "who", "one", "two others"}
        TOP_N_ACTORS = 10
-
-       # Build Actor -> Tactic pairs from the clean NER actor lists (same source as the bar charts above).
        actor_freq = {}
        pairs = []
        for row in filtered.to_dict('records'):
@@ -297,8 +294,6 @@ with tab3:
                name = name.title()
                actor_freq[name] = actor_freq.get(name, 0) + 1
                pairs.append((name, tactic))
-
-       # Keep only the most active actors, then only recurring actor -> tactic links.
        top_actors = {a for a, _ in sorted(actor_freq.items(), key=lambda x: -x[1])[:TOP_N_ACTORS]}
        link_counts = {}
        for actor, tactic in pairs:
@@ -369,7 +364,6 @@ with tab4:
                return pd.Series(["—"] * len(latest), index=latest.index)
 
        def format_casualties(val):
-           # A repr-string of a dict/list (legacy storage) -> parse back first.
            if isinstance(val, str):
                s = val.strip()
                if s[:1] in ("{", "["):

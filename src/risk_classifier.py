@@ -4,10 +4,12 @@ import spacy
 from datetime import datetime
 
 from src.config import DATA_DIR, HIGH_RISK_THRESHOLD, MEDIUM_RISK_THRESHOLD, MIN_RISK_SCORE, CIVIL_UNREST_SCORE, KEYWORDS
-from src.utils import archive_to_historical
+from src.utils import archive_to_historical, fix_mojibake
 from src.tactic_classifier import classify_tactic
 from src.extraction import extract_casualties, summarize_casualties
 from src.spacy_ext import extract_roles
+from src.score_guards import is_derivative_aftermath, floor_is_justified, region_anchored
+from src.actor_aliases import canonicalize_actors
 
 nlp = spacy.load("en_core_web_lg")
 
@@ -40,6 +42,7 @@ class RiskClassifier:
         self.data_dir = DATA_DIR
         self.locations = {loc.lower() for loc in KEYWORDS["jk"]["locations"] + KEYWORDS["ne"]["locations"]}
         self.actors = {act.lower() for act in KEYWORDS["jk"]["actors"] + KEYWORDS["ne"]["actors"]}
+        self.coverage_states = {s.lower() for s in KEYWORDS.get("coverage_states", [])}
 
         # ================== DYNAMIC CONTEXT ENGINE ==================
         conflict_terms = set(
@@ -60,6 +63,8 @@ class RiskClassifier:
         self.tactical_nouns.update(["villager", "driver", "worker", "civilian", "officer", "patrol", "convoy", "suspect"])
 
     def classify_article(self, article: dict) -> dict:
+        article["title"] = fix_mojibake(article.get("title", ""))
+        article["content"] = fix_mojibake(article.get("content", ""))
         text = f"{article.get('title', '')} {article.get('content', '')}"
         doc = nlp(text)
         text_lower = text.lower()
@@ -85,7 +90,7 @@ class RiskClassifier:
         incident_type = tactic["incident_type"]
         title_lower = article.get("title", "").lower()
 
-        is_in_region = any(loc.lower() in self.locations for loc in matched_locs)
+        is_in_region = region_anchored(article.get("title", ""), article.get("content", ""), matched_locs, self.coverage_states)
         has_conflict_context = bool(self.conflict_pattern.search(text_lower)) or bool(matched_actors)
         has_casualties = cas_summary["has_casualties"]
 
@@ -107,12 +112,20 @@ class RiskClassifier:
         is_infra_development = any(word in title_lower for word in development_context)
         has_tactical_action = any(word in title_lower for word in tactical_action_signals)
 
+        # === Score assignment: concrete-evidence gate (Lever 2) ===
+        floor_justified = floor_is_justified(
+            article.get("title", ""), incident_type,
+            matched_actors, perpetrator, claimed_by,
+            cas_summary["total_killed"], cas_summary["total_injured"],
+            content=article.get("content", ""),
+        )
+
         if (incident_type in ["Kinetic", "Unrest"]) and is_in_region and not is_false_positive:
             if is_infra_development and not has_tactical_action and not (matched_actors or perpetrator or claimed_by or cas_summary["total_killed"] > 0):
                 granular_type = "Infrastructure Development"
                 incident_type = "Other"
                 final_score = 1.5
-            elif has_conflict_context or has_casualties:
+            elif floor_justified:
                 final_score = MIN_RISK_SCORE if incident_type == "Kinetic" else CIVIL_UNREST_SCORE
                 if matched_actors or perpetrator or claimed_by:
                     final_score += 2.0
@@ -122,6 +135,12 @@ class RiskClassifier:
         else:
             final_score = min(3.0, 0.0 + (len(matched_locs) * 0.5))
 
+        # === Aftermath dampener (Lever 1) ===
+        # Derivative / administrative stories are capped at MEDIUM so they stay
+        # visible but never inflate HIGH counts or fire operational alerts.
+        if is_derivative_aftermath(article.get("title", "")):
+            final_score = min(final_score, MEDIUM_RISK_THRESHOLD)
+
         if granular_type == "Infrastructure Development":
             incident_type = "Other"
 
@@ -129,7 +148,7 @@ class RiskClassifier:
 
         article.update({
             "ner_locations": list(set(matched_locs)),
-            "ner_actors": list(set(matched_actors)),
+            "ner_actors": canonicalize_actors(list(set(matched_actors))),
             "ner_state_actors": list(set(matched_state_actors)),
             "perpetrator": list(set(perpetrator)),
             "victim_target": list(set(victim)),

@@ -1,20 +1,3 @@
-"""
-spacy_ext.py — dependency-parse role extraction (Step 4c)
-=========================================================
-Conjunction- and negation-aware extraction of:
-    perpetrator  — who carried out the violence
-    victim       — who was hit
-    claimed_by   — who claimed responsibility
-
-The caller passes an already-parsed spaCy Doc (risk_classifier already builds
-one), so this module loads no model itself.
-
-Each role token is resolved back to the full entity span (e.g. a watchlist
-actor like "Jaish-e-Mohammed") or the noun phrase it belongs to, so hyphenated
-names that spaCy splits into sub-tokens come back whole and punctuation
-fragments are dropped. All spaCy-specific attribute access is guarded so the
-logic can also be exercised with lightweight test stand-ins.
-"""
 from __future__ import annotations
 
 ATTACK_LEMMAS = {
@@ -27,6 +10,37 @@ CLAIM_LEMMAS = {"claim", "own", "admit"}
 NEG_GOVERNORS = {"fail", "foil", "avert", "thwart", "prevent", "deny",
                  "abort", "bid", "attempt", "plan", "plot"}
 _DET = {"a", "an", "the"}
+
+_ROLE_STOP = {
+    # pronouns / relativisers
+    "he", "she", "it", "they", "them", "him", "her", "his", "their", "its",
+    "this", "that", "these", "those", "who", "which", "we", "i", "you", "us",
+    # bare quantifiers / number words
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+    "ten", "several", "many", "some", "few", "both", "others", "another",
+    "dozens", "scores", "hundreds", "thousands",
+    # generic collectives
+    "people", "member", "members", "group", "men", "man", "woman", "women",
+    "person", "persons",
+    # time words
+    "morning", "evening", "afternoon", "night", "midnight", "noon", "dawn",
+    "dusk", "today", "yesterday", "tomorrow",
+    # adjectives observed standing alone as a bogus role
+    "fresh", "national",
+}
+_NUMERIC_LEAD = _DET | {
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+}
+
+
+def _is_noise(text: str) -> bool:
+    """True if a role span carries no identifiable actor."""
+    toks = (text or "").lower().split()
+    while toks and (toks[0] in _NUMERIC_LEAD or toks[0].isdigit()):
+        toks = toks[1:]
+    if not toks:
+        return True
+    return all(t in _ROLE_STOP or t.isdigit() for t in toks)
 
 
 def _expand_conj(token):
@@ -54,12 +68,10 @@ def _is_negated(verb):
 
 def _span_text(token, doc):
     """Resolve a token to the entity span or noun phrase containing it."""
-    # 1) full named-entity span (keeps watchlist actors whole)
     if getattr(token, "ent_type_", ""):
         for ent in getattr(doc, "ents", []) or []:
             if ent.start <= token.i < ent.end:
                 return ent.text
-    # 2) the noun chunk it belongs to, minus determiners/punctuation
     try:
         chunks = doc.noun_chunks
     except (AttributeError, ValueError, TypeError):
@@ -86,6 +98,8 @@ def _emit(tokens, doc):
 def _collect(items):
     seen, out = set(), []
     for it in items:
+        if _is_noise(it):
+            continue
         k = it.lower().strip()
         if k and k not in seen:
             seen.add(k)

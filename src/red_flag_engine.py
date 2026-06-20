@@ -1,6 +1,12 @@
 import pandas as pd
 from datetime import datetime, timedelta
 from src.utils import lexical_deduplicate
+from src.config import MIN_RISK_SCORE, CIVIL_UNREST_SCORE
+from src.tactic_classifier import KINETIC_PATTERNS, UNREST_PATTERNS
+
+_NON_ALERTING_TACTICS = {"Search Operation"}
+KINETIC_ALERT_TACTICS = {t for _, t in KINETIC_PATTERNS} - _NON_ALERTING_TACTICS
+UNREST_ALERT_TACTICS = {t for _, t in UNREST_PATTERNS}
 
 
 class RedFlagEngine:
@@ -65,12 +71,18 @@ class RedFlagEngine:
        alert_cutoff = datetime.now() - self.time_window
        recent_incidents = df[df["timestamp"] >= alert_cutoff].copy()
 
+       tactic = recent_incidents["granular_incident_type"].astype(str)
+       score = pd.to_numeric(recent_incidents["final_risk_score"], errors="coerce")
 
-       # Split-threshold baseline filter
-       high_risk_recent = recent_incidents[
-           (recent_incidents["final_risk_score"] >= 8.0) |
-           ((recent_incidents["granular_incident_type"] == "Civil Unrest") & (recent_incidents["final_risk_score"] >= 7.5))
-       ].copy()
+       if "needs_review" in recent_incidents.columns:
+           not_uncertain = ~recent_incidents["needs_review"].fillna(False).astype(bool)
+       else:
+           not_uncertain = pd.Series(True, index=recent_incidents.index)
+
+       kinetic_hit = tactic.isin(KINETIC_ALERT_TACTICS) & (score >= MIN_RISK_SCORE)
+       unrest_hit = tactic.isin(UNREST_ALERT_TACTICS) & (score >= CIVIL_UNREST_SCORE)
+
+       high_risk_recent = recent_incidents[(kinetic_hit | unrest_hit) & not_uncertain].copy()
 
 
        if high_risk_recent.empty:

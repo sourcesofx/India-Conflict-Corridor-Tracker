@@ -1,25 +1,3 @@
-"""
-tactic_classifier.py  (hybrid design)
-=====================================
-Plays each tool to its strength instead of asking one model to do everything:
-
-  STAGE 1 - COARSE CATEGORY (BART zero-shot, 3 broad labels)
-      Is this a violent security incident, civil unrest, or a routine
-      civic/administrative matter? A 3-way choice is reliable for zero-shot
-      (unlike the old 10-way), and it's the part BART actually did well:
-      filtering non-incident noise.
-
-  STAGE 2 - SPECIFIC TACTIC (keyword matcher, within the chosen category)
-      Only if Stage 1 says "incident" do we name the tactic, and only from
-      explicit keywords. This is reliable when a cue is present and, crucially,
-      it can NEVER hallucinate (e.g. "Arson" only appears if an arson word is
-      actually there). When no clear cue exists we assign a generic incident
-      label and flag needs_review.
-
-Falls back to a regex-only category decision if transformers/torch are absent.
-Output keys are unchanged, so risk_classifier and the demo keep working.
-"""
-
 from __future__ import annotations
 import re
 from typing import Any, Optional
@@ -43,7 +21,6 @@ COARSE_TO_INCIDENT = {"VIOLENT": "Kinetic", "UNREST": "Unrest", "ROUTINE": "Othe
 
 # --------------------------------------------------------------------------- #
 #  STAGE 2: tactic keyword patterns, split by category.
-#  Order matters: earlier = wins ties (specific before generic).
 # --------------------------------------------------------------------------- #
 KINETIC_PATTERNS = [
     (r"\b(ieds?|bombs?|grenades?|explosives?|blasts?|explosions?|vbieds?|sticky bombs?)\b", "IED/Explosion"),
@@ -86,10 +63,6 @@ def is_blacklisted(title: str) -> bool:
 
 # --------------------------------------------------------------------------- #
 #  CIVIC CIRCUIT-BREAKER
-#  BART's coarse gate sometimes over-calls civic news as VIOLENT (a hospital
-#  death, a court bail, a border-talks story). This deterministic override
-#  demotes such items to ROUTINE / UNREST -- but ONLY when no concrete
-#  violent-EVENT word is present, so real incidents are never suppressed.
 # --------------------------------------------------------------------------- #
 _HARD_VIOLENCE = [
     "killed", "killing", "gunfight", "gun battle", "gunbattle", "encounter",
@@ -100,9 +73,6 @@ _HARD_VIOLENCE = [
     "slain", "blown up", "hand grenade", "landmine",
 ]
 _UNREST_KEYWORDS = [
-    # deliberately excludes bare "strike" -- too ambiguous ("burglars strike",
-    # "lightning strike", "air strike"). assign_tactic still catches genuine
-    # labour strikes when BART itself returns UNREST.
     "protest", "bandh", "hartal", "shutdown", "blockade",
     "demonstration", "sit-in", "dharna", "gherao", "agitation",
 ]
@@ -140,27 +110,46 @@ def has_hard_violence(title: str, content: str = "") -> bool:
 
 def civic_override(category: str, title: str, content: str = "") -> str:
     """Demote civic news BART mislabels as VIOLENT/UNREST -- unless a real
-    violent-event word is present.
-
-    The decision is based on the HEADLINE, not the article body. News bodies in
-    this domain are saturated with security vocabulary ("arrested", "raid",
-    "recovered", "encounter"), so guarding on body text blocks almost every
-    demotion. The title is the editorial summary of what the story is about, so
-    we trust it. Returns the (possibly changed) category."""
+    violent-event word is present."""
     if category == "ROUTINE":
         return category
     head = (title or "").lower()
     if _hit(head, _HARD_VIOLENCE):
-        return category  # concrete violent-event word in the headline -> trust it
-    # explicit protest / strike language, no violence -> civil unrest (not kinetic)
+        return category 
     if _hit(head, _UNREST_KEYWORDS) and not _rank_tactics(title, "", _KIN):
         return "UNREST"
-    # legal / medical / diplomatic / civic-admin language, no incident cue -> routine
     if _hit(head, _CIVIC_TERMS) and not _rank_tactics(title, "", _KIN) \
             and not _rank_tactics(title, "", _UNR):
         return "ROUTINE"
     return category
 
+_ACCIDENT_CONTEXT = [
+    "accident",        # accident / accidental / accidentally / road accident
+    "collision", "car-bus", "bus-truck", "overturn", "mishap", "capsize",
+    "stampede", "drowned", "drowning", "electrocut", "cylinder blast",
+    "gas leak", "building collapse", "wall collapse", "bridge collapse",
+    "fell into", "fell from", "ferry capsiz", "boat capsiz", "lightning",
+    "falls into", "falls from", "skid", "skidded", "swept away", "veers off", "veered off",
+    "plunges into gorge", "plunged into gorge", "plunges into river", "plunged into river",
+    "plunges into ravine", "plunged into ravine",
+]
+_HOSTILE_ACTION = [
+    "militant", "terrorist", "insurgent", "fidayeen", "ambush", "attack",
+    "gunfight", "encounter", "opened fire", "open fire", "shot dead",
+    "gunned down", "infiltrat", "suicide", "grenade attack", "ied attack",
+]
+
+def accident_override(category: str, title: str, content: str = "") -> str:
+    """§7 P4: road accidents / mishaps / accidental blasts that BART reads as
+    VIOLENT are not conflict. Demote them to ROUTINE -- UNLESS the headline also
+    carries a hostile-action word (so 'soldier killed in militant ambush, vehicle
+    overturns' is never suppressed). Headline-only, like civic_override."""
+    if category != "VIOLENT":
+        return category
+    head = (title or "").lower()
+    if _hit(head, _ACCIDENT_CONTEXT) and not _hit(head, _HOSTILE_ACTION):
+        return "ROUTINE"
+    return category
 
 def _rank_tactics(title: str, content: str, compiled) -> list:
     """Return [(granular, weighted_score), ...] sorted desc, only positives."""
@@ -172,7 +161,6 @@ def _rank_tactics(title: str, content: str, compiled) -> list:
         s = 2.0 * len(rx.findall(title_l)) + 1.0 * len(rx.findall(text_l))
         if s > 0:
             scores[tac] = scores.get(tac, 0.0) + s
-    # sort by score desc, then by pattern order (specific first) for ties
     return sorted(scores.items(), key=lambda kv: (-kv[1], order[kv[0]]))
 
 
@@ -195,7 +183,7 @@ def assign_tactic(category: str, title: str, content: str = "") -> dict:
         return {"granular": granular, "incident": COARSE_TO_INCIDENT[category],
                 "secondary": secondary, "tactic_uncertain": False}
 
-    # No explicit tactic keyword -> generic bucket + flag for review.
+    # flag for review
     generic = "Armed Incident" if category == "VIOLENT" else "Civil Unrest"
     return {"granular": generic, "incident": COARSE_TO_INCIDENT[category],
             "secondary": None, "tactic_uncertain": (category == "VIOLENT")}
@@ -261,8 +249,7 @@ class TacticClassifier:
     def classify(self, title: str, content: str = "") -> dict:
         title = title or ""
         negated = has_negation_cue(title)
-
-        # Cheap fast-path: clearly civic AND no tactical word -> ROUTINE, skip model.
+        
         if is_blacklisted(title) and not has_any_tactic_signal(title):
             return _result("Other", "Other", 0.0, None, False, "blacklist", "ROUTINE")
 
@@ -281,8 +268,14 @@ class TacticClassifier:
         new_category = civic_override(category, title, content)
         if new_category != category:
             category = new_category
-            low = False                       # deterministic civic call -> not low-confidence
+            low = False
             source = f"{source}+civic"
+            
+        acc_category = accident_override(category, title, content)
+        if acc_category != category:
+            category = acc_category
+            low = False
+            source = f"{source}+accident"
 
         t = assign_tactic(category, title, content)
         needs_review = bool(low or t["tactic_uncertain"] or negated)
