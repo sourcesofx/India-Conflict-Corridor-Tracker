@@ -12,6 +12,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from src.report_components import DataFetcher, LLMCompiler, ChartGenerator
 from src.utils import lexical_deduplicate
+from src.kinetic_log_filter import is_kinetic_log_eligible
 
 
 load_dotenv()
@@ -188,8 +189,10 @@ class HybridIntelCompiler:
 
 
        # IV. VERIFIED KINETIC LOG
-       story.append(Paragraph("IV. VERIFIED CRITICAL KINETIC LOG (TOP 5 EVENTS)", h2_style))
+       story.append(Paragraph("IV. VERIFIED CRITICAL KINETIC LOG (TOP INCIDENTS)", h2_style))
        kinetic_raw = recent_df[recent_df['incident_type'] == 'Kinetic']
+       if not kinetic_raw.empty:
+           kinetic_raw = kinetic_raw[kinetic_raw.apply(is_kinetic_log_eligible, axis=1)]
        kinetic_events = lexical_deduplicate(kinetic_raw, max_results=5)
       
        if not kinetic_events.empty:
@@ -204,7 +207,7 @@ class HybridIntelCompiler:
 
 
        # V. VERIFIED UNREST LOG
-       story.append(Paragraph("V. VERIFIED CIVIL UNREST LOG (TOP 5 EVENTS)", h2_style))
+       story.append(Paragraph("V. VERIFIED CIVIL UNREST LOG (TOP INCIDENTS)", h2_style))
        unrest_raw = recent_df[recent_df['incident_type'] == 'Unrest']
        unrest_events = lexical_deduplicate(unrest_raw, max_results=5)
       

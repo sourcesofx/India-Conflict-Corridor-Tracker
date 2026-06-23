@@ -131,7 +131,12 @@ _ACCIDENT_CONTEXT = [
     "fell into", "fell from", "ferry capsiz", "boat capsiz", "lightning",
     "falls into", "falls from", "skid", "skidded", "swept away", "veers off", "veered off",
     "plunges into gorge", "plunged into gorge", "plunges into river", "plunged into river",
-    "plunges into ravine", "plunged into ravine",
+    "plunges into ravine", "plunged into ravine", "electric shock",
+    "car plunge", "vehicle plunge", "bus plunge", "truck plunge",
+    "car plunges", "vehicle plunges", "bus plunges", "truck plunges",
+    "hit by train", "run over by train", "mowed down by train", "killed by train",
+    "run over by", "road accident", "road mishap", "hit-and-run",
+    "knocked down by", "mowed down by",
 ]
 _HOSTILE_ACTION = [
     "militant", "terrorist", "insurgent", "fidayeen", "ambush", "attack",
@@ -140,10 +145,8 @@ _HOSTILE_ACTION = [
 ]
 
 def accident_override(category: str, title: str, content: str = "") -> str:
-    """§7 P4: road accidents / mishaps / accidental blasts that BART reads as
-    VIOLENT are not conflict. Demote them to ROUTINE -- UNLESS the headline also
-    carries a hostile-action word (so 'soldier killed in militant ambush, vehicle
-    overturns' is never suppressed). Headline-only, like civic_override."""
+    """road accidents / mishaps / accidental blasts that BART reads as
+    VIOLENT are not conflict. Demote them to ROUTINE."""
     if category != "VIOLENT":
         return category
     head = (title or "").lower()
